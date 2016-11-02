@@ -38,17 +38,18 @@ kramdown:
 highlighter: rouge
 exclude:
 - bower_components
-description: Aoife McArdle is a writer/director/photographer from Northern Ireland, based in London
+description: Aoife McArdle is a writer/director/photographer from Northern Ireland,
+  based in London
 company: Aoife Mcardle
 email: info@aoifemcardle.com
-google_site_verification:
-analytics:
+google_site_verification: 
+analytics: 
 logo: "/assets/img/layout/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
   facebook: 
-  instagram: aoifemmcardle 
+  instagram: aoifemmcardle
   twitter: aoife_mcardle
   vimeo: aoifemcardle

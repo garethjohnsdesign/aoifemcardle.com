@@ -10,7 +10,7 @@ layout: project
 Shot on 35mm 2 perf
 
 Writer/Director: Aoife McArdle
-Production Company: Somesuch
+Production Company: Somesuchy
 Producer: Denna Cartamkhoob
 Executive Producers: Tim Nash, Sally Campbell and Tash Tan
 Director of Photography: Steve Annis
