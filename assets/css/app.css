@@ -8142,6 +8142,12 @@ a {
 i, cite, em, var, address, dfn {
   font-style: normal; }
 
+.navigation {
+  padding: 3rem; }
+  @media screen and (max-width: 39.9375em) {
+    .navigation {
+      padding: 2rem; } }
+
 .navigation__left {
   /*
   position: absolute;
@@ -8426,7 +8432,7 @@ i, cite, em, var, address, dfn {
   .excerpt img {
     width: 100%; }
   .excerpt:hover .excerpt__image:after {
-    background: #FFD600;
+    background: #ffffff;
     opacity: 0.9;
     -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }

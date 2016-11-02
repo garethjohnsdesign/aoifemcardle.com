@@ -60,7 +60,10 @@ i, cite, em, var, address, dfn {
 // 3. Navigation
 
 .navigation {
-//   height: 9rem;
+padding: 3rem;
+  @include breakpoint(small only) {
+	padding: 2rem;
+  }
 }
 
 .navigation__left {
@@ -414,7 +417,7 @@ i, cite, em, var, address, dfn {
     }
     
     &:hover .excerpt__image:after {
-        background:$color--amber;
+        background:$color--white;
         opacity:0.9;
         transition: $primary-transition;
       }
