@@ -60,10 +60,11 @@ i, cite, em, var, address, dfn {
 // 3. Navigation
 
 .navigation {
-  height: 9rem;
+//   height: 9rem;
 }
 
 .navigation__left {
+/*
   position: absolute;
   top: 3rem;
   left: 3rem;
@@ -83,9 +84,11 @@ i, cite, em, var, address, dfn {
     left: 2rem;
   }
   
+*/
 }
 
 .navigation__right {
+/*
   position: absolute;
   top: 3rem;
   right: 3rem;
@@ -103,6 +106,7 @@ i, cite, em, var, address, dfn {
     top: 2rem;
     right: 2rem;
   }
+*/
 }
 
 

@@ -8142,38 +8142,49 @@ a {
 i, cite, em, var, address, dfn {
   font-style: normal; }
 
-.navigation {
-  height: 9rem; }
-
 .navigation__left {
+  /*
   position: absolute;
   top: 3rem;
   left: 3rem;
-  z-index: 1; }
-  .navigation__left a {
-    color: #ffffff;
-    -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-  .navigation__left a:hover {
-    color: #FFD600; }
-  @media screen and (max-width: 39.9375em) {
-    .navigation__left {
-      top: 2rem;
-      left: 2rem; } }
+  z-index: 1;
+  
+  a {
+    color: $color--white;
+    transition: $primary-transition;
+  }
+  
+  a:hover {
+    color: $color--amber;
+  }
+  
+  @include breakpoint(small only) {
+    top: 2rem;
+    left: 2rem;
+  }
+  
+*/ }
 
 .navigation__right {
+  /*
   position: absolute;
   top: 3rem;
   right: 3rem;
-  z-index: 1004; }
-  .navigation__right a {
-    color: #ffffff; }
-  .navigation__right a:hover {
-    color: #d6d6d6; }
-  @media screen and (max-width: 39.9375em) {
-    .navigation__right {
-      top: 2rem;
-      right: 2rem; } }
+	z-index: 1004;
+
+  a {
+    color: $color--white;
+  }
+
+  a:hover {
+  color: $color--light-gray;
+  }
+
+  @include breakpoint(small only) {
+    top: 2rem;
+    right: 2rem;
+  }
+*/ }
 
 .navigation--dark a {
   color: #000000; }
