@@ -93,6 +93,12 @@
 		"oAP": "\/_includes\/mailinglist.html",
 		"oF": 0
 		},
+	"\/_includes\/navigation-archive.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/navigation-archive.html",
+		"oF": 0
+		},
 	"\/_includes\/navigation.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -141,10 +147,22 @@
 		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
+	"\/_layouts\/default-archive.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/default-archive.html",
+		"oF": 0
+		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/default.html",
+		"oF": 0
+		},
+	"\/_layouts\/index-archive.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/index-archive.html",
 		"oF": 0
 		},
 	"\/_layouts\/index.html": {
@@ -201,6 +219,102 @@
 		"oAP": "\/_projects\/honda-ignition.markdown",
 		"oF": 0
 		},
+	"\/_projects\/james-vincent-mcmorrow-cavalier.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/james-vincent-mcmorrow-cavalier.markdown",
+		"oF": 0
+		},
+	"\/_projects\/james-vincent-mcmorrow-glacier.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/james-vincent-mcmorrow-glacier.markdown",
+		"oF": 0
+		},
+	"\/_projects\/james-vincent-mcmorrow-red-dust.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/james-vincent-mcmorrow-red-dust.markdown",
+		"oF": 0
+		},
+	"\/_projects\/jon-hopkins-open-eye-signal.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/jon-hopkins-open-eye-signal.markdown",
+		"oF": 0
+		},
+	"\/_projects\/little-comets-isles.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/little-comets-isles.markdown",
+		"oF": 0
+		},
+	"\/_projects\/major-moments.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/major-moments.markdown",
+		"oF": 0
+		},
+	"\/_projects\/samsung-feel-more.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/samsung-feel-more.markdown",
+		"oF": 0
+		},
+	"\/_projects\/secret-raise.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/secret-raise.markdown",
+		"oF": 0
+		},
+	"\/_projects\/simian-mobile-disco-seraphim.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/simian-mobile-disco-seraphim.markdown",
+		"oF": 0
+		},
+	"\/_projects\/street-rider.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/street-rider.markdown",
+		"oF": 0
+		},
+	"\/_projects\/the-question.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/the-question.markdown",
+		"oF": 0
+		},
+	"\/_projects\/u2-every-breaking-wave.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/u2-every-breaking-wave.markdown",
+		"oF": 0
+		},
+	"\/_projects\/under-armour-numbers.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/under-armour-numbers.markdown",
+		"oF": 0
+		},
+	"\/_projects\/under-armour-prince-with-1000-enemies.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/under-armour-prince-with-1000-enemies.markdown",
+		"oF": 0
+		},
+	"\/_projects\/wheels-on-the-car.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/wheels-on-the-car.markdown",
+		"oF": 0
+		},
+	"\/_projects\/wilkinson-half-light.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/wilkinson-half-light.markdown",
+		"oF": 0
+		},
 	"\/_site": {
 		"ft": 65536,
 		"oA": 1,
@@ -229,21 +343,13 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/honda-ignition.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/james-vincent-mcmorrow-cavalier.jpg": {
 		"ft": 16384,
 		"iS": 124052,
 		"oA": 0,
 		"oAP": "\/_uploads\/james-vincent-mcmorrow-cavalier.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/james-vincent-mcmorrow-gaa.jpg": {
-		"ft": 16384,
-		"iS": 29989,
-		"oA": 0,
-		"oAP": "\/_uploads\/james-vincent-mcmorrow-gaa.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -278,6 +384,14 @@
 		"oAP": "\/_uploads\/little-comets-isles.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_uploads\/major-moments.jpg": {
+		"ft": 16384,
+		"iS": 29989,
+		"oA": 0,
+		"oAP": "\/_uploads\/major-moments.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/_uploads\/samsung-feel-more.jpg": {
 		"ft": 16384,
@@ -343,11 +457,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_uploads\/wheels-on-the-car.jpeg": {
+	"\/_uploads\/wheels-on-the-car.jpg": {
 		"ft": 16384,
 		"iS": 176006,
 		"oA": 0,
-		"oAP": "\/_uploads\/wheels-on-the-car.jpeg",
+		"oAP": "\/_uploads\/wheels-on-the-car.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -375,100 +489,32 @@
 		"oAP": "\/assets\/css\/app.css.map",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Apercu-Bold.eot": {
+	"\/assets\/fonts\/MaisonNeue-Book.eot": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Bold.eot",
+		"oAP": "\/assets\/fonts\/MaisonNeue-Book.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Apercu-Bold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Bold.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Bold.svg": {
+	"\/assets\/fonts\/MaisonNeue-Book.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Bold.svg",
+		"oAP": "\/assets\/fonts\/MaisonNeue-Book.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/Apercu-Bold.ttf": {
+	"\/assets\/fonts\/MaisonNeue-Book.ttf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Bold.ttf",
+		"oAP": "\/assets\/fonts\/MaisonNeue-Book.ttf",
 		"oF": 0
 		},
-	"\/assets\/fonts\/Apercu-Bold.woff": {
+	"\/assets\/fonts\/MaisonNeue-Book.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Bold.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Medium.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Medium.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Medium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Medium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/Apercu-Medium.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Medium.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Medium.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Medium.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Regular.eot",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Regular.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Regular.otf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/Apercu-Regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Regular.ttf",
-		"oF": 0
-		},
-	"\/assets\/fonts\/Apercu-Regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/Apercu-Regular.woff",
+		"oAP": "\/assets\/fonts\/MaisonNeue-Book.woff",
 		"oF": 0
 		},
 	"\/assets\/icons\/android-chrome-192x192.png": {
@@ -674,6 +720,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_layout-archive.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_layout-archive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -12183,7 +12242,7 @@
 	"creationDate": 499792706,
 	"displayValue": "Aoife McArdle",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ceiling"
+	"iconImageName": "meme-greg"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
