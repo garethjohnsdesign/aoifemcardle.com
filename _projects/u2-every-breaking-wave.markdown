@@ -2,7 +2,9 @@
 title: Every Breaking Wave
 date: 2014-04-01 00:00:00 Z
 image: "/uploads/u2-every-breaking-wave.jpg"
-awards: Nominated for Best Music video and Cinematography at Cameraimage 2015, Nominated for Best International Video, Best Cinematography, Best Art Direction & Design and Best Editing at UK MVAs 2015
+awards: Nominated for Best Music video and Cinematography at Cameraimage 2015, Nominated
+  for Best International Video, Best Cinematography, Best Art Direction & Design and
+  Best Editing at UK MVAs 2015
 video: 169073307
 layout: project
 ---

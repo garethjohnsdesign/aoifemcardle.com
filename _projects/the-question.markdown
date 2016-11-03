@@ -2,7 +2,7 @@
 title: The Question
 date: 2014-04-01 00:00:00 Z
 image: "/uploads/the-question.jpg"
-awards:
+awards: 
 video: 169073307
 layout: project
 ---

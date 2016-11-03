@@ -2,7 +2,7 @@
 title: Under Armour - Numbers
 date: 2014-04-01 00:00:00 Z
 image: "/uploads/under-armour-numbers.jpg"
-awards:
+awards: 
 video: 174593392
 layout: project
 ---

@@ -2,7 +2,7 @@
 title: Wilkinson - Half Light
 date: 2014-04-01 00:00:00 Z
 image: "/uploads/wilkinson-half-light.jpg"
-awards:
+awards: 
 video: 95145651
 layout: project
 ---
