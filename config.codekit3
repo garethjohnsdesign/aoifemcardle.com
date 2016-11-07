@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25444",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -65,7 +65,7 @@
 		},
 	"\/_includes\/excerpt.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/excerpt.html",
 		"oF": 0
 		},
@@ -147,27 +147,27 @@
 		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
-	"\/_layouts\/default-archive.html": {
+	"\/_layouts\/default-new.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/default-archive.html",
+		"oAP": "\/_layouts\/default-new.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_layouts\/index-archive.html": {
+	"\/_layouts\/index-new.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/index-archive.html",
+		"oAP": "\/_layouts\/index-new.html",
 		"oF": 0
 		},
 	"\/_layouts\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/index.html",
 		"oF": 0
 		},
@@ -339,11 +339,11 @@
 		},
 	"\/_uploads\/honda-ignition.jpg": {
 		"ft": 16384,
-		"iS": 154073,
+		"iS": 90230,
 		"oA": 0,
 		"oAP": "\/_uploads\/honda-ignition.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/james-vincent-mcmorrow-cavalier.jpg": {
 		"ft": 16384,
@@ -387,11 +387,11 @@
 		},
 	"\/_uploads\/major-moments.jpg": {
 		"ft": 16384,
-		"iS": 29989,
+		"iS": 52712,
 		"oA": 0,
 		"oAP": "\/_uploads\/major-moments.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/samsung-feel-more.jpg": {
 		"ft": 16384,
@@ -478,7 +478,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/css\/app-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -607,7 +607,7 @@
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1206,7 +1206,7 @@
 	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 		"oF": 0,
 		"sC": 1,
@@ -1516,7 +1516,7 @@
 	"\/bower_components\/foundation-sites\/dist\/foundation.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/foundation-sites\/dist\/foundation.js",
 		"oF": 0,
 		"sC": 1,
@@ -9592,7 +9592,7 @@
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.js",
 		"oF": 0,
 		"sC": 1,
@@ -11885,7 +11885,7 @@
 	"\/bower_components\/what-input\/what-input.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/what-input\/what-input.js",
 		"oF": 0,
 		"sC": 1,
@@ -11945,7 +11945,7 @@
 	"\/bower_components\/wow\/dist\/wow.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/wow\/dist\/wow.js",
 		"oF": 0,
 		"sC": 1,
@@ -12207,32 +12207,32 @@
 "manualImportLinks": {
 	"\/assets\/js\/app.js": [
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 			"position": 0,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/foundation.js",
 			"position": 1,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
 			"position": 2,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
 			"position": 3,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 			"position": 4,
 			"type": 0
 			}
@@ -12242,7 +12242,7 @@
 	"creationDate": 499792706,
 	"displayValue": "Aoife McArdle",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-greg"
+	"iconImageName": "meme-ceiling"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
