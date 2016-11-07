@@ -147,10 +147,10 @@
 		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
-	"\/_layouts\/default-archive.html": {
+	"\/_layouts\/default-new.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/default-archive.html",
+		"oAP": "\/_layouts\/default-new.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -159,15 +159,15 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_layouts\/index-archive.html": {
+	"\/_layouts\/index-new.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/index-archive.html",
+		"oAP": "\/_layouts\/index-new.html",
 		"oF": 0
 		},
 	"\/_layouts\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/index.html",
 		"oF": 0
 		},
@@ -339,11 +339,11 @@
 		},
 	"\/_uploads\/honda-ignition.jpg": {
 		"ft": 16384,
-		"iS": 154073,
+		"iS": 90230,
 		"oA": 0,
 		"oAP": "\/_uploads\/honda-ignition.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/james-vincent-mcmorrow-cavalier.jpg": {
 		"ft": 16384,
@@ -387,11 +387,11 @@
 		},
 	"\/_uploads\/major-moments.jpg": {
 		"ft": 16384,
-		"iS": 29989,
+		"iS": 52712,
 		"oA": 0,
 		"oAP": "\/_uploads\/major-moments.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/_uploads\/samsung-feel-more.jpg": {
 		"ft": 16384,
@@ -1262,7 +1262,7 @@
 	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 		"oF": 0,
 		"sC": 1,
@@ -12276,19 +12276,31 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
+<<<<<<< HEAD
 			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
+=======
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+>>>>>>> origin/master
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
+<<<<<<< HEAD
 			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+=======
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
+>>>>>>> origin/master
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
+<<<<<<< HEAD
 			"linkedFileAbbreviatedPath": "\/bower_components\/motion-ui\/dist\/motion-ui.js",
+=======
+			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+>>>>>>> origin/master
 			"position": 4,
 			"type": 0
 			}
@@ -12298,7 +12310,7 @@
 	"creationDate": 499792706,
 	"displayValue": "Aoife McArdle",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-greg"
+	"iconImageName": "meme-ceiling"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
