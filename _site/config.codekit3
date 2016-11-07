@@ -65,7 +65,7 @@
 		},
 	"\/_includes\/excerpt.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/excerpt.html",
 		"oF": 0
 		},
@@ -155,7 +155,7 @@
 		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
@@ -478,7 +478,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/css\/app-ck.css",
 		"oF": 0,
 		"oS": 0
@@ -663,7 +663,7 @@
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -12261,38 +12261,6 @@
 "hooks": [
 	],
 "manualImportLinks": {
-	"\/assets\/js\/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/foundation.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
-			"position": 4,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"creationDate": 499792706,
