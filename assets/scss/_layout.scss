@@ -60,7 +60,10 @@ i, cite, em, var, address, dfn {
 // 3. Navigation
 
 .title h1{
-  font-size: 1.3125rem;
+//   font-size: 2rem;
+  font-family: $header-font-family-bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .navigation {
@@ -275,19 +278,11 @@ padding: 3rem;
   padding: 3rem;
   z-index: 1;
   
-    h3 {
-    color: $color--white;
-    transition: $primary-transition;
-    }
-  
     p {
     color: $color--white;
     transition: $primary-transition;
-      span {
-      border-bottom: $color--yellow 1px solid;
-      padding-bottom: 0.25rem;
-      transition: $primary-transition;
-      }
+    text-transform: uppercase;
+    letter-spacing: 2px;
     }
   
     @include breakpoint(small only) {
@@ -349,55 +344,4 @@ footer {
   @include breakpoint(small only) {
 	padding: 2rem;
   }
-}
-
-// Testing
-
-body, header {
-        padding-right: 3.75rem;
-    }
-    
-.secondary-nav {
-    background-color: #231f20;
-    position: fixed
-}
-
-.secondary-nav {
-    height: 100%;
-    padding-top: 3rem;
-    right: 0;
-    top: 0;
-    width: 3.75rem;
-    z-index: 9999
-}
-
-.dkl-page .secondary-nav {
-    display: none
-}
-
-.secondary-nav li {
-    display: inline-block;
-    list-style: none
-}
-
-.secondary-nav a {
-    color: #fff;
-    opacity: 1;
-    -webkit-transition: color .4s, opacity .4s;
-    transition: color .4s, opacity .4s
-}
-
-.dkm-page .secondary-nav a {
-    opacity: 0
-}
-
-.secondary-nav a:hover {
-    color: #b5b5b5
-}
-
-.secondary-nav ul {
-    margin: 0;
-    padding: 0;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg)
 }

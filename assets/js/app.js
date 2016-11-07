@@ -1,6 +1,6 @@
 $(document).foundation();
 
-// $('body').removeClass('fade-out');
+$('body').removeClass('fade-out');
 
 // Scroll
 $('a[href*="#"]:not([href="#"])').click(function() {

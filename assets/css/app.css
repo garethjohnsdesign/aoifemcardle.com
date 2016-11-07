@@ -2322,8 +2322,14 @@ Copyright (c) 2015 Daniel Eden
   animation-name: slideOutUp; }
 
 @font-face {
-  font-family: 'MaisonNeue-Book';
-  src: url("../fonts/MaisonNeue-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/MaisonNeue-Book.woff") format("woff"), url("../fonts/MaisonNeue-Book.ttf") format("truetype"), url("../fonts/MaisonNeue-Book.svg#MaisonNeue-Book") format("svg");
+  font-family: 'DinCond';
+  src: url("../fonts/DinCond.eot?#iefix") format("embedded-opentype"), url("../fonts/DinCond.woff") format("woff"), url("../fonts/DinCond.ttf") format("truetype"), url("../fonts/DinCond.svg#DinCond") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CactusBlack';
+  src: url("../fonts/CactusBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/CactusBlack.woff") format("woff"), url("../fonts/CactusBlack.ttf") format("truetype"), url("../fonts/CactusBlack.svg#CactusBlack") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -2389,7 +2395,7 @@ Copyright (c) 2015 Daniel Eden
     bottom: -9px; }
 
 .hamburger-inner-dark, .hamburger-inner-dark::before, .hamburger-inner-dark::after {
-  background-color: #000000; }
+  background-color: #111110; }
 
 /*
    * Collapse
@@ -3549,11 +3555,11 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "MaisonNeue-Book", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #ffffff;
-  background: #000000;
+  background: #111110;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -4529,7 +4535,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "MaisonNeue-Book", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -5086,7 +5092,7 @@ legend {
   padding: 1.25rem;
   margin: 1.125rem 0; }
   .fieldset legend {
-    background: #000000;
+    background: #111110;
     padding: 0 0.1875rem;
     margin: 0;
     margin-left: -0.1875rem; }
@@ -5680,7 +5686,7 @@ select {
   margin-right: 0.75rem; }
 
 .dropdown-pane {
-  background-color: #000000;
+  background-color: #111110;
   border: 0px solid #cacaca;
   border-radius: 0;
   display: block;
@@ -5940,7 +5946,7 @@ body {
 .off-canvas-content,
 .off-canvas-content {
   min-height: 100%;
-  background: #000000;
+  background: #111110;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -5958,7 +5964,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(17, 17, 16, 0.25);
   cursor: pointer;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease; }
@@ -8001,7 +8007,7 @@ svg.icon.icon-envelop2 {
   -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   .icon-arrow-up8:hover {
-    color: #000000; }
+    color: #111110; }
 
 .icon-left-long {
   font-size: 2rem;
@@ -8083,7 +8089,7 @@ svg.icon.icon-envelop2 {
           -webkit-transform: translateX(-50%);
                   transform: translateX(-50%);
           height: 2px;
-          background: #000000;
+          background: #111110;
           -webkit-transition: .35s;
           transition: .35s; }
 
@@ -8122,7 +8128,7 @@ a {
 
 .detail {
   font-size: 90%;
-  font-family: "MaisonNeue-Book", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -8131,7 +8137,9 @@ i, cite, em, var, address, dfn {
   font-style: normal; }
 
 .title h1 {
-  font-size: 1.3125rem; }
+  font-family: "CactusBlack", Helvetica, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 .navigation {
   padding: 3rem; }
@@ -8184,7 +8192,7 @@ i, cite, em, var, address, dfn {
 */ }
 
 .navigation--dark a {
-  color: #000000; }
+  color: #111110; }
 
 .navigation--dark a:hover {
   color: #d6d6d6; }
@@ -8195,7 +8203,7 @@ i, cite, em, var, address, dfn {
   .missing a {
     color: #949494; }
   .missing a:hover {
-    color: #000000; }
+    color: #111110; }
 
 .contact {
   padding: 3rem; }
@@ -8206,7 +8214,7 @@ i, cite, em, var, address, dfn {
 .contact a {
   color: #949494; }
   .contact a:hover {
-    color: #000000; }
+    color: #111110; }
 
 .project__meta {
   padding-top: 2rem; }
@@ -8233,7 +8241,7 @@ i, cite, em, var, address, dfn {
 .project__content a {
   color: #949494; }
   .project__content a:hover {
-    color: #000000; }
+    color: #111110; }
 
 .project__step {
   padding-bottom: 2rem; }
@@ -8282,7 +8290,7 @@ i, cite, em, var, address, dfn {
     -webkit-transform: translateY(-8px);
     transform: translateY(-8px); }
   .pagination:hover {
-    background-color: #000000; }
+    background-color: #111110; }
 
 .excerpt {
   position: relative; }
@@ -8294,9 +8302,9 @@ i, cite, em, var, address, dfn {
     -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   .excerpt:hover .excerpt__title h3 {
-    color: #000000; }
+    color: #111110; }
   .excerpt:hover .excerpt__title p span {
-    border-bottom: #000000 1px solid;
+    border-bottom: #111110 1px solid;
     padding-bottom: 0.5rem; }
 
 .excerpt__title {
@@ -8307,19 +8315,12 @@ i, cite, em, var, address, dfn {
   height: 100%;
   padding: 3rem;
   z-index: 1; }
-  .excerpt__title h3 {
-    color: #ffffff;
-    -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
   .excerpt__title p {
     color: #ffffff;
     -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-    .excerpt__title p span {
-      border-bottom: #FFFF00 1px solid;
-      padding-bottom: 0.25rem;
-      -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-      transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    text-transform: uppercase;
+    letter-spacing: 2px; }
   @media screen and (max-width: 39.9375em) {
     .excerpt__title {
       padding: 2rem; } }
@@ -8331,11 +8332,11 @@ i, cite, em, var, address, dfn {
   height: 100%;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #111110;
   opacity: 0.25; }
 
 .about__content {
-  font-family: "MaisonNeue-Book", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -8345,7 +8346,7 @@ i, cite, em, var, address, dfn {
       padding-bottom: 2rem; } }
 
 .about__cv {
-  font-family: "MaisonNeue-Book", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -8359,7 +8360,7 @@ i, cite, em, var, address, dfn {
   padding-top: 2rem; }
 
 footer {
-  color: #000000;
+  color: #111110;
   padding: 3rem; }
   footer a {
     color: #ffffff;
@@ -8367,44 +8368,4 @@ footer {
   @media screen and (max-width: 39.9375em) {
     footer {
       padding: 2rem; } }
-
-body, header {
-  padding-right: 3.75rem; }
-
-.secondary-nav {
-  background-color: #231f20;
-  position: fixed; }
-
-.secondary-nav {
-  height: 100%;
-  padding-top: 3rem;
-  right: 0;
-  top: 0;
-  width: 3.75rem;
-  z-index: 9999; }
-
-.dkl-page .secondary-nav {
-  display: none; }
-
-.secondary-nav li {
-  display: inline-block;
-  list-style: none; }
-
-.secondary-nav a {
-  color: #fff;
-  opacity: 1;
-  -webkit-transition: color .4s, opacity .4s;
-  transition: color .4s, opacity .4s; }
-
-.dkm-page .secondary-nav a {
-  opacity: 0; }
-
-.secondary-nav a:hover {
-  color: #b5b5b5; }
-
-.secondary-nav ul {
-  margin: 0;
-  padding: 0;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg); }
 /*# sourceMappingURL=app.css.map */
