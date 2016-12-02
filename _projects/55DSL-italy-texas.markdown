@@ -1,7 +1,7 @@
 ---
 title: 55DSL Italy Texas
 date: 2014-04-01 00:00:00 Z
-position: 10
+position: 11
 image: "/uploads/55DSL-italy-texas.jpg"
 awards: 
 video: 61063278
