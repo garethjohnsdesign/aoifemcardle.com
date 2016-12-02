@@ -2,6 +2,7 @@
 title: Contact
 layout: page
 ---
+
 ### Writer/director/photographer from Northern Ireland, based in London
 
 
