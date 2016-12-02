@@ -1,7 +1,7 @@
 ---
 title: James Vincent McMorrow - Cavalier
 date: 2014-04-01 00:00:00 Z
-position: 9
+position: 10
 image: "/uploads/james-vincent-mcmorrow-cavalier.jpg"
 awards: 
 video: 78293068
