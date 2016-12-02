@@ -1,7 +1,7 @@
 ---
 title: Street Rider
 date: 2014-04-01 00:00:00 Z
-position: 17
+position: 9
 image: "/uploads/street-rider.jpg"
 awards: 
 video: 110884691
