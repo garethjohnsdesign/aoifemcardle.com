@@ -1,7 +1,7 @@
 ---
 title: Raise
 date: 2014-04-01 00:00:00 Z
-position: 4
+position: 2
 image: "/uploads/secret-raise.jpg"
 awards: 
 video: 163888529
