@@ -8,14 +8,14 @@ video: 15283686
 layout: project
 ---
 
-Writer/Director: Aoife McArdle  
-Producer: Amber Millington  
-DP: Paul Ross Newton  
-Focus Puller: Julie Moniere  
-Production Company: Agile Films  
-Editor: Thomas Grove Carter at Family  
-Telecine Artist: James Tillett  
-Sound Design: Florian Viale  
-Representation: OB Management
+Writer/Director — Aoife McArdle  
+Producer — Amber Millington  
+DP — Paul Ross Newton  
+Focus Puller — Julie Moniere  
+Production Company — Agile Films  
+Editor — Thomas Grove Carter at Family  
+Telecine Artist — James Tillett  
+Sound Design — Florian Viale  
+Representation — OB Management
 
-Thanks to Daragh, Pete, Eadaoin, Sam, Francie and all involved.
+Thanks to Daragh, Pete, Eadaoin, Sam, Francie and all involved

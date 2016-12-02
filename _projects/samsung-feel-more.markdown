@@ -7,8 +7,9 @@ video: 15283686
 layout: project
 ---
 
-Directed by Aoife McArdle  
-Production company: SomesuchAgency: CHI London  
-Producer: Chris Massey  
-DOP: Daniel Landin    
-Production Designer: Kave Quinn
+Directed — Aoife McArdle  
+Production company — Somesuch  
+Agency — CHI London  
+Producer — Chris Massey  
+DOP — Daniel Landin    
+Production Designer — Kave Quinn

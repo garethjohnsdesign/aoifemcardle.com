@@ -7,11 +7,11 @@ video: 110884691
 layout: project
 ---
 
-Cast: Ryan Whittle, Kyle Marsden, Gabriella, Mikey, Harvey, Ebony 
-Director: Aoife McArdle  
-Production Company: Somesuch  
-Producer: Dougal Meese    
-Exec Producer: Sally Campbell  
-Agency: Mother  
-DoP: Andre Chemetoff  
-Editor: Dan Sherwen
+Cast — Ryan Whittle, Kyle Marsden, Gabriella, Mikey, Harvey, Ebony 
+Director — Aoife McArdle  
+Production Company — Somesuch  
+Producer — Dougal Meese    
+Exec Producer — Sally Campbell  
+Agency — Mother  
+DoP — Andre Chemetoff  
+Editor — Dan Sherwen

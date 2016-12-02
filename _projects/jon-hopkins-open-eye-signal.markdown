@@ -9,19 +9,19 @@ video: 65156045
 layout: project
 ---
 
-Writer/Director: Aoife McArdle  
-Boy: Chis Chann  
-Prod co: Colonel Blimp, Good Company  
-Executive producer & producer (Colonel Blimp): Tamsin Glasson  
-Producer (Good Company): Brian Welsh  
-DoP: Steve Annis  
-1st Assistant Camera: Robby Hart  
-Hair, Make-up, Art department & Stylist: Alexis Johnson  
-DIT: Eli Berg  
-Loader: Ben Molyneux  
-Grip: Julien Janigo  
-Editor: Dan Sherwen, Final Cut London  
-Post production: MPC, London  
-Colour grading: James Tillett at MPC, London  
-Record Label: Domino Records  
-Commissioner: Jonny Bradshaw
+Writer/Director — Aoife McArdle  
+Boy — Chis Chann  
+Prod co — Colonel Blimp, Good Company  
+Executive producer and producer (Colonel Blimp) — Tamsin Glasson  
+Producer (Good Company) — Brian Welsh  
+DoP — Steve Annis  
+1st Assistant Camera — Robby Hart  
+Hair, Make-up, Art department and Stylist — Alexis Johnson  
+DIT — Eli Berg  
+Loader — Ben Molyneux  
+Grip — Julien Janigo  
+Editor — Dan Sherwen, Final Cut London  
+Post production — MPC, London  
+Colour grading — James Tillett at MPC, London  
+Record Label — Domino Records  
+Commissioner — Jonny Bradshaw

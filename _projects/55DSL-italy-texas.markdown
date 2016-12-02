@@ -14,8 +14,8 @@ Focus Puller – Robby Hart
 Producer – Jason Baum  
 Vice Producer – Posy Dixon  
 Stylist – Alexis Johnson  
-Editor – Thomas Grove Carter @Family  
-Sound – Andy Humphries @750mph  
-Telecine – Aubrey Woodiwiss @The Mill
+Editor – Thomas Grove Carter at Family  
+Sound – Andy Humphries at 750mph  
+Telecine – Aubrey Woodiwiss at The Mill
 
 Starring Brenden Reza and Gillian Vanderslice

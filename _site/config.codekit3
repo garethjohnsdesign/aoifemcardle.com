@@ -45,22 +45,10 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
-	"\/_includes\/bookrequest.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_includes\/bookrequest.html",
-		"oF": 0
-		},
 	"\/_includes\/carousel.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/carousel.html",
-		"oF": 0
-		},
-	"\/_includes\/excerpt-venture.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_includes\/excerpt-venture.html",
 		"oF": 0
 		},
 	"\/_includes\/excerpt.html": {
@@ -147,22 +135,10 @@
 		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
-	"\/_layouts\/default-archive.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/default-archive.html",
-		"oF": 0
-		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
-		"oF": 0
-		},
-	"\/_layouts\/index-archive.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/index-archive.html",
 		"oF": 0
 		},
 	"\/_layouts\/index.html": {
@@ -473,6 +449,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/about.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -487,6 +487,34 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/app.css.map",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque-OffWhite.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque-OffWhite.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque-OffWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque-OffWhite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque-OffWhite.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque-OffWhite.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BasisGrotesque-OffWhite.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BasisGrotesque-OffWhite.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/CactusBlack.eot": {
@@ -776,19 +804,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_icons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_layout-archive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_layout-archive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

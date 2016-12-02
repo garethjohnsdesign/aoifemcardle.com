@@ -2333,6 +2333,12 @@ Copyright (c) 2015 Daniel Eden
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'BasisGrotesque-OffWhite';
+  src: url("../fonts/BasisGrotesque-OffWhite.eot?#iefix") format("embedded-opentype"), url("../fonts/BasisGrotesque-OffWhite.woff") format("woff"), url("../fonts/BasisGrotesque-OffWhite.ttf") format("truetype"), url("../fonts/BasisGrotesque-OffWhite.svg#BasisGrotesque-OffWhite") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -2364,17 +2370,17 @@ Copyright (c) 2015 Daniel Eden
 
 .hamburger-box {
   width: 40px;
-  height: 21px;
+  height: 18px;
   display: inline-block;
   position: relative; }
 
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: -1.5px; }
+  margin-top: -1px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
-    height: 3px;
+    height: 2px;
     background-color: #ffffff;
     border-radius: 0px;
     position: absolute;
@@ -2390,9 +2396,9 @@ Copyright (c) 2015 Daniel Eden
     content: "";
     display: block; }
   .hamburger-inner::before {
-    top: -9px; }
+    top: -8px; }
   .hamburger-inner::after {
-    bottom: -9px; }
+    bottom: -8px; }
 
 .hamburger-inner-dark, .hamburger-inner-dark::before, .hamburger-inner-dark::after {
   background-color: #111110; }
@@ -2410,7 +2416,7 @@ Copyright (c) 2015 Daniel Eden
   -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
           transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
   .hamburger--collapse .hamburger-inner::after {
-    top: -18px;
+    top: -16px;
     -webkit-transition: top 0.3s 0.3s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
     transition: top 0.3s 0.3s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear; }
   .hamburger--collapse .hamburger-inner::before {
@@ -2420,8 +2426,8 @@ Copyright (c) 2015 Daniel Eden
     transition: top 0.12s 0.3s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.15s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 
 .hamburger--collapse.is-active .hamburger-inner {
-  -webkit-transform: translate3d(0, -9px, 0) rotate(-45deg);
-          transform: translate3d(0, -9px, 0) rotate(-45deg);
+  -webkit-transform: translate3d(0, -8px, 0) rotate(-45deg);
+          transform: translate3d(0, -8px, 0) rotate(-45deg);
   -webkit-transition-delay: 0.32s;
           transition-delay: 0.32s;
   -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -3555,7 +3561,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "BasisGrotesque-OffWhite", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #ffffff;
@@ -4535,7 +4541,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "BasisGrotesque-OffWhite", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -8031,7 +8037,7 @@ svg.icon.icon-envelop2 {
 .overlay {
   z-index: 1001;
   position: fixed;
-  background: #FFD600;
+  background: #111110;
   top: 0;
   left: 0;
   width: 100%;
@@ -8052,7 +8058,7 @@ svg.icon.icon-envelop2 {
               animation-delay: .35s; }
   .overlay nav {
     position: relative;
-    height: 70%;
+    height: 40%;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -8067,9 +8073,7 @@ svg.icon.icon-envelop2 {
     height: 100%; }
     .overlay ul li {
       display: block;
-      height: 25%;
-      height: calc(100% / 7);
-      min-height: 3rem;
+      height: calc(100% / 3);
       position: relative;
       opacity: 0; }
       .overlay ul li a {
@@ -8115,11 +8119,11 @@ img {
   height: auto; }
 
 ::-moz-selection {
-  background: #FFD600;
+  background: #111110;
   color: #ffffff; }
 
 ::selection {
-  background: #FFD600;
+  background: #111110;
   color: #ffffff; }
 
 a {
@@ -8128,7 +8132,7 @@ a {
 
 .detail {
   font-size: 90%;
-  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "BasisGrotesque-OffWhite", Helvetica, Roboto, Arial, sans-serif; }
 
 .uppercase {
   text-transform: uppercase; }
@@ -8137,66 +8141,29 @@ i, cite, em, var, address, dfn {
   font-style: normal; }
 
 .title h1 {
-  font-family: "CactusBlack", Helvetica, Roboto, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
+  font-size: 1.5rem;
+  letter-spacing: 1px; }
 
 .navigation {
-  padding: 3rem; }
+  padding: 2rem 3rem 2rem 3rem; }
   @media screen and (max-width: 39.9375em) {
     .navigation {
       padding: 2rem; } }
 
-.navigation__left {
-  /*
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  z-index: 1;
-  
-  a {
-    color: $color--white;
-    transition: $primary-transition;
-  }
-  
-  a:hover {
-    color: $color--amber;
-  }
-  
-  @include breakpoint(small only) {
-    top: 2rem;
-    left: 2rem;
-  }
-  
-*/ }
-
 .navigation__right {
-  /*
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-	z-index: 1004;
+  z-index: 1004; }
 
+/*
+
+.navigation--dark {
   a {
-    color: $color--white;
+  color: $color--black;
   }
-
   a:hover {
   color: $color--light-gray;
   }
-
-  @include breakpoint(small only) {
-    top: 2rem;
-    right: 2rem;
-  }
-*/ }
-
-.navigation--dark a {
-  color: #111110; }
-
-.navigation--dark a:hover {
-  color: #d6d6d6; }
-
+}
+*/
 .missing {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -8209,6 +8176,18 @@ i, cite, em, var, address, dfn {
   padding: 3rem; }
   @media screen and (max-width: 39.9375em) {
     .contact {
+      padding: 2rem; } }
+
+.project__content {
+  padding: 3rem; }
+  @media screen and (max-width: 39.9375em) {
+    .project__content {
+      padding: 2rem; } }
+
+.page__content {
+  padding: 3rem; }
+  @media screen and (max-width: 39.9375em) {
+    .page__content {
       padding: 2rem; } }
 
 .contact a {
@@ -8261,12 +8240,18 @@ i, cite, em, var, address, dfn {
     .project__pagination {
       padding: 2rem; } }
 
+.pagination__wrapper {
+  padding: 3rem; }
+  @media screen and (max-width: 39.9375em) {
+    .pagination__wrapper {
+      padding: 2rem; } }
+
 .callout--pagination {
   border: 2px solid #FFD600;
   padding: 2rem 2rem 1rem 2rem; }
 
 .pagination {
-  background-color: #f8f8f8;
+  background-color: #111110;
   padding: 2rem 2rem 1rem 2rem;
   width: 100%;
   display: inline-block;
@@ -8293,19 +8278,20 @@ i, cite, em, var, address, dfn {
     background-color: #111110; }
 
 .excerpt {
-  position: relative; }
+  position: relative;
+  padding-bottom: 1.875rem;
+  opacity: 1; }
   .excerpt img {
     width: 100%; }
-  .excerpt:hover .excerpt__image:after {
-    background: #ffffff;
-    opacity: 0.9;
+  .excerpt .excerpt__image:after {
+    opacity: 0;
     -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-  .excerpt:hover .excerpt__title h3 {
-    color: #111110; }
-  .excerpt:hover .excerpt__title p span {
-    border-bottom: #111110 1px solid;
-    padding-bottom: 0.5rem; }
+  .excerpt:hover .excerpt__image:after {
+    background: #111110;
+    opacity: 0.7; }
+  .excerpt:hover .excerpt__title p {
+    color: #ffffff; }
 
 .excerpt__title {
   position: absolute;
@@ -8315,12 +8301,14 @@ i, cite, em, var, address, dfn {
   height: 100%;
   padding: 3rem;
   z-index: 1; }
+  @media screen and (max-width: 39.9375em) {
+    .excerpt__title {
+      padding: 2rem; } }
   .excerpt__title p {
     color: #ffffff;
     -webkit-transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-    text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: 1px; }
   @media screen and (max-width: 39.9375em) {
     .excerpt__title {
       padding: 2rem; } }
@@ -8336,7 +8324,7 @@ i, cite, em, var, address, dfn {
   opacity: 0.25; }
 
 .about__content {
-  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "BasisGrotesque-OffWhite", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -8346,7 +8334,7 @@ i, cite, em, var, address, dfn {
       padding-bottom: 2rem; } }
 
 .about__cv {
-  font-family: "DinCond", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "BasisGrotesque-OffWhite", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem; }

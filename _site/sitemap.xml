@@ -4,6 +4,9 @@
 <loc>http://earnstudios.com/404.html</loc>
 </url>
 <url>
+<loc>http://earnstudios.com/about/</loc>
+</url>
+<url>
 <loc>http://earnstudios.com/contact/</loc>
 </url>
 <url>
@@ -68,5 +71,9 @@
 </url>
 <url>
 <loc>http://earnstudios.com/projects/wilkinson-half-light/</loc>
+</url>
+<url>
+<loc>http://earnstudios.com/about.html</loc>
+<lastmod>2016-12-02T18:20:04+00:00</lastmod>
 </url>
 </urlset>

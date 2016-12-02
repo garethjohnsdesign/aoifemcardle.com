@@ -33,7 +33,7 @@ img {
 }
 
 ::selection {
-  background: $color--amber;
+  background: $color--black;
   color: $color--white;
 }
 
@@ -60,65 +60,24 @@ i, cite, em, var, address, dfn {
 // 3. Navigation
 
 .title h1{
-//   font-size: 2rem;
-  font-family: $header-font-family-bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+//   font-family: $header-font-family-bold;
+//   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .navigation {
-padding: 3rem;
+padding: 2rem 3rem 2rem 3rem;
   @include breakpoint(small only) {
 	padding: 2rem;
   }
 }
 
-.navigation__left {
-/*
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  z-index: 1;
-  
-  a {
-    color: $color--white;
-    transition: $primary-transition;
-  }
-  
-  a:hover {
-    color: $color--amber;
-  }
-  
-  @include breakpoint(small only) {
-    top: 2rem;
-    left: 2rem;
-  }
-  
-*/
-}
-
 .navigation__right {
-/*
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-	z-index: 1004;
-
-  a {
-    color: $color--white;
-  }
-
-  a:hover {
-  color: $color--light-gray;
-  }
-
-  @include breakpoint(small only) {
-    top: 2rem;
-    right: 2rem;
-  }
-*/
+z-index: 1004;
 }
 
+/*
 
 .navigation--dark {
   a {
@@ -128,6 +87,7 @@ padding: 3rem;
   color: $color--light-gray;
   }
 }
+*/
 
 
 // 404
@@ -154,6 +114,23 @@ padding: 3rem;
     padding: 2rem;
   	}
 }
+
+.project__content {
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+
+.page__content {
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
+
 
 .contact a {
   color: $color--dark-gray;
@@ -226,13 +203,21 @@ padding: 3rem;
 
 // 8. Pagination
 
+.pagination__wrapper {
+	padding: 3rem;
+	@include breakpoint(small only) {
+    padding: 2rem;
+  	}
+}
+
 .callout--pagination {
   border: 2px solid $color--amber;
   padding: 2rem 2rem 1rem 2rem;
 }
 
 .pagination {
-  background-color: $color--lighter-gray;
+  background-color: $color--black;
+//   border: blue 1px solid;
   padding: 2rem 2rem 1rem 2rem;
   width: 100%;
   @include float;
@@ -246,26 +231,31 @@ padding: 3rem;
 
 .excerpt {
 	position:relative;
+	padding-bottom: 1.875rem;
+	opacity:1;
+	
+	  p {
+//   	  opacity:0.0;
+	  }
 	
   	img {
       width:100%;
     }
     
+    .excerpt__image:after {
+      opacity:0;
+      transition: $primary-transition;
+    }
+    
     &:hover .excerpt__image:after {
-        background:$color--white;
-        opacity:0.9;
-        transition: $primary-transition;
+        background:$color--black;
+        opacity:0.7;
       }
       
     &:hover .excerpt__title {
-        h3 {
-        color: $color--black;
+        p {
+        color: $color--white;
         }
-  
-        p span {
-        border-bottom: $color--black 1px solid;
-        padding-bottom: 0.5rem;
-        } 
       } 
 }
 
@@ -276,13 +266,16 @@ padding: 3rem;
   width: 100%;
   height: 100%;
   padding: 3rem;
+  @include breakpoint(small only) {
+    padding: 2rem;
+  	}
   z-index: 1;
   
     p {
     color: $color--white;
     transition: $primary-transition;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+//     text-transform: uppercase;
+    letter-spacing: 1px;
     }
   
     @include breakpoint(small only) {
@@ -344,8 +337,4 @@ footer {
   @include breakpoint(small only) {
 	padding: 2rem;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
