@@ -33,6 +33,12 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
+	"\/_data\/navigation.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_data\/navigation.yml",
+		"oF": 0
+		},
 	"\/_includes\/analytics.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -91,6 +97,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/overlay-menu.html",
+		"oF": 0
+		},
+	"\/_includes\/pagination.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/pagination.html",
 		"oF": 0
 		},
 	"\/_includes\/post.html": {
@@ -153,10 +165,28 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
+	"\/_layouts\/project.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/project.html",
+		"oF": 0
+		},
+	"\/_layouts\/projects.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/projects.html",
+		"oF": 0
+		},
 	"\/_projects\/55DSL-italy-texas.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/55DSL-italy-texas.markdown",
+		"oF": 0
+		},
+	"\/_projects\/bryan-ferry-loop-de-li.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/bryan-ferry-loop-de-li.markdown",
 		"oF": 0
 		},
 	"\/_projects\/honda-ignition.markdown": {
@@ -169,6 +199,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/james-vincent-mcmorrow-cavalier.markdown",
+		"oF": 0
+		},
+	"\/_projects\/james-vincent-mcmorrow-glacier.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/james-vincent-mcmorrow-glacier.markdown",
+		"oF": 0
+		},
+	"\/_projects\/james-vincent-mcmorrow-red-dust.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/james-vincent-mcmorrow-red-dust.markdown",
 		"oF": 0
 		},
 	"\/_projects\/jon-hopkins-open-eye-signal.markdown": {
@@ -187,6 +229,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/major-moments.markdown",
+		"oF": 0
+		},
+	"\/_projects\/samsung-feel-more.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/samsung-feel-more.markdown",
+		"oF": 0
+		},
+	"\/_projects\/secret-raise.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/secret-raise.markdown",
 		"oF": 0
 		},
 	"\/_projects\/simian-mobile-disco-seraphim.markdown": {
@@ -400,6 +454,24 @@
 		"oA": 2,
 		"oAP": "\/about.html",
 		"oF": 0
+		},
+	"\/about.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -12077,6 +12149,24 @@
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
+		},
+	"\/contact.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/Gemfile": {
 		"ft": 8192,
