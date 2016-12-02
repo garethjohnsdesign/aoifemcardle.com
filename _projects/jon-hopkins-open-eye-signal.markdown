@@ -1,6 +1,7 @@
 ---
 title: Jon Hopkins - Open Eye Signal
 date: 2014-04-01 00:00:00 Z
+position: 18
 image: "/uploads/jon-hopkins-open-eye-signal.jpg"
 awards: Nominated for Best Alternative video and Best Colour Grading, Winner of Best
   Cinematography at UKMVAs 2013. In Book for Cinematography in Music Videos at the

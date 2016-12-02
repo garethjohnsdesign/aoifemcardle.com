@@ -1,6 +1,7 @@
 ---
 title: Simian Mobile - Disco Seraphim
 date: 2014-04-01 00:00:00 Z
+position: 9
 image: "/uploads/simian-mobile-disco-seraphim.jpg"
 awards: 
 video: 40093537
