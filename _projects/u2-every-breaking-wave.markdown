@@ -1,7 +1,7 @@
 ---
 title: Every Breaking Wave
 date: 2014-04-01 00:00:00 Z
-position: 13
+position: 14
 image: "/uploads/u2-every-breaking-wave.jpg"
 awards: Nominated for Best Music video and Cinematography at Cameraimage 2015, Nominated
   for Best International Video, Best Cinematography, Best Art Direction & Design and
