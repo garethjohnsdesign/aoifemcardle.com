@@ -41,7 +41,7 @@ Beyond the Fervent Heat — Design Forum – Tom Lipop for River Island Menswear
 Wheels on the Car — Road Safety – Scottish Government
 
 Open Eye Signal — Jon Hopkins — Domino Records\
-Winner of Best Cinematography, Nominated for Best Alternative video and Best Colour grading, UK Music Video Awards
+Winner of Best Cinematography, Nominated for Best Alternative video and Best Colour Grading, UK Music Video Awards
 
 Italy, Texas: Wild Souls in the Hot, Blind Earth — 55DSL — VICE UK/55DSL\
 Nominated for Best International Short Film at Raindance
