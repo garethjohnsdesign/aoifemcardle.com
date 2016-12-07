@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-### Writer/director/photographer from Northern Ireland, based in London
+### Writer/director/photographer from Northern Ireland, based in London Town
 
 #### — 2015
 
