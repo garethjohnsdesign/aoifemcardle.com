@@ -8145,7 +8145,7 @@ i, cite, em, var, address, dfn {
   letter-spacing: 1px; }
 
 .navigation {
-  padding: 2rem 3rem 2rem 3rem; }
+  padding: 2rem 3rem 1rem 3rem; }
   @media screen and (max-width: 39.9375em) {
     .navigation {
       padding: 2rem; } }
@@ -8153,17 +8153,6 @@ i, cite, em, var, address, dfn {
 .navigation__right {
   z-index: 1004; }
 
-/*
-
-.navigation--dark {
-  a {
-  color: $color--black;
-  }
-  a:hover {
-  color: $color--light-gray;
-  }
-}
-*/
 .missing {
   margin-top: 3rem;
   margin-bottom: 3rem; }
@@ -8179,16 +8168,18 @@ i, cite, em, var, address, dfn {
       padding: 2rem; } }
 
 .project__content {
-  padding: 3rem; }
+  padding: 1rem 3rem 1rem 3rem; }
   @media screen and (max-width: 39.9375em) {
     .project__content {
       padding: 2rem; } }
 
 .page__content {
-  padding: 3rem; }
+  padding: 1rem 3rem 1rem 3rem; }
   @media screen and (max-width: 39.9375em) {
     .page__content {
       padding: 2rem; } }
+  .page__content h3 {
+    margin-bottom: 2rem; }
 
 .contact a {
   color: #949494; }

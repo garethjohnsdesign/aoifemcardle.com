@@ -67,7 +67,7 @@ i, cite, em, var, address, dfn {
 }
 
 .navigation {
-padding: 2rem 3rem 2rem 3rem;
+padding: 2rem 3rem 1rem 3rem;
   @include breakpoint(small only) {
 	padding: 2rem;
   }
@@ -76,18 +76,6 @@ padding: 2rem 3rem 2rem 3rem;
 .navigation__right {
 z-index: 1004;
 }
-
-/*
-
-.navigation--dark {
-  a {
-  color: $color--black;
-  }
-  a:hover {
-  color: $color--light-gray;
-  }
-}
-*/
 
 
 // 404
@@ -116,7 +104,7 @@ z-index: 1004;
 }
 
 .project__content {
-	padding: 3rem;
+	padding: 1rem 3rem 1rem 3rem;
 	@include breakpoint(small only) {
     padding: 2rem;
   	}
@@ -124,10 +112,13 @@ z-index: 1004;
 
 
 .page__content {
-	padding: 3rem;
+	padding: 1rem 3rem 1rem 3rem;
 	@include breakpoint(small only) {
     padding: 2rem;
   	}
+  	h3 {
+    margin-bottom: 2rem;
+    }
 }
 
 
