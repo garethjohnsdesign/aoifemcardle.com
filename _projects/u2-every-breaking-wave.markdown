@@ -6,7 +6,7 @@ image: "/uploads/u2-every-breaking-wave.jpg"
 awards: Nominated for Best Music video and Cinematography at Cameraimage 2015, Nominated
   for Best International Video, Best Cinematography, Best Art Direction & Design and
   Best Editing at UK MVAs 2015
-video: 169073307
+video: 119537453
 layout: project
 ---
 
