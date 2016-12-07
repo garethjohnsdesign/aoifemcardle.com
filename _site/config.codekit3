@@ -101,7 +101,7 @@
 		},
 	"\/_includes\/pagination.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/pagination.html",
 		"oF": 0
 		},
@@ -123,12 +123,6 @@
 		"oAP": "\/_includes\/sharing.html",
 		"oF": 0
 		},
-	"\/_layouts\/about.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_layouts\/about.html",
-		"oF": 0
-		},
 	"\/_layouts\/contact.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -143,7 +137,7 @@
 		},
 	"\/_layouts\/index.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/_layouts\/index.html",
 		"oF": 0
 		},
@@ -167,13 +161,13 @@
 		},
 	"\/_layouts\/project.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/project.html",
 		"oF": 0
 		},
 	"\/_layouts\/projects.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/projects.html",
 		"oF": 0
 		},
@@ -319,7 +313,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/honda-ignition.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/james-vincent-mcmorrow-cavalier.jpg": {
 		"ft": 16384,
@@ -367,7 +361,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/major-moments.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/_uploads\/samsung-feel-more.jpg": {
 		"ft": 16384,
@@ -460,7 +454,7 @@
 		"oA": 2,
 		"oAP": "\/about.md",
 		"oF": 1,
-		"oFM": 9,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -1271,7 +1265,7 @@
 	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 		"oF": 0,
 		"sC": 1,
@@ -10969,7 +10963,7 @@
 	"\/bower_components\/motion-ui\/dist\/motion-ui.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/motion-ui\/dist\/motion-ui.js",
 		"oF": 0,
 		"sC": 1,
@@ -12152,17 +12146,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-<<<<<<< Updated upstream
 		"oA": 2,
 		"oAP": "\/contact.md",
 		"oF": 1,
-		"oFM": 9,
-=======
-		"oA": 1,
-		"oAP": "\/contact.html",
-		"oF": 1,
 		"oFM": 0,
->>>>>>> Stashed changes
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -12292,19 +12279,19 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/motion-ui\/dist\/motion-ui.js",
 			"position": 4,
 			"type": 0
 			}
@@ -12314,7 +12301,7 @@
 	"creationDate": 499792706,
 	"displayValue": "Aoife McArdle",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ceiling"
+	"iconImageName": "meme-greg"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -3,11 +3,11 @@ title: Contact
 layout: contact
 ---
 
-### Studio  
+#### Studio  
 Aoife McArdle  
 [info@aoifemcardle.com](mailto:info@aoifemcardle.com)
 
-### Commercials and Music Videos UK/Europe
+#### Commercials and Music Videos UK/Europe
 
 Commercials  
 Tim Nash and Sally Campbell  
@@ -32,7 +32,7 @@ James Farrell
 Josh Varney  
 [joshvarney@42mp.com](mailto:joshvarney@42mp.com)
 
-### Commercials US
+#### Commercials US
 Anonymous Content  
 Johnathan Wright  
 [jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)  
@@ -42,8 +42,8 @@ Eric Stern
 [eric@anonymouscontent.com](mailto:eric@anonymouscontent.com)  
 (01) 310 558 6029
 
-### Commercials France
-Insurrection
-Arno Moria
-[arno@insurrection.paris](mailto:arno@insurrection.paris)
+#### Commercials France
+Insurrection  
+Arno Moria  
+[arno@insurrection.paris](mailto:arno@insurrection.paris)  
 +331 44 61 81 59
