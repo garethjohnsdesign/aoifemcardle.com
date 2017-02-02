@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   projects:
     title: Projects
     output: true
@@ -17,16 +17,21 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    image: 
-    author: 
-url: http://earnstudios.com
+url: http://aoifemcardle.com
+description: Aoife McArdle is a writer/director/photographer from Northern Ireland, based in London
 permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
@@ -38,18 +43,16 @@ kramdown:
 highlighter: rouge
 exclude:
 - bower_components
-description: Aoife McArdle is a writer/director/photographer from Northern Ireland,
-  based in London
 company: Aoife Mcardle
 email: info@aoifemcardle.com
 google_site_verification: 
-analytics: 
-logo: "/assets/img/layout/logo.svg"
+analytics: UA-91296566-1
+logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
   facebook: 
-  instagram: aoifemmcardle
-  twitter: aoife_mcardle
-  vimeo: aoifemcardle
+  instagram: https://www.instagram.com/aoifemmcardle
+  twitter: https://twitter.com/aoife_mcardle
+  vimeo: https://vimeo.com/aoifemcardle

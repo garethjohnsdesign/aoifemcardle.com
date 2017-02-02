@@ -2,6 +2,7 @@
 
 @import 'mixins';
 @import 'animate';
+@import 'animsition';
 @import 'variables';
 @import 'fonts';
 @import 'hamburgers';
@@ -55,7 +56,6 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'carousel';
 @import 'icons';
 @import 'menu';
 @import 'layout';
