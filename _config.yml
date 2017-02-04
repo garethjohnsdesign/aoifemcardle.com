@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: false
+    output: true
   projects:
     title: Projects
     output: true
@@ -18,7 +18,8 @@ defaults:
   values:
     layout: page
 url: http://aoifemcardle.com
-description: Aoife McArdle is a writer/director/photographer from Northern Ireland, based in London
+description: Aoife McArdle is a writer/director/photographer from Northern Ireland,
+  based in London
 permalink: pretty
 exclude:
 - Gemfile
