@@ -5,34 +5,28 @@
 {% include head.html %}
 <!-- End Head -->
 
-{% if page.url == "/" %}
-<body id="top">
-{% else %}
-<body id="top" class="animated fadeIn">
-{% endif %}
+<body>
+
+<div class="animsition">
   
-{% if page.url == "/" %}
-<script>document.body.className += ' fade-out';</script>
-{% endif %}
-
-
 <!-- Navigation -->  
 {% include navigation.html %}
-<!-- End Navigation --> 
+<!-- End Navigation -->
 
 <!-- Menu -->  
 {% include overlay-menu.html %}
 <!-- End Menu --> 
 
-<!-- Content -->  
+<!-- Content -->
 {{ content }}
-<!-- End Content -->  
+<!-- End Content -->
 
 <!-- Footer -->  
 {% include footer.html %}
-<!-- End Footer -->  
-  
-  
+<!-- End Footer -->
+
+</div>
+
 </body>
 
 <!-- Scripts -->

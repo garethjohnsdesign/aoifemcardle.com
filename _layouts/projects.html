@@ -4,7 +4,7 @@ layout: default
 
 <!-- Projects -->
 <div class="row expanded">
-  {% assign projects = site.projects | sort: 'position' %}
+  {% assign projects = site.projects | sort: 'date' %}
   {% for project in projects %}
     <div class="small-12 medium-6 large-6 columns">
     {% include excerpt.html %}

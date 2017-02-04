@@ -1,19 +1,23 @@
-<div class="navigation">
-<div class="row expanded align-middle">
+{% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-<!-- Left -->
-<div class="small-6 columns text-left title">
-<a href="/"><h1>Aoife McArdle</h1></a>
-</div>
-<!-- End Left -->
-
-<!-- Right -->
-<div class="small-6 columns text-right navigation__right">
-<button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
-<span class="hamburger-box"><span class="hamburger-inner"></span></span>
-</button>
-</div>
-<!-- End Right -->
-
-</div>
-</div>
+<nav>
+  <div class="top-bar" id="top"> 
+    <div class="row expanded align-middle align-justify">
+      
+      <div class="top-bar-left">
+        <ul class="menu simple">
+          <li class="top-bar__logo"><a href="/" class="animsition-link">{{site.title}}</a></li>
+        </ul>
+      </div>
+      
+      <div class="top-bar-right-mobile">
+        <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    
+    </div>
+  </div>
+</nav>

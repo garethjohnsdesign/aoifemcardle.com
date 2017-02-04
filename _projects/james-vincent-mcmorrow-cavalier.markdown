@@ -1,6 +1,6 @@
 ---
 title: James Vincent McMorrow - Cavalier
-date: 2014-04-01 00:00:00 Z
+date: 2013-09-01 00:00:00 Z
 position: 12
 image: "/uploads/james-vincent-mcmorrow-cavalier.jpg"
 awards: 
