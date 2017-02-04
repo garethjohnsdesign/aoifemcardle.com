@@ -619,6 +619,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/svgxuse.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scss\/.sass-cache\/2fe4ef0666fd0ba4dde57007d0241e2840a743f0\/_alignment.scssc": {
 		"ft": 8192,
 		"oA": 1,

@@ -10,7 +10,7 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
@@ -41,8 +41,6 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-exclude:
-- bower_components
 company: Aoife Mcardle
 email: info@aoifemcardle.com
 google_site_verification: 
