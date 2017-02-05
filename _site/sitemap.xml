@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://aoifemcardle.com/projects/little-comets-isles/</loc>
+<lastmod>2010-09-25T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://aoifemcardle.com/projects/simian-mobile-disco-seraphim/</loc>
+<lastmod>2012-04-04T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://aoifemcardle.com/projects/55DSL-italy-texas/</loc>
+<lastmod>2013-03-04T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://aoifemcardle.com/projects/jon-hopkins-open-eye-signal/</loc>
 <lastmod>2013-04-01T00:00:00+00:00</lastmod>
 </url>
@@ -23,18 +35,6 @@
 <url>
 <loc>http://aoifemcardle.com/projects/major-moments/</loc>
 <lastmod>2014-03-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://aoifemcardle.com/projects/55DSL-italy-texas/</loc>
-<lastmod>2014-04-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://aoifemcardle.com/projects/little-comets-isles/</loc>
-<lastmod>2014-04-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://aoifemcardle.com/projects/simian-mobile-disco-seraphim/</loc>
-<lastmod>2014-04-01T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://aoifemcardle.com/projects/wilkinson-half-light/</loc>
@@ -61,10 +61,6 @@
 <lastmod>2015-08-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://aoifemcardle.com/projects/under-armour-prince-with-1000-enemies/</loc>
-<lastmod>2016-01-09T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://aoifemcardle.com/projects/secret-raise/</loc>
 <lastmod>2016-04-01T00:00:00+00:00</lastmod>
 </url>
@@ -75,6 +71,10 @@
 <url>
 <loc>http://aoifemcardle.com/projects/under-armour-numbers/</loc>
 <lastmod>2016-07-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://aoifemcardle.com/projects/under-armour-prince-with-1000-enemies/</loc>
+<lastmod>2016-09-01T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://aoifemcardle.com/projects/audi-daughter/</loc>
