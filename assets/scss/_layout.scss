@@ -327,8 +327,11 @@ z-index: 1004;
 // 11. Footer
 
 footer {
+/*
 	padding-top: 1.68rem;
 	padding-bottom: 1.68rem;
+*/
+	padding: 2rem 3rem 1.68rem 3rem;
 	a {
     color: $color--white;
     display: block;

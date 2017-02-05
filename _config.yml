@@ -17,9 +17,16 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: projects
+  values:
+    image:
+    awards: 
+    video:
+    layout: project
 url: http://aoifemcardle.com
-description: Aoife McArdle is a writer/director/photographer from Northern Ireland,
-  based in London
+description: Aoife McArdle is a writer/director/photographer from Northern Ireland, based in London
 permalink: pretty
 exclude:
 - Gemfile
@@ -44,7 +51,7 @@ kramdown:
 highlighter: rouge
 company: Aoife Mcardle
 email: info@aoifemcardle.com
-google_site_verification: 
+google_site_verification: KYwg7alS3S50Xbz3I9zBg0prUJKMQ9iZA7o94_SW65k
 analytics: UA-91296566-1
 logo: "/assets/img/logo.svg"
 per_page: 12
