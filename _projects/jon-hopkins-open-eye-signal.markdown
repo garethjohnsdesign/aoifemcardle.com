@@ -1,6 +1,6 @@
 ---
 title: Jon Hopkins - Open Eye Signal
-date: 2014-04-01 00:00:00 Z
+date: 2013-04-01 00:00:00 Z
 position: 14
 image: "/uploads/jon-hopkins-open-eye-signal.jpg"
 awards: Nominated for Best Alternative video and Best Colour Grading, Winner of Best

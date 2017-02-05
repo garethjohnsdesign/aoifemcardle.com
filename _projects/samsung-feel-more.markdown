@@ -1,6 +1,6 @@
 ---
 title: Samsung - Feel More
-date: 2014-04-01 00:00:00 Z
+date: 2015-07-01 00:00:00 Z
 position: 4
 image: "/uploads/samsung-feel-more.jpg"
 awards: 
@@ -9,7 +9,7 @@ layout: project
 ---
 
 Directed — Aoife McArdle  
-Production company — Somesuch  
+Production Company — Somesuch  
 Agency — CHI London  
 Producer — Chris Massey  
 DOP — Daniel Landin    

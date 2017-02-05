@@ -59,11 +59,8 @@ i, cite, em, var, address, dfn {
 
 // 3. Navigation
 
-.title h1{
+.top-bar__logo {
   font-size: 1.5rem;
-//   font-family: $header-font-family-bold;
-//   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .navigation {
@@ -74,6 +71,10 @@ padding: 2rem 3rem 1rem 3rem;
 }
 
 .navigation__right {
+z-index: 1004;
+}
+
+.top-bar-right-mobile {
 z-index: 1004;
 }
 
@@ -220,9 +221,16 @@ z-index: 1004;
 
 // 9. Excerpt
 
+.projects {
+  padding: 0rem 2rem;
+  @include breakpoint(small only) {
+    padding: 0rem;
+  	}
+}
+
 .excerpt {
 	position:relative;
-	padding-bottom: 1.875rem;
+	padding: 1rem;
 	opacity:1;
 	
 	  p {
@@ -319,13 +327,13 @@ z-index: 1004;
 // 11. Footer
 
 footer {
-	color: $color--black;
-	padding: 3rem;
+/*
+	padding-top: 1.68rem;
+	padding-bottom: 1.68rem;
+*/
+	padding: 2rem 3rem 1.68rem 3rem;
 	a {
     color: $color--white;
     display: block;
     }
-  @include breakpoint(small only) {
-	padding: 2rem;
-  }
 }
