@@ -159,7 +159,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: 60%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: -60%);
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -100%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -637,7 +637,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 // $topbar-padding: 1rem;
-$topbar-padding: 1.68rem;
+$topbar-padding: 1.68rem 1.68rem 0rem 1.68rem;
 // $topbar-background: $light-gray;
 $topbar-background: transparent;
 $topbar-submenu-background: $topbar-background;

@@ -5,6 +5,16 @@ layout: page
 
 ### Writer/director/photographer from Northern Ireland, based in London
 
+#### — 2016
+
+Under Armour – Prince with 1000 Enemies – Droga 5  
+
+Under Armour – Numbers – Droga 5  
+
+Secret – The Question  
+
+Secret – Raise
+
 #### — 2015
 
 Ignition – Honda – Wieden & Kennedy  
