@@ -1,4 +1,4 @@
-$color-background: #F5F5F5;
+$color-background: blue;
 $color-main: #FF5252;
 $color-active: #FFF;
 $color-link: #FFF;
@@ -22,10 +22,12 @@ $color-link: #FFF;
     visibility: visible;
     height: 100%;
     
+/*
     li {
       animation: fadeInUp .5s ease forwards;
       animation-delay: .35s;
     }
+*/
   }
   nav {
     position: relative;
@@ -48,7 +50,7 @@ $color-link: #FFF;
 //       height: 50%;
       height: calc(100% / 3);
       position: relative;
-      opacity: 0;
+      opacity: 1;
       
       a {
         display: block;
