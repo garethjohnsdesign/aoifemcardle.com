@@ -2,14 +2,12 @@
 
 @import 'mixins';
 @import 'animate';
-@import 'animsition';
 @import 'variables';
 @import 'fonts';
 @import 'hamburgers';
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-@import 'hover';
 
 @include foundation-global-styles;
 // @include foundation-grid;

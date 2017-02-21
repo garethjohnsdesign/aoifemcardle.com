@@ -12,16 +12,6 @@ body {
   cursor: default;
 }
 
-body {
-    opacity: 1;
-    transition: $primary-transition;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-
 svg {
   max-width: 100%;
 }
@@ -30,6 +20,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  opacity: 0;
+  transition: $primary-transition;
 }
 
 ::selection {
@@ -39,11 +31,6 @@ img {
 
 a { 
   transition: $primary-transition;
-}
-
-.detail {
-  font-size: $small-font-size;
-  font-family: $body-font-family;
 }
 
 // 2. Typography
@@ -64,18 +51,7 @@ i, cite, em, var, address, dfn {
 }
 
 .navigation {
-padding: 2rem 3rem 1rem 3rem;
-  @include breakpoint(small only) {
-	padding: 2rem;
-  }
-}
-
-.navigation__right {
-z-index: 1004;
-}
-
-.top-bar-right-mobile {
-z-index: 1004;
+z-index: 1010;
 }
 
 
@@ -212,7 +188,6 @@ z-index: 1004;
 //   border: blue 1px solid;
   padding: 2rem 2rem 1rem 2rem;
   width: 100%;
-  @include float;
   &:hover {
     background-color: $color--black;
   }
@@ -232,10 +207,6 @@ z-index: 1004;
 	position:relative;
 	padding: 1rem;
 	opacity:1;
-	
-	  p {
-//   	  opacity:0.0;
-	  }
 	
   	img {
       width:100%;
@@ -327,10 +298,6 @@ z-index: 1004;
 // 11. Footer
 
 footer {
-/*
-	padding-top: 1.68rem;
-	padding-bottom: 1.68rem;
-*/
 	padding: 2rem 3rem 1.68rem 3rem;
 	a {
     color: $color--white;
