@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25849",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -153,6 +153,12 @@
 		"oAP": "\/_projects\/55DSL-italy-texas.markdown",
 		"oF": 0
 		},
+	"\/_projects\/absolut-equal-love.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/absolut-equal-love.markdown",
+		"oF": 0
+		},
 	"\/_projects\/audi-daughter.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -279,7 +285,19 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/55DSL-italy-texas.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/absolut-equal-love.jpg": {
+		"ft": 16384,
+		"iS": 179196,
+		"oA": 0,
+		"oAP": "\/_uploads\/absolut-equal-love.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/audi-daughter.jpg": {
 		"ft": 16384,
@@ -287,7 +305,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/audi-daughter.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/bryan-ferry-loop-de-li.jpg": {
 		"ft": 16384,
@@ -295,7 +315,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/bryan-ferry-loop-de-li.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/honda-ignition.jpg": {
 		"ft": 16384,
@@ -303,7 +325,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/honda-ignition.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/james-vincent-mcmorrow-cavalier.jpg": {
 		"ft": 16384,
@@ -311,7 +335,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/james-vincent-mcmorrow-cavalier.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/james-vincent-mcmorrow-glacier.jpg": {
 		"ft": 16384,
@@ -319,7 +345,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/james-vincent-mcmorrow-glacier.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/james-vincent-mcmorrow-red-dust.jpg": {
 		"ft": 16384,
@@ -327,7 +355,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/james-vincent-mcmorrow-red-dust.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/jon-hopkins-open-eye-signal.jpg": {
 		"ft": 16384,
@@ -335,7 +365,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/jon-hopkins-open-eye-signal.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/little-comets-isles.jpg": {
 		"ft": 16384,
@@ -343,7 +375,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/little-comets-isles.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/major-moments.jpg": {
 		"ft": 16384,
@@ -351,7 +385,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/major-moments.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/placeholder.png": {
 		"ft": 32768,
@@ -359,7 +395,10 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_uploads\/samsung-feel-more.jpg": {
 		"ft": 16384,
@@ -367,7 +406,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/samsung-feel-more.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/secret-raise.jpg": {
 		"ft": 16384,
@@ -375,7 +416,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/secret-raise.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/simian-mobile-disco-seraphim.jpg": {
 		"ft": 16384,
@@ -383,7 +426,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/simian-mobile-disco-seraphim.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/street-rider.jpg": {
 		"ft": 16384,
@@ -391,7 +436,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/street-rider.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/the-question.jpg": {
 		"ft": 16384,
@@ -399,7 +446,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/the-question.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/_uploads\/u2-every-breaking-wave.jpg": {
 		"ft": 16384,
@@ -407,7 +456,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/u2-every-breaking-wave.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/under-armour-numbers.jpg": {
 		"ft": 16384,
@@ -415,7 +466,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/under-armour-numbers.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/under-armour-prince-with-1000-enemies.jpg": {
 		"ft": 16384,
@@ -423,7 +476,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/under-armour-prince-with-1000-enemies.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/wheels-on-the-car.jpg": {
 		"ft": 16384,
@@ -431,7 +486,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/wheels-on-the-car.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/wilkinson-half-light.jpg": {
 		"ft": 16384,
@@ -439,7 +496,9 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/wilkinson-half-light.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/about.md": {
 		"cS": 0,
@@ -481,7 +540,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/android-chrome-256x256.png": {
 		"ft": 32768,
@@ -489,7 +551,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -497,7 +562,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/browserconfig.xml": {
 		"ft": 8192,
@@ -511,7 +579,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
@@ -519,7 +590,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/favicon.ico": {
 		"ft": 8192,
@@ -541,7 +615,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -607,7 +684,10 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -2966,7 +3046,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -2974,7 +3056,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/anti-bullying-tom-froese-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -2982,7 +3066,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -2990,7 +3076,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/brock-davis-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg": {
 		"ft": 16384,
@@ -2998,7 +3086,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg": {
 		"ft": 16384,
@@ -3006,7 +3096,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3014,7 +3106,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3022,7 +3116,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/dark-igloo-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3030,7 +3126,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3038,7 +3136,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/haik-avanian-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3046,7 +3146,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/iceland-smjor-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3054,7 +3156,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/iceland-smojr-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3062,7 +3166,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3070,7 +3176,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/james-olstein-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3078,7 +3186,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/johanna-basford-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg": {
 		"ft": 16384,
@@ -3086,7 +3196,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg": {
 		"ft": 16384,
@@ -3094,7 +3206,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Jude_Landry_Wallpaper_800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg": {
 		"ft": 16384,
@@ -3102,7 +3216,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3110,7 +3226,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/julieta-felix-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/loader.gif": {
 		"ft": 4194304,
@@ -3126,7 +3244,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-1280x800.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg": {
 		"ft": 16384,
@@ -3134,7 +3254,9 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery-unveil\/img\/Timothy-J-Reynolds-wallpaper-800x500.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/bower_components\/jquery-unveil\/index.html": {
 		"ft": 8192,
@@ -5739,6 +5861,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -5939,6 +6065,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -6016,6 +6146,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6215,6 +6349,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -6266,6 +6404,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -6360,6 +6502,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -6806,7 +6952,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -6829,14 +6976,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -6899,7 +7038,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -6984,6 +7125,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/_site",
 	"sourceFolderName": "source",
