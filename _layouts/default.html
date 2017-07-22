@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
@@ -6,27 +10,41 @@
 <!-- End Head -->
 
 <body>
+
+<!-- Wrapper -->
+<div class="flex-container flex-dir-column wrapper" style="height: 100vh;">
   
-<!-- Navigation -->  
+<!-- Navigation -->
+<div class="flex-child-shrink">
 {% include navigation.html %}
+</div>
 <!-- End Navigation -->
 
-<!-- Menu -->  
-{% include overlay-menu.html %}
-<!-- End Menu --> 
-
 <!-- Content -->
+<div class="flex-child-grow page {{page.layout | slugify}}">
 {{ content }}
+</div>
 <!-- End Content -->
 
-<!-- Footer -->  
+<!-- Footer -->
+<div class="flex-child-shrink">
 {% include footer.html %}
-<!-- End Footer -->
+</div>
+<!-- End Footer-->
 
-</body>
+</div>
+<!-- End Wrapper -->
 
 <!-- Scripts -->
 {% include scripts.html %}
 <!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
 
 </html>

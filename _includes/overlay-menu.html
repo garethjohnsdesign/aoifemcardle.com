@@ -1,10 +1,10 @@
 <!-- Overlay Menu -->
 <div class="overlay" id="overlay" data-toggler=".open">
-  <nav class="overlay-menu">
-    <ul>
+  <nav class="overlay-menu align-middle">
+    <ul class="align-middle">
       {% for link in site.data.navigation %}
         <li class="element">
-          <a href="{{ link.url }}">{{ link.title }}</a>
+          <a href="{{link.url}}" data-toggle="overlay-mobile toggle">{{link.title}}</a>
         </li>
       {% endfor %}
     </ul>

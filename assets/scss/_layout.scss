@@ -1,14 +1,53 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. Navigation
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
 
-
-// 1. Global
+// 1. Mixins
 // ---------
 
-body {  
+@mixin margin-one {
+  margin-bottom: 1rem;
+}
+
+@mixin margin-two {
+  margin-bottom: 2rem;
+}
+
+@mixin margin-three {
+  margin-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+// 2. Global
+// ---------
+
+body {
   cursor: default;
 }
 
@@ -20,8 +59,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  opacity: 0;
-  transition: $primary-transition;
 }
 
 ::selection {
@@ -29,11 +66,87 @@ img {
   color: $color--white;
 }
 
-a { 
+:focus {
+  outline: 0;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.wrapper {
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.excerpt {
+}
+
+.excerpt__image {
+  @include margin-one;
+}
+
+.excerpt__text {
+  position: relative;
+  top: 0;
+  left: 0;
+  color: $color--white;
+  @include opacity(1);
+  z-index: 3;
+  transition: $primary-transition;
+  padding: 2rem;
+}
+
+.excerpt__image__container {
+  position:relative;
+  &:hover .excerpt__image:after {
+    transition: $primary-transition;
+    background: $color--highlight;
+    @include opacity(0.8);
+    @include breakpoint(small only) {
+ @include opacity(0.0);
+  }
+  }
+  &:hover .excerpt__image img {
+    filter: grayscale(1);
+  }
+  &:hover .excerpt__image__text {
+    @include opacity(1);
+  }
+}
+
+.excerpt__image img {
   transition: $primary-transition;
 }
 
-// 2. Typography
+.excerpt__image:after {
+  transition: $primary-transition;
+  content:'\A';
+  position:absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  background:$color--highlight;
+  @include opacity(0);
+}
+
+
+.page {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+// 3. Typography
+// -------------
+
+a {
+  transition: $primary-transition;
+}
+
+a:hover {
+  color: $color--highlight;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -44,263 +157,111 @@ i, cite, em, var, address, dfn {
 }
 
 
-// 3. Navigation
-
-.top-bar__logo {
-  font-size: 1.5rem;
-}
+// 4. Navigation
+// ------
 
 .navigation {
-z-index: 1010;
+  z-index: 2;
 }
 
-
-// 404
-
-.missing {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	a {
-    color: $color--dark-gray;
-    }
-    a:hover {
-    color: $color--black;
-    }
+.navigation--mobile {
+  z-index: 2;
 }
 
-// 4. Index
+// 4. Home
+// ------
 
-
-// 6. Page
-
-.contact {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__content {
-	padding: 1rem 3rem 1rem 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-
-.page__content {
-	padding: 1rem 3rem 1rem 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-  	h3 {
-    margin-bottom: 2rem;
-    }
+.home {
 }
 
 
 
-.contact a {
-  color: $color--dark-gray;
-  &:hover {
-    color: $color--black;
-  }
+// 4. About
+// --------
+
+.about__image {
+  @include margin-three;
 }
 
-// 7. Project
-
-.project__meta {
-	padding-top: 2rem;
+.about__text {
+  @include margin-three;
 }
 
-.project__meta p {
-	margin-bottom: 0rem;
-}
+// 4. Contact
+// --------
 
-.project__meta .detail {
-	color: $color--dark-gray;
+.contact__meta {
+  @include margin-three;
 }
 
 
-.project__image__second {
-	@include breakpoint(small only) {
-    padding-top: 1rem;
-    }
+// 4. Project
+// ----------
+
+.project {
+//   @include margin-three;
 }
 
-
-.project__content {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
+.project__hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  color: $color--white;
 }
 
-.project__images img {
-  padding-bottom: 2rem;
-}
-
-.project__content a {
-  color: $color--dark-gray;
-  &:hover {
-    color: $color--black;
-  }
-}
-
-.project__step {
-  padding-bottom: 2rem;
-}
-
-.project__share {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__share__bottom {
-	padding-top: 2rem;
-}
-
-.project__pagination {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-// 8. Pagination
-
-.pagination__wrapper {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.callout--pagination {
-  border: 2px solid $color--amber;
-  padding: 2rem 2rem 1rem 2rem;
-}
-
-.pagination {
-  background-color: $color--black;
-//   border: blue 1px solid;
-  padding: 2rem 2rem 1rem 2rem;
-  width: 100%;
-  &:hover {
-    background-color: $color--black;
-  }
-}
-
-
-// 9. Excerpt
-
-.projects {
-  padding: 0rem 2rem;
-  @include breakpoint(small only) {
-    padding: 0rem;
-  	}
-}
-
-.excerpt {
-	position:relative;
-	padding: 1rem;
-	opacity:1;
-	
-  	img {
-      width:100%;
-    }
-    
-    .excerpt__image:after {
-      opacity:0;
-      transition: $primary-transition;
-    }
-    
-    &:hover .excerpt__image:after {
-        background:$color--black;
-        opacity:0.7;
-      }
-      
-    &:hover .excerpt__title {
-        p {
-        color: $color--white;
-        }
-      } 
-}
-
-.excerpt__title {
-  position:absolute;
-  top: 0rem;
-  left: 0rem;
+.project__hero-image__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
-  padding: 3rem;
-  @include breakpoint(small only) {
-    padding: 2rem;
-  	}
-  z-index: 1;
-  
-    p {
-    color: $color--white;
-    transition: $primary-transition;
-//     text-transform: uppercase;
-    letter-spacing: 1px;
-    }
-  
-    @include breakpoint(small only) {
-    padding: 2rem;
-    }
+}
+
+// 4. Journal
+// ---------
+
+.journal__post__date {
+ color: $color--highlight;
+ margin-bottom: 1rem;
 }
 
 
-.excerpt__image:after {
-  content:'\A';
-  position:absolute;
-  width:100%; 
-  height:100%;
-  top:0; 
-  left:0;
-  background:$color--black;
-  opacity:0.25;
+
+// 4. Footer
+// ---------
+
+.footer {
+  padding: 4rem 0rem;
+  border-top: $color--highlight solid 1px;
+}
+
+.footer .menu .menu-text {
+  font-weight: normal;
 }
 
 
-// 10. About
 
-.about__content {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
+.projectlist .item {
+   padding-bottom: 1rem;
 }
 
-.about__cv {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
-}
-
-.about_book {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-}
-
-// 11. Footer
-
-footer {
-	padding: 2rem 3rem 1.68rem 3rem;
-	a {
-    color: $color--white;
+.projectlist a {
     display: block;
-    }
+    width: 100%;
+    position: relative; 
+}
+    
+.projectlist a:hover img {
+      filter: saturate(0%) brightness(50%); }
+    
+.projectlist a img {
+      transition: $primary-transition;
+      display: block;
+      width: 100%;
+}
+
+.projectlist a .item__title {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      color: $color--white; 
 }

@@ -2,47 +2,33 @@
 layout: default
 ---
 
-{% if page.video %}
-<!-- Video -->
-<div class="row project__video project__step align-center">
-<div class="small-12 medium-10 large-8 columns">
-	<div class="flex-video widescreen vimeo">
-	  <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div>
+<!-- Hero Image -->
+<div class="project__hero-image" style="background-image: url({{page.image}})">
+  <div class="project__hero-image__overlay">
+  <div class="row align-middle align-center" style="height: 100%;">
+    <div class="small-10 columns text-center" data-aos="fade-in">
+      <h1>{{page.title}}</h1>
+      
+      
+      <ul class="vertical menu">
+        <li>{{ page.role }}</li>
+        <li>Client: {{ page.client }}</li>
+        <li>Director: {{ page.director }}</li>
+        <li>Year: {{ page.date | date: "%Y" }}</li>
+        <li>With: {{ page.with }}</li>
+        <li>IMDB</li>
+      </ul>
+      
+    </div>
+  </div>
+  </div>
 </div>
-</div>
-<!-- End Video -->
-{% endif %}
+<!-- End Hero Image -->
 
-<!-- Details -->
+<!-- Content -->
 <div class="row align-center">
-  <div class="small-12 medium-10 large-8 columns text-center">
-		<h4>{{ page.title }}</h4>
-	</div>
+  <div class="small-12 medium-8 columns">
+    {{content}}
+  </div>
 </div>
-<!-- End Details -->
-
-<!-- Details -->
-<div class="row align-center">
-  <div class="small-12 medium-10 large-8 columns text-center">
-		{{ content }}
-	</div>
-</div>
-<!-- End Details -->
-
-
-<!-- Share -->
-<div class="row project__share align-center">
-	<div class="shrink columns">
-		<ul class="menu">
-			{% include sharing.html %}
-	  	</ul>
-	</div>
-</div>
-<!-- End Share -->
-
-<!-- Pagination -->
-
-{% include pagination.html %}
-
-<!-- End Pagination -->
+<!-- End Content -->

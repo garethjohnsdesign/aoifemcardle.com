@@ -1,6 +1,6 @@
 ---
-title: Aoife McArdle
+title: Aoife Mcardle
 image: "/assets/img/og-image.png"
-layout: index
+hero-image: "/uploads/index-hero.jpg"
+layout: home
 ---
-
