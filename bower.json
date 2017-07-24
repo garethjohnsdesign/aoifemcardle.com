@@ -11,21 +11,21 @@
   "dependencies": {
     "foundation-sites": "^6.4.1",
     "motion-ui": "^1.2.3",
-    "what-input": "^4.3.0",
+    "what-input": "^4.3.1",
     "svgxuse": "^1.2.4",
     "wow": "^1.1.2",
     "jquery": "^3.2.1",
     "instafeed.js": "^1.4.1",
-    "flickity": "^2.0.8",
-    "aos": "^2.1.1",
-    "css-hamburgers": "^0.8.1",
+    "flickity": "^2.0.9",
+    "aos": "^2.2.0",
+    "css-hamburgers": "^0.9.1",
     "unipointer": "^2.2.0",
-    "matches-selector": "desandro-matches-selector#^2.0.2",
+    "matches-selector": "*",
     "fizzy-ui-utils": "^2.0.5",
     "tap-listener": "^2.0.0",
     "get-size": "^2.0.2",
-    "ev-emitter": "^1.1.0",
-    "unidragger": "^2.2.2"
+    "ev-emitter": "^1.1.1",
+    "unidragger": "^2.2.3"
   },
   "ignore": [
     "**/.*",
@@ -36,7 +36,8 @@
   ],
   "private": true,
   "resolutions": {
-    "what-input": "^4.3.0",
-    "jquery": "^3.1.1"
+    "what-input": "^4.3.1",
+    "jquery": "^3.1.1",
+    "css-hamburgers": "^0.9.1"
   }
 }

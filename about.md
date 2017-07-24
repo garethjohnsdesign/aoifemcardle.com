@@ -5,12 +5,17 @@ layout: page
 
 ### Writer/director/photographer from Northern Ireland, based in London
 
+#### — 2017
+Absolut – Equal Love — BBH
+
+Audi – Daughter — Venables Bell & Partners
+
 #### — 2016
 
-Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
+Under Armour – Prince with 1000 Enemies – Droga 5, NYC  
 Nominated for Best Direction and Best Cinematography at Ciclope Awards, Best Cinematography and Sound at the British Arrows
 
-Under Armour – Numbers – Droga 5, NYC\
+Under Armour – Numbers – Droga 5, NYC  
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
 
 Secret – The Question – Wieden & Kennedy, Portland

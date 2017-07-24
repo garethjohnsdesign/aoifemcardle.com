@@ -31,47 +31,57 @@
   <link rel="alternate" type="application/rss+xml" title="Aoife McArdle" href="http://aoifemcardle.com/feed.xml">
 </head>
 <body>
-<div class="flex-container flex-dir-column wrapper" style="height: 100vh;">
-<div class="flex-child-shrink">
-<div class="navigation row small-collapse expanded align-middle align-justify">
-  <div class="shrink columns top-bar-title navigation--mobile">
-      <a href="/">Aoife McArdle</a>
+<div class="overlay" id="overlay" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+    <ul class="align-middle">
+        <li class="element">
+          <a href="/projects" data-toggle="overlay-mobile toggle">Projects</a>
+        </li>
+        <li class="element">
+          <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
+        </li>
+        <li class="element">
+          <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
+        </li>
+    </ul>
+  </nav>
+</div>
+<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
+<div class="shrink cell">
+<div class="grid-x grid-padding-x align-justify">
+  <div class="shrink cell navigation--mobile">
+    <a href="/">Aoife McArdle</a></li>
   </div>
-  <div class="shrink columns top-bar-menu show-for-medium">
-    <ul class="dropdown menu" data-dropdown-menu>
+  <div class="shrink cell show-for-medium">
+    <ul class="menu simple">
           <li class="active"><a href="/projects">Projects</a></li>
           <li><a href="/about/">About</a></li>
           <li><a href="/contact/">Contact</a></li>
         </ul>
   </div>
-  <div class="shrink columns show-for-small-only navigation--mobile">
+  <div class="shrink show-for-small-only navigation--mobile">
     <button class="hamburger hamburger--collapse" id="toggle" data-toggle="overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
 </div>
 </div>
-<div class="flex-child-grow page project">
-<div class="project__hero-image" style="background-image: url(/uploads/simian-mobile-disco-seraphim.jpg)">
-  <div class="project__hero-image__overlay">
-  <div class="row align-middle align-center" style="height: 100%;">
-    <div class="small-10 columns text-center" data-aos="fade-in">
-      <h1>Simian Mobile - Disco Seraphim</h1>
-      <ul class="vertical menu">
-        <li></li>
-        <li>Client: </li>
-        <li>Director: </li>
-        <li>Year: 2012</li>
-        <li>With: </li>
-        <li>IMDB</li>
-      </ul>
-    </div>
-  </div>
-  </div>
+<div class="shrink cell project">
+<div class="grid-x grid-padding-x align-center">
+<div class="small-12 medium-8 large-6 cell">
+	<div class="responsive-embed widescreen">
+	  <iframe src="https://player.vimeo.com/video/40093537?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+</div>
 </div>
 <div class="row align-center">
-  <div class="small-12 medium-8 columns">
-    <p>Director — Aoife McArdle<br />
+  <div class="small-12 medium-10 large-8 columns text-center">
+		<h4>Simian Mobile - Disco Seraphim</h4>
+	</div>
+</div>
+<div class="row align-center">
+  <div class="small-12 medium-10 large-8 columns text-center">
+		<p>Director — Aoife McArdle<br />
 Producer — Amber Millington<br />
 Director of Photography — Paul Newton<br />
 Focus Puller — Julie Moniere / Nicolas Martin<br />
@@ -80,22 +90,26 @@ Art Director — Charlie Lambros<br />
 Make-up — Julia Bowden<br />
 Editor — Sam Ostrove at Cut + Run<br />
 Grade — Mikey Rossiter at The Mill</p>
+	</div>
+</div>
+<div class="row expanded">
+  <div class="small-12 columns text-center">
+        <h6>Next</h6>
+        <a href="/projects/55DSL-italy-texas/">55DSL Italy Texas</a>
   </div>
 </div>
 </div>
-<div class="flex-child-shrink">
-<section class="footer">
-  <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Williams Music Agency, Vicki Williams, PHONE +44 (0)79 5683 7932 EMAIL info@williamsmusicagency.com</p>
+<div class="shrink cell">
+<footer>
+<div class="grid-x grid-padding-x grid-padding-y align-justify">
+  <div class="shrink cell">
+  <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
   </div>
+  <div class="shrink cell">
+  <a href="http://garethjohnsdesign.com">Colophon</a>
   </div>
-    <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Copywright © Williams Music Agency 2017, All Right Reserved.</p>
-  </div>
-  </div>
-</section>
+</div>
+</footer>
 </div>
 <script src="/assets/js/min/app-min.js"></script>
 </body>

@@ -93,12 +93,6 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
-	"\/_layouts\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/about.html",
-		"oF": 0
-		},
 	"\/_layouts\/compress.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -279,21 +273,17 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
+	"\/_site\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about.html",
+		"oF": 0
+		},
 	"\/_site\/about\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
-		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -499,19 +489,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/_site\/assets\/scss\/app.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/css\/app.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/_site\/assets\/scss\/hamburgers\/hamburgers.scss": {
 		"aP": 0,
@@ -1161,6 +1138,12 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/about.md": {
 		"cS": 0,
 		"eF": 1,
@@ -1520,6 +1503,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_underline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_underline.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2045,12 +2041,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/bower_components\/aos\/dist\/aos.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/aos\/dist\/aos.css.map",
-		"oF": 0
-		},
 	"\/bower_components\/aos\/dist\/aos.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2059,12 +2049,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/bower_components\/aos\/dist\/aos.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/aos\/dist\/aos.js.map",
-		"oF": 0
 		},
 	"\/bower_components\/aos\/karma.conf.js": {
 		"ft": 64,
@@ -2080,6 +2064,23 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/LICENSE",
 		"oF": 0
+		},
+	"\/bower_components\/aos\/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/aos\/postcss.config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/postcss.config.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/bower_components\/aos\/README.md": {
 		"cS": 0,
@@ -2292,6 +2293,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_3dxy-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_3dxy-r.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_3dxy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_3dxy.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_3dy-r.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2366,6 +2393,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_arrowalt.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_arrowturn-r.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_arrowturn-r.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_arrowturn.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_arrowturn.scss",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2457,6 +2510,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_emphatic.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_minus.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/css-hamburgers\/_sass\/hamburgers\/types\/_minus.scss",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2705,6 +2771,14 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/css-hamburgers\/LICENSE",
 		"oF": 0
+		},
+	"\/bower_components\/css-hamburgers\/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/css-hamburgers\/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/bower_components\/css-hamburgers\/package.json": {
 		"ft": 524288,
@@ -8430,10 +8504,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/contact.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

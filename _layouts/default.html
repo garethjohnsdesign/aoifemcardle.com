@@ -11,23 +11,27 @@ layout: compress
 
 <body>
 
+<!-- Overlay Menu -->  
+{% include overlay-menu.html %}
+<!-- End Overlay Menu --> 
+
 <!-- Wrapper -->
-<div class="flex-container flex-dir-column wrapper" style="height: 100vh;">
+<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
   
 <!-- Navigation -->
-<div class="flex-child-shrink">
+<div class="shrink cell">
 {% include navigation.html %}
 </div>
 <!-- End Navigation -->
 
 <!-- Content -->
-<div class="flex-child-grow page {{page.layout | slugify}}">
+<div class="shrink cell {{page.layout | slugify}}">
 {{ content }}
 </div>
 <!-- End Content -->
 
 <!-- Footer -->
-<div class="flex-child-shrink">
+<div class="shrink cell">
 {% include footer.html %}
 </div>
 <!-- End Footer-->

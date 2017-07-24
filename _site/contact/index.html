@@ -28,33 +28,48 @@
   <link rel="alternate" type="application/rss+xml" title="Aoife McArdle" href="http://aoifemcardle.com/feed.xml">
 </head>
 <body>
-<div class="flex-container flex-dir-column wrapper" style="height: 100vh;">
-<div class="flex-child-shrink">
-<div class="navigation row small-collapse expanded align-middle align-justify">
-  <div class="shrink columns top-bar-title navigation--mobile">
-      <a href="/">Aoife McArdle</a>
+<div class="overlay" id="overlay" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+    <ul class="align-middle">
+        <li class="element">
+          <a href="/projects" data-toggle="overlay-mobile toggle">Projects</a>
+        </li>
+        <li class="element">
+          <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
+        </li>
+        <li class="element">
+          <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
+        </li>
+    </ul>
+  </nav>
+</div>
+<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
+<div class="shrink cell">
+<div class="grid-x grid-padding-x align-justify">
+  <div class="shrink cell navigation--mobile">
+    <a href="/">Aoife McArdle</a></li>
   </div>
-  <div class="shrink columns top-bar-menu show-for-medium">
-    <ul class="dropdown menu" data-dropdown-menu>
+  <div class="shrink cell show-for-medium">
+    <ul class="menu simple">
           <li><a href="/projects">Projects</a></li>
           <li><a href="/about/">About</a></li>
           <li class="active"><a href="/contact/">Contact</a></li>
         </ul>
   </div>
-  <div class="shrink columns show-for-small-only navigation--mobile">
+  <div class="shrink show-for-small-only navigation--mobile">
     <button class="hamburger hamburger--collapse" id="toggle" data-toggle="overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
 </div>
 </div>
-<div class="flex-child-grow page contact">
-<div class="row">
-	<div class="shrink columns">
-		<h4 id="studio">Studio</h4>
+<div class="shrink cell page">
+<div class="grid-x grid-padding-x">
+  <div class="cell">
+    <h4>Studio</h4>
 <p>Aoife McArdle<br />
 <a href="mailto:info@aoifemcardle.com">info@aoifemcardle.com</a></p>
-<h4 id="commercials-and-music-videos-ukeurope">Commercials and Music Videos UK/Europe</h4>
+<h4>Commercials and Music Videos UK/Europe</h4>
 <p>Commercials<br />
 Tim Nash and Sally Campbell<br />
 +44 20 3487 1270<br />
@@ -64,7 +79,7 @@ Tim Nash and Sally Campbell<br />
 Hannah Turnbull-Walter<br />
 +44 (0)20 3487 1270<br />
 <a href="mailto:hannahtw@somesuch.co">hannahtw@somesuch.co</a></p>
-<h4 id="film-television-and-literary-agents-worldwide">Film, Television and Literary Agents Worldwide</h4>
+<h4>Film, Television and Literary Agents Worldwide</h4>
 <p>William Morris Endeavor<br />
 Solco Schuit<br />
 <a href="mailto:sschuit@wmeentertainment.com">sschuit@wmeentertainment.com</a></p>
@@ -73,7 +88,7 @@ Solco Schuit<br />
 <p>42<br />
 Josh Varney<br />
 <a href="mailto:joshvarney@42mp.com">joshvarney@42mp.com</a></p>
-<h4 id="commercials-us">Commercials US</h4>
+<h4>Commercials US</h4>
 <p>Anonymous Content<br />
 Johnathan Wright<br />
 <a href="mailto:jwright@anonymouscontent.com">jwright@anonymouscontent.com</a><br />
@@ -81,27 +96,25 @@ Johnathan Wright<br />
 <p>Eric Stern<br />
 <a href="mailto:eric@anonymouscontent.com">eric@anonymouscontent.com</a><br />
 (01) 310 558 6029</p>
-<h4 id="commercials-france">Commercials France</h4>
+<h4>Commercials France</h4>
 <p>Insurrection<br />
 Arno Moria<br />
 <a href="mailto:arno@insurrection.paris">arno@insurrection.paris</a><br />
 +331 44 61 81 59</p>
-	</div>
+  </div>
 </div>
 </div>
-<div class="flex-child-shrink">
-<section class="footer">
-  <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Williams Music Agency, Vicki Williams, PHONE +44 (0)79 5683 7932 EMAIL info@williamsmusicagency.com</p>
+<div class="shrink cell">
+<footer>
+<div class="grid-x grid-padding-x grid-padding-y align-justify">
+  <div class="shrink cell">
+  <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
   </div>
+  <div class="shrink cell">
+  <a href="http://garethjohnsdesign.com">Colophon</a>
   </div>
-    <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Copywright © Williams Music Agency 2017, All Right Reserved.</p>
-  </div>
-  </div>
-</section>
+</div>
+</footer>
 </div>
 <script src="/assets/js/min/app-min.js"></script>
 </body>

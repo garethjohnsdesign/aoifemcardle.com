@@ -29,107 +29,120 @@
   <link rel="alternate" type="application/rss+xml" title="Aoife McArdle" href="http://aoifemcardle.com/feed.xml">
 </head>
 <body>
-<div class="flex-container flex-dir-column wrapper" style="height: 100vh;">
-<div class="flex-child-shrink">
-<div class="navigation row small-collapse expanded align-middle align-justify">
-  <div class="shrink columns top-bar-title navigation--mobile">
-      <a href="/">Aoife McArdle</a>
+<div class="overlay" id="overlay" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+    <ul class="align-middle">
+        <li class="element">
+          <a href="/projects" data-toggle="overlay-mobile toggle">Projects</a>
+        </li>
+        <li class="element">
+          <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
+        </li>
+        <li class="element">
+          <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
+        </li>
+    </ul>
+  </nav>
+</div>
+<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
+<div class="shrink cell">
+<div class="grid-x grid-padding-x align-justify">
+  <div class="shrink cell navigation--mobile">
+    <a href="/">Aoife McArdle</a></li>
   </div>
-  <div class="shrink columns top-bar-menu show-for-medium">
-    <ul class="dropdown menu" data-dropdown-menu>
+  <div class="shrink cell show-for-medium">
+    <ul class="menu simple">
           <li><a href="/projects">Projects</a></li>
           <li><a href="/about/">About</a></li>
           <li><a href="/contact/">Contact</a></li>
         </ul>
   </div>
-  <div class="shrink columns show-for-small-only navigation--mobile">
+  <div class="shrink show-for-small-only navigation--mobile">
     <button class="hamburger hamburger--collapse" id="toggle" data-toggle="overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
 </div>
 </div>
-<div class="flex-child-grow page home">
-<div class="row expanded small-up-1 medium-up-2 large-up-2">
-    <div class="columns projectlist" data-aos="fade-in">
+<div class="shrink cell home">
+<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-2">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/absolut-equal-love/">
 		<img src="/uploads/absolut-equal-love.jpg" alt="Absolut - Equal Love">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Absolut - Equal Love</div>
+		<div class="item__title" data-aos="fade-up">Absolut - Equal Love</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/audi-daughter/">
 		<img src="/uploads/audi-daughter.jpg" alt="Audi - Daughter">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Audi - Daughter</div>
+		<div class="item__title" data-aos="fade-up">Audi - Daughter</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/under-armour-prince-with-1000-enemies/">
 		<img src="/uploads/under-armour-prince-with-1000-enemies.jpg" alt="Under Armour - Prince with 1000 Enemies">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Under Armour - Prince with 1000 Enemies</div>
+		<div class="item__title" data-aos="fade-up">Under Armour - Prince with 1000 Enemies</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/under-armour-numbers/">
 		<img src="/uploads/under-armour-numbers.jpg" alt="Under Armour - Numbers">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Under Armour - Numbers</div>
+		<div class="item__title" data-aos="fade-up">Under Armour - Numbers</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/the-question/">
 		<img src="/uploads/the-question.jpg" alt="The Question">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">The Question</div>
+		<div class="item__title" data-aos="fade-up">The Question</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/secret-raise/">
 		<img src="/uploads/secret-raise.jpg" alt="Raise">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Raise</div>
+		<div class="item__title" data-aos="fade-up">Raise</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/honda-ignition/">
 		<img src="/uploads/honda-ignition.jpg" alt="Honda - Ignition">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Honda - Ignition</div>
+		<div class="item__title" data-aos="fade-up">Honda - Ignition</div>
 	</a>
 </div>
     </div>
-    <div class="columns projectlist" data-aos="fade-in">
+    <div class="cell projectlist" data-aos="fade-in">
     <div class="item">
 	<a href="/projects/samsung-feel-more/">
 		<img src="/uploads/samsung-feel-more.jpg" alt="Samsung - Feel More">
-		<div class="item__title" data-aos="fade-up" data-aos-delay="300">Samsung - Feel More</div>
+		<div class="item__title" data-aos="fade-up">Samsung - Feel More</div>
 	</a>
 </div>
     </div>
 </div>
 </div>
-<div class="flex-child-shrink">
-<section class="footer">
-  <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Williams Music Agency, Vicki Williams, PHONE +44 (0)79 5683 7932 EMAIL info@williamsmusicagency.com</p>
+<div class="shrink cell">
+<footer>
+<div class="grid-x grid-padding-x grid-padding-y align-justify">
+  <div class="shrink cell">
+  <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
   </div>
+  <div class="shrink cell">
+  <a href="http://garethjohnsdesign.com">Colophon</a>
   </div>
-    <div class="row expanded">
-  <div class="small-12 columns text-center">
-<p>Copywright © Williams Music Agency 2017, All Right Reserved.</p>
-  </div>
-  </div>
-</section>
+</div>
+</footer>
 </div>
 <script src="/assets/js/min/app-min.js"></script>
 </body>

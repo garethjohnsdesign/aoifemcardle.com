@@ -1,6 +1,6 @@
 {
   "name": "what-input",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "homepage": "https://github.com/ten1seven/what-input",
   "repository": {
     "url": "https://github.com/ten1seven/what-input.git",
@@ -23,14 +23,14 @@
     "test",
     "tests"
   ],
-  "_release": "4.3.0",
+  "_release": "4.3.1",
   "_resolution": {
     "type": "version",
-    "tag": "v4.3.0",
-    "commit": "7f0d5953bd0746d4d388a87223aec8c05c9b1eca"
+    "tag": "v4.3.1",
+    "commit": "7601f15de4a7cb0f58701f35e102009c237f1e4d"
   },
   "_source": "https://github.com/ten1seven/what-input.git",
-  "_target": "^4.3.0",
+  "_target": "^4.3.1",
   "_originalSource": "what-input",
   "_direct": true
 }

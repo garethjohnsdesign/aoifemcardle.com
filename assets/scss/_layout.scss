@@ -44,6 +44,31 @@
   filter: alpha(opacity=$opacity-ie);
 }
 
+@mixin link-underline($color, $size, $duration,  $centered) {
+  color: $color;
+  display: inline-block;
+  position: relative;
+  text-decoration: none; 
+  &:before {
+    background-color: $color;
+    content: '';
+    height: $size;
+    position: absolute;
+    bottom: 0 - ($size/2);
+    transition: $duration;
+    width: 100%;
+    @if $centered == 'true' {
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+  }
+  &:hover {
+    &:before {
+      width: 0;
+    }
+  }
+}
+
 // 2. Global
 // ---------
 
@@ -78,64 +103,18 @@ img {
   padding: 2rem 2rem 0rem 2rem;
 }
 
-.excerpt {
-}
-
-.excerpt__image {
-  @include margin-one;
-}
-
-.excerpt__text {
-  position: relative;
-  top: 0;
-  left: 0;
-  color: $color--white;
-  @include opacity(1);
-  z-index: 3;
-  transition: $primary-transition;
-  padding: 2rem;
-}
-
-.excerpt__image__container {
-  position:relative;
-  &:hover .excerpt__image:after {
-    transition: $primary-transition;
-    background: $color--highlight;
-    @include opacity(0.8);
-    @include breakpoint(small only) {
- @include opacity(0.0);
-  }
-  }
-  &:hover .excerpt__image img {
-    filter: grayscale(1);
-  }
-  &:hover .excerpt__image__text {
-    @include opacity(1);
-  }
-}
-
-.excerpt__image img {
-  transition: $primary-transition;
-}
-
-.excerpt__image:after {
-  transition: $primary-transition;
-  content:'\A';
-  position:absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-  background:$color--highlight;
-  @include opacity(0);
-}
-
-
 .page {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
+.page a {
+  @include link-underline($color--white, 1px, $primary-transition, false)
+}
+
+p a:after {
+  content: ' +';
+}
 
 // 3. Typography
 // -------------
@@ -144,9 +123,6 @@ a {
   transition: $primary-transition;
 }
 
-a:hover {
-  color: $color--highlight;
-}
 
 .uppercase {
   text-transform: uppercase;
@@ -175,26 +151,6 @@ i, cite, em, var, address, dfn {
 }
 
 
-
-// 4. About
-// --------
-
-.about__image {
-  @include margin-three;
-}
-
-.about__text {
-  @include margin-three;
-}
-
-// 4. Contact
-// --------
-
-.contact__meta {
-  @include margin-three;
-}
-
-
 // 4. Project
 // ----------
 
@@ -202,46 +158,13 @@ i, cite, em, var, address, dfn {
 //   @include margin-three;
 }
 
-.project__hero-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 80vh;
-  color: $color--white;
-}
-
-.project__hero-image__overlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-}
-
-// 4. Journal
-// ---------
-
-.journal__post__date {
- color: $color--highlight;
- margin-bottom: 1rem;
-}
-
-
-
 // 4. Footer
 // ---------
-
-.footer {
-  padding: 4rem 0rem;
-  border-top: $color--highlight solid 1px;
-}
-
-.footer .menu .menu-text {
-  font-weight: normal;
-}
 
 
 
 .projectlist .item {
-   padding-bottom: 1rem;
+//   padding: 2rem;
 }
 
 .projectlist a {
@@ -261,7 +184,13 @@ i, cite, em, var, address, dfn {
 
 .projectlist a .item__title {
       position: absolute;
-      top: 2rem;
-      left: 2rem;
+      top: 0rem;
+      left: 0rem;
+      padding: 2rem;
       color: $color--white; 
+}
+
+
+[data-aos='fade-up'] {
+  transform: translate(0, 1rem);
 }
