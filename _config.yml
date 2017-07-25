@@ -1,5 +1,5 @@
 ---
-title: Aoife McArdle
+title: Aoife McArdle.
 timezone: UTC
 collections:
   posts:
@@ -49,6 +49,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  auto_ids: false
 highlighter: rouge
 company: Aoife Mcardle
 email: info@aoifemcardle.com
@@ -58,8 +59,9 @@ logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
-social:
-  facebook: 
-  instagram: https://www.instagram.com/aoifemmcardle
-  twitter: https://twitter.com/aoife_mcardle
-  vimeo: https://vimeo.com/aoifemcardle
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

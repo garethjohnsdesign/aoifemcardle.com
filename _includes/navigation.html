@@ -1,17 +1,41 @@
-<div class="top-bar row collapsed expanded align-middle align-justify">
+{% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
+
+<!-- Navigation -->
+<div class="grid-x grid-padding-x align-justify">
   
-  <div class="shrink columns navigation">
-    <ul class="menu simple">
-      <li class="top-bar__logo"><a href="/">{{site.title}}</a></li>
-    </ul>
+  <div class="shrink cell navigation--mobile">
+    <a href="/">{{site.title}}</a></li>
   </div>
   
-  <div class="shrink columns navigation">
-    <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
-      <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-      </span>
+  <div class="shrink cell show-for-medium">
+    <ul class="menu simple">
+          {% for entry in site.data.navigation %}
+          {% if entry.url == current_page %}
+          {% assign current = ' class="active"' %}
+          {% else %}
+          {% assign current = null %}
+          {% endif %}
+          {% assign sublinks = entry.sublinks %}
+          {% if sublinks %}
+          <li{{ current }}>
+          <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+          <ul class="menu vertical">
+          {% for sublink in sublinks %}
+          <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+          {% endfor %}
+          </ul>
+          </li>
+          {% else %}
+          <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+  </div>
+  
+  <div class="shrink show-for-small-only navigation--mobile">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="overlay toggle" data-toggler=".is-active" type="button">
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
-
 </div>
+<!-- End Navigation -->

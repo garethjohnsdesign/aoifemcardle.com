@@ -1,1 +1,11 @@
 <script src="/assets/js/min/app-min.js"></script>
+
+{% if page.layout == 'project' %}
+<script>plyr.setup({
+     // TODO: check if upstream fixed the typo
+     autoplay: false,
+     controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+     iconUrl: "/assets/icons/symbol-defs.svg",
+     iconPrefix: "icon",
+ });</script>
+{% endif %}
