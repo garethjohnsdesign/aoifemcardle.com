@@ -1,14 +1,78 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. Navigation
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
 
-
-// 1. Global
+// 1. Mixins
 // ---------
 
-body {  
+@mixin margin-one {
+  margin-bottom: 1rem;
+}
+
+@mixin margin-two {
+  margin-bottom: 2rem;
+}
+
+@mixin margin-three {
+  margin-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin link-underline($color, $size, $duration,  $centered) {
+  color: $color;
+  display: inline-block;
+  position: relative;
+  text-decoration: none; 
+  &:before {
+    background-color: $color;
+    content: '';
+    height: $size;
+    position: absolute;
+    bottom: 0 - ($size/2);
+    transition: $duration;
+    width: 0;
+    @if $centered == 'true' {
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+// 2. Global
+// ---------
+
+body {
   cursor: default;
 }
 
@@ -20,8 +84,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  opacity: 0;
-  transition: $primary-transition;
 }
 
 ::selection {
@@ -29,11 +91,41 @@ img {
   color: $color--white;
 }
 
-a { 
+:focus {
+  outline: 0;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.wrapper {
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.page {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page a {
+  @include link-underline($color--white, 1px, $primary-transition, false)
+}
+
+p a:after {
+  content: url(../icons/arrow.svg);
+  margin-left: 0.5rem;
+  height: 14px;
+  width: 14px;
+}
+
+// 3. Typography
+// -------------
+
+a {
   transition: $primary-transition;
 }
 
-// 2. Typography
 
 .uppercase {
   text-transform: uppercase;
@@ -44,263 +136,83 @@ i, cite, em, var, address, dfn {
 }
 
 
-// 3. Navigation
-
-.top-bar__logo {
-  font-size: 1.5rem;
-}
+// 4. Navigation
+// ------
 
 .navigation {
-z-index: 1010;
+  z-index: 2;
+}
+
+.navigation--mobile {
+  z-index: 2;
+}
+
+// 4. Home
+// ------
+
+.home {
 }
 
 
-// 404
+// 4. Project
+// ----------
 
-.missing {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	a {
-    color: $color--dark-gray;
-    }
-    a:hover {
-    color: $color--black;
-    }
+.project {
+//   @include margin-three;
 }
 
-// 4. Index
+// 4. Footer
+// ---------
 
 
-// 6. Page
 
-.contact {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
+.projectlist .item {
+//   padding: 2rem;
 }
 
-.project__content {
-	padding: 1rem 3rem 1rem 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-
-.page__content {
-	padding: 1rem 3rem 1rem 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-  	h3 {
-    margin-bottom: 2rem;
-    }
-}
-
-
-
-.contact a {
-  color: $color--dark-gray;
-  &:hover {
-    color: $color--black;
-  }
-}
-
-// 7. Project
-
-.project__meta {
-	padding-top: 2rem;
-}
-
-.project__meta p {
-	margin-bottom: 0rem;
-}
-
-.project__meta .detail {
-	color: $color--dark-gray;
-}
-
-
-.project__image__second {
-	@include breakpoint(small only) {
-    padding-top: 1rem;
-    }
-}
-
-
-.project__content {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__images img {
-  padding-bottom: 2rem;
-}
-
-.project__content a {
-  color: $color--dark-gray;
-  &:hover {
-    color: $color--black;
-  }
-}
-
-.project__step {
-  padding-bottom: 2rem;
-}
-
-.project__share {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.project__share__bottom {
-	padding-top: 2rem;
-}
-
-.project__pagination {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-// 8. Pagination
-
-.pagination__wrapper {
-	padding: 3rem;
-	@include breakpoint(small only) {
-    padding: 2rem;
-  	}
-}
-
-.callout--pagination {
-  border: 2px solid $color--amber;
-  padding: 2rem 2rem 1rem 2rem;
-}
-
-.pagination {
-  background-color: $color--black;
-//   border: blue 1px solid;
-  padding: 2rem 2rem 1rem 2rem;
-  width: 100%;
-  &:hover {
-    background-color: $color--black;
-  }
-}
-
-
-// 9. Excerpt
-
-.projects {
-  padding: 0rem 2rem;
-  @include breakpoint(small only) {
-    padding: 0rem;
-  	}
-}
-
-.excerpt {
-	position:relative;
-	padding: 1rem;
-	opacity:1;
-	
-  	img {
-      width:100%;
-    }
-    
-    .excerpt__image:after {
-      opacity:0;
-      transition: $primary-transition;
-    }
-    
-    &:hover .excerpt__image:after {
-        background:$color--black;
-        opacity:0.7;
-      }
-      
-    &:hover .excerpt__title {
-        p {
-        color: $color--white;
-        }
-      } 
-}
-
-.excerpt__title {
-  position:absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  @include breakpoint(small only) {
-    padding: 2rem;
-  	}
-  z-index: 1;
-  
-    p {
-    color: $color--white;
-    transition: $primary-transition;
-//     text-transform: uppercase;
-    letter-spacing: 1px;
-    }
-  
-    @include breakpoint(small only) {
-    padding: 2rem;
-    }
-}
-
-
-.excerpt__image:after {
-  content:'\A';
-  position:absolute;
-  width:100%; 
-  height:100%;
-  top:0; 
-  left:0;
-  background:$color--black;
-  opacity:0.25;
-}
-
-
-// 10. About
-
-.about__content {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
-}
-
-.about__cv {
-	font-family: $header-font-family;
-	font-size: 1.5rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	@include breakpoint(small only) {
-	padding-top: 2rem;
-	padding-bottom: 2rem
-  	}
-}
-
-.about_book {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-}
-
-// 11. Footer
-
-footer {
-	padding: 2rem 3rem 1.68rem 3rem;
-	a {
-    color: $color--white;
+.projectlist a {
     display: block;
-    }
+    width: 100%;
+    position: relative; 
+}
+    
+.projectlist a:hover img {
+      filter: saturate(0%) brightness(50%); }
+    
+.projectlist a img {
+      transition: $primary-transition;
+      display: block;
+      width: 100%;
+}
+
+.projectlist a .item__title {
+      position: absolute;
+      top: 0rem;
+      left: 0rem;
+      padding: 2rem;
+      color: $color--white; 
+}
+
+
+[data-aos='fade-up'] {
+  transform: translate(0, 1rem);
+}
+
+
+.loader {
+  z-index: 3;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
