@@ -15,7 +15,6 @@
     "svgxuse": "^1.2.4",
     "wow": "^1.1.2",
     "jquery": "^3.2.1",
-    "instafeed.js": "^1.4.1",
     "flickity": "^2.0.9",
     "aos": "^2.2.0",
     "css-hamburgers": "^0.9.1",
@@ -25,7 +24,8 @@
     "tap-listener": "^2.0.0",
     "get-size": "^2.0.2",
     "ev-emitter": "^1.1.1",
-    "unidragger": "^2.2.3"
+    "unidragger": "^2.2.3",
+    "plyr": "^2.0.13"
   },
   "ignore": [
     "**/.*",

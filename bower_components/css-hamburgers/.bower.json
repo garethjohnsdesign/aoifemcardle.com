@@ -49,6 +49,5 @@
   },
   "_source": "https://github.com/jonsuh/hamburgers.git",
   "_target": "^0.9.1",
-  "_originalSource": "css-hamburgers",
-  "_direct": true
+  "_originalSource": "css-hamburgers"
 }

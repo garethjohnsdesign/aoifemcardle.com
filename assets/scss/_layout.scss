@@ -56,7 +56,7 @@
     position: absolute;
     bottom: 0 - ($size/2);
     transition: $duration;
-    width: 100%;
+    width: 0;
     @if $centered == 'true' {
       left: 50%;
       transform: translateX(-50%); 
@@ -64,7 +64,7 @@
   }
   &:hover {
     &:before {
-      width: 0;
+      width: 100%;
     }
   }
 }
@@ -113,7 +113,10 @@ img {
 }
 
 p a:after {
-  content: ' +';
+  content: url(../icons/arrow.svg);
+  margin-left: 0.5rem;
+  height: 14px;
+  width: 14px;
 }
 
 // 3. Typography
@@ -193,4 +196,23 @@ i, cite, em, var, address, dfn {
 
 [data-aos='fade-up'] {
   transform: translate(0, 1rem);
+}
+
+
+.loader {
+  z-index: 3;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
