@@ -12,6 +12,7 @@ layout: compress
 <body>
 
 <!-- Credits -->
+<!--
 <div class="project__credits" id="project__credits" data-toggler=".open">
 <div class="grid-y align-center" style="height: 100%;">
   <div class="shrink cell">
@@ -24,6 +25,7 @@ layout: compress
   </div>
 </div>
 </div>
+-->
 <!-- End Credits -->
 
 <!-- Mobile Navigation -->  
@@ -31,7 +33,7 @@ layout: compress
 <!-- End Mobile Navigation --> 
   
 <!-- Wrapper -->
-<div class="grid-y grid-padding-y align-justify wrapper">
+<div class="grid-y grid-padding-y align-justify wrapper" style="height: 100%">
   
 <!-- Navigation -->
 <div class="shrink cell">
@@ -40,7 +42,8 @@ layout: compress
 <!-- End Navigation -->
 
 <!-- Content -->
-<div class="shrink cell {{page.layout | slugify}}" data-aos="fade-in">
+<div class="shrink cell {{page.layout | slugify}} text-center" data-aos="fade-in" >
+
 {% include project.html %}
 </div>
 <!-- End Content -->
