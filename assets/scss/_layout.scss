@@ -216,3 +216,10 @@ i, cite, em, var, address, dfn {
     visibility: hidden;
   }
 }
+
+
+
+.animate-fade-in {
+  @include mui-animation(fade(0,1));
+  animation-duration: 1s;
+}

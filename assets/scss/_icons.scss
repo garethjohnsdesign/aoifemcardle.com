@@ -20,3 +20,19 @@ Single-colored icons can be modified like so:
   font-size: 1.5rem;
   color: scale-color($primary-color, $lightness: -50%);
 }
+
+.icon-plus:hover {
+  @include mui-animation(spin($direction: ccw,$amount: 90deg));
+  animation-duration: 1s;
+}
+
+
+.icon-cross2 {
+  font-size: 1.5rem;
+  color: scale-color($primary-color, $lightness: -50%);
+}
+
+.icon-cross2:hover {
+  @include mui-animation(spin($direction: ccw,$amount: 90deg));
+  animation-duration: 1s;
+}

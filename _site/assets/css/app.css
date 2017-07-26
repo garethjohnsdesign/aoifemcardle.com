@@ -6518,6 +6518,46 @@ Single-colored icons can be modified like so:
   font-size: 1.5rem;
   color: #807f7f; }
 
+.icon-plus:hover {
+  -webkit-animation-name: spin-ccw-90deg;
+          animation-name: spin-ccw-90deg;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; }
+
+@-webkit-keyframes spin-ccw-90deg {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+
+@keyframes spin-ccw-90deg {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+
+.icon-cross2 {
+  font-size: 1.5rem;
+  color: #807f7f; }
+
+.icon-cross2:hover {
+  -webkit-animation-name: spin-ccw-90deg;
+          animation-name: spin-ccw-90deg;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; }
+
+@keyframes spin-ccw-90deg {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0); } }
+
 .overlay {
   z-index: 1;
   position: fixed;
@@ -6677,3 +6717,21 @@ i, cite, em, var, address, dfn {
   .loader.loaded {
     opacity: 0;
     visibility: hidden; }
+
+.animate-fade-in {
+  -webkit-animation-name: fade-0-to-100;
+          animation-name: fade-0-to-100;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s; }
+
+@-webkit-keyframes fade-0-to-100 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fade-0-to-100 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
