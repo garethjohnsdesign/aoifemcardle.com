@@ -1,5 +1,6 @@
 ---
 title: Contact
+contact-one-text: 
 layout: page
 ---
 
