@@ -1,5 +1,5 @@
 ---
-title: James Vincent McMorrow - Red Dust
+title: James Vincent McMorrow — Red Dust
 date: 2013-09-01 00:00:00 Z
 position: 13
 image: "/uploads/james-vincent-mcmorrow-red-dust.jpg"

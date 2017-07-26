@@ -11,13 +11,12 @@ layout: compress
 
 <body>
 
-
 <!-- Credits -->
 <div class="project__credits" id="project__credits" data-toggler=".open">
 <div class="grid-y align-center" style="height: 100%;">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell text-center">
+    	<div class="cell text-center">
         {{content}}    		
     		<a data-toggle="project__credits"><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
     	</div>
@@ -27,11 +26,9 @@ layout: compress
 </div>
 <!-- End Credits -->
 
-
-<!-- Overlay Menu -->  
-{% include overlay-menu.html %}
-<!-- End Overlay Menu --> 
-
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
   
 <!-- Wrapper -->
 <div class="grid-y grid-padding-y align-justify wrapper">
@@ -57,7 +54,6 @@ layout: compress
 
 </div>
 <!-- End Wrapper -->
-
 
 <!-- Scripts -->
 {% include scripts.html %}

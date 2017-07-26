@@ -17,10 +17,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/404.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/404.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -63,22 +63,16 @@
 		"oAP": "\/_includes\/item.html",
 		"oF": 0
 		},
+	"\/_includes\/navigation--mobile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/navigation--mobile.html",
+		"oF": 0
+		},
 	"\/_includes\/navigation.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation.html",
-		"oF": 0
-		},
-	"\/_includes\/overlay-menu.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/overlay-menu.html",
-		"oF": 0
-		},
-	"\/_includes\/pagination.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/pagination.html",
 		"oF": 0
 		},
 	"\/_includes\/project.html": {
@@ -279,16 +273,6 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 321,
@@ -385,18 +369,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/assets\/fonts\/gt-america-compressed-bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-compressed-bold.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/gt-america-compressed-bold.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-compressed-bold.woff2",
-		"oF": 0
-		},
 	"\/_site\/assets\/fonts\/gt-america-light.woff": {
 		"ft": 8192,
 		"oA": 2,
@@ -459,15 +431,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/js\/instafeed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/_site\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -526,45 +489,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/scss\/css\/hamburgers.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/scss\/plyr\/mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/scss\/css\/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/scss\/plyr\/plyr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/scss\/css\/plyr.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/scss\/plyr\/variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/scss\/css\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1316,18 +1240,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/gt-america-compressed-bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-compressed-bold.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gt-america-compressed-bold.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-compressed-bold.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/gt-america-light.woff": {
 		"ft": 8192,
 		"oA": 2,
@@ -1386,15 +1298,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/instafeed.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/instafeed-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1938,45 +1841,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/hamburgers\/css\/_vortex.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/plyr\/mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/css\/mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/plyr\/plyr.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/css\/plyr.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/plyr\/variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/scss\/css\/variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -9069,12 +8933,6 @@
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
-	"\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact.html",
-		"oF": 0
-		},
 	"\/contact.md": {
 		"cS": 0,
 		"eF": 1,
@@ -9083,10 +8941,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/contact.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

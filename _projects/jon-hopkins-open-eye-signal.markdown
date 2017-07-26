@@ -1,5 +1,5 @@
 ---
-title: Jon Hopkins - Open Eye Signal
+title: Jon Hopkins — Open Eye Signal
 date: 2013-04-01 00:00:00 Z
 position: 14
 image: "/uploads/jon-hopkins-open-eye-signal.jpg"

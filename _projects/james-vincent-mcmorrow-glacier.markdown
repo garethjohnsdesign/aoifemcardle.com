@@ -1,5 +1,5 @@
 ---
-title: James Vincent McMorrow - Glacier
+title: James Vincent McMorrow — Glacier
 date: 2013-09-01 00:00:00 Z
 position: 10
 image: "/uploads/james-vincent-mcmorrow-glacier.jpg"

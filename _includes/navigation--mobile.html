@@ -1,6 +1,6 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-<div class="overlay grid-y align-center show-for-small-only" id="overlay" data-toggler=".open">
+<div class="navigation--mobile grid-y align-center show-for-small-only" id="navigation--mobile" data-toggler=".open">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
     	<div class="shrink cell" data-aos="fade-up">
@@ -12,10 +12,7 @@
           {% else %}
           {% assign current = null %}
           {% endif %}
-          
-
           <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" data-toggle="toggle" data-toggler=".is-active">{{ entry.title }}</a></li>
-
           {% endfor %}
         </ul>
 

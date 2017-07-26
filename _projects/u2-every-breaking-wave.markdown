@@ -1,5 +1,5 @@
 ---
-title: Every Breaking Wave
+title: U2 — Every Breaking Wave
 date: 2015-02-01 00:00:00 Z
 position: 7
 image: "/uploads/u2-every-breaking-wave.jpg"

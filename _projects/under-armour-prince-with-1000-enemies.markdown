@@ -1,5 +1,5 @@
 ---
-title: Under Armour - Prince with 1000 Enemies
+title: Under Armour — Prince with 1000 Enemies
 date: 2016-09-01 00:00:00 Z
 position: 0
 image: "/uploads/under-armour-prince-with-1000-enemies.jpg"

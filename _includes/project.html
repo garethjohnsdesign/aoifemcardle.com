@@ -1,7 +1,7 @@
 <div class="grid-x align-center">
   
 <!-- Left -->
-<div class="small-2 cell show-for-medium pagination">
+<div class="small-2 cell show-for-medium project__pagination">
   {% if page.next.url %}
     <a href="{{page.next.url}}">
     <div class="grid-y grid-x align-center" style="height: 100%">
@@ -23,7 +23,7 @@
 <!-- Project Title -->
 <div class="grid-x grid-padding-x align-center">
   <div class="shrink cell">
-  	<h4>{{ page.title }}</h4>
+  	<p>{{ page.title }}</p>
   </div>
 </div>
 <!-- End Project Title -->
@@ -47,22 +47,23 @@
 <!-- End Toggle -->
 
 <!-- Mobile Pagination -->
+{% if page.previous.url %}
 <div class="grid-x grid-padding-x align-center show-for-small-only">
-  <div class="shrink cell">
-  	{% if page.previous.url %}
+  <div class="shrink cell text-center">
+    <hr>
     <a href="{{page.previous.url}}">
     Next
     </a>
-  {% endif %}
   </div>
 </div>
 <!-- End Mobile Pagination -->
+{% endif %}
 
 </div>
 <!-- End Center -->
   
 <!-- Right -->
-<div class="small-2 cell show-for-medium pagination">
+<div class="small-2 cell show-for-medium project__pagination">
   {% if page.previous.url %}
     <a href="{{page.previous.url}}">
     <div class="grid-y grid-x align-center" style="height: 100%">

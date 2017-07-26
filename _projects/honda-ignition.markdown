@@ -1,5 +1,5 @@
 ---
-title: Honda - Ignition
+title: Honda — Ignition
 date: 2015-08-01 00:00:00 Z
 position: 5
 image: "/uploads/honda-ignition.jpg"
