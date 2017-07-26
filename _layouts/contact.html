@@ -5,7 +5,10 @@ layout: default
 <!-- Content -->
 <div class="grid-x grid-padding-x">
 	<div class="cell">
-		{{ page.contact-one-text }}
+		{{ page.contact-one-text | markdownify }}
+	</div>
+	<div class="cell">
+		{{ page.contact-two-text | markdownify }}
 	</div>
 </div>
 <!-- End Content -->
