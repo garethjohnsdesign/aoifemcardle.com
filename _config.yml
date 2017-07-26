@@ -1,5 +1,5 @@
 ---
-title: Aoife McArdle.
+title: Aoife McArdle
 timezone: UTC
 collections:
   posts:
@@ -47,11 +47,9 @@ gems:
 - jekyll-feed
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
   auto_ids: false
 highlighter: rouge
-company: Aoife Mcardle
+company: Aoife McArdle
 email: info@aoifemcardle.com
 google_site_verification: KYwg7alS3S50Xbz3I9zBg0prUJKMQ9iZA7o94_SW65k
 analytics: UA-91296566-1

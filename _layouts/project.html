@@ -1,47 +1,70 @@
 ---
-layout: default
+layout: compress
 ---
 
-<!-- Project Title -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="shrink cell">
-  	<h4>{{ page.title }}</h4>
-  </div>
-</div>
-<!-- End Project Title -->
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
 
-<!-- Video -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 medium-8 large-8 cell">
-  	
-  	<div class="responsive-embed widescreen">
-  	  <div data-type="vimeo" data-video-id="{{ page.video }}"></div>
-  	</div>
-  
-  </div>
-</div>
-<!-- End Video -->
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
 
-<!-- Toggle -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="shrink cell">
-  	<a data-toggle="animatedModal10"><svg class="icon icon-plus"><use xlink:href="/assets/icons/symbol-defs.svg#icon-plus3"></use></svg></a>
-  </div>
-</div>
-<!-- End Toggle -->
+<body>
 
-
-<!-- Reveal -->
-<div class="full reveal" id="animatedModal10" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-  <div class="grid-y align-center" style="height: 100%;">
+<!-- Credits -->
+<div class="project__credits" id="project__credits" data-toggler=".open">
+<div class="grid-y align-center" style="height: 100%;">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell text-center">
-    		{{content}}
-    		<a class="" data-close aria-label="Close reveal" ><svg class="icon icon-plus"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
+    	<div class="cell text-center">
+        {{content}}    		
+    		<a data-toggle="project__credits"><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
     	</div>
     </div>
   </div>
-  </div>
 </div>
-<!-- End Reveal -->
+</div>
+<!-- End Credits -->
+
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
+  
+<!-- Wrapper -->
+<div class="grid-y grid-padding-y align-justify wrapper">
+  
+<!-- Navigation -->
+<div class="shrink cell">
+{% include navigation.html %}
+</div>
+<!-- End Navigation -->
+
+<!-- Content -->
+<div class="shrink cell {{page.layout | slugify}}" data-aos="fade-in">
+{% include project.html %}
+</div>
+<!-- End Content -->
+
+
+<!-- Footer -->
+<div class="shrink cell">
+{% include footer.html %}
+</div>
+<!-- End Footer-->
+
+</div>
+<!-- End Wrapper -->
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>

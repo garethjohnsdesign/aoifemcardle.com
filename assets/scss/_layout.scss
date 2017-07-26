@@ -3,16 +3,13 @@
 //   1. Mixins
 //   2. Global
 //   3. Typography
-//   4. Page
-//   5. Navigation
-//   6. Index
-//   7. Excerpt
-//   8. Projects
-//   9. Project
-//   10. Profile
-//   11. Services
-//   12. Contact
-//   13. Footer
+//   4. Animations
+//   5. Loading
+//   6. Navigation
+//   7. Projects
+//   8. Project
+//   9. Contact
+
 
 // 1. Mixins
 // ---------
@@ -38,17 +35,12 @@
   }
 }
 
-@mixin opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie);
-}
-
-@mixin link-underline($color, $size, $duration,  $centered) {
+@mixin link-underline($color, $size, $duration, $centered) {
   color: $color;
   display: inline-block;
   position: relative;
-  text-decoration: none; 
+  text-decoration: none;
+  
   &:before {
     background-color: $color;
     content: '';
@@ -62,6 +54,7 @@
       transform: translateX(-50%); 
     }
   }
+  
   &:hover {
     &:before {
       width: 100%;
@@ -87,44 +80,31 @@ img {
 }
 
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $secondary-color;
 }
 
 :focus {
   outline: 0;
 }
 
-[data-sticky] {
-  width: 100%;
-}
-
 .wrapper {
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  min-height: 100vh;
+  @include breakpoint(medium) {
+    padding: 1.75rem;
+  }
+  @include breakpoint(large) {
+    padding: 2rem;
+  }
 }
-
-.page {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.page a {
-  @include link-underline($color--white, 1px, $primary-transition, false)
-}
-
-p a:after {
-  content: url(../icons/arrow.svg);
-  margin-left: 0.5rem;
-  height: 14px;
-  width: 14px;
-}
-
-// 3. Typography
-// -------------
 
 a {
   transition: $primary-transition;
 }
+
+// 3. Typography
+// -------------
 
 
 .uppercase {
@@ -135,74 +115,26 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-
-// 4. Navigation
+// 4. Animations
 // ------
-
-.navigation {
-  z-index: 2;
-}
-
-.navigation--mobile {
-  z-index: 2;
-}
-
-// 4. Home
-// ------
-
-.home {
-}
-
-
-// 4. Project
-// ----------
-
-.project {
-//   @include margin-three;
-}
-
-// 4. Footer
-// ---------
-
-
-
-.projectlist .item {
-//   padding: 2rem;
-}
-
-.projectlist a {
-    display: block;
-    width: 100%;
-    position: relative; 
-}
-    
-.projectlist a:hover img {
-      filter: saturate(0%) brightness(50%); }
-    
-.projectlist a img {
-      transition: $primary-transition;
-      display: block;
-      width: 100%;
-}
-
-.projectlist a .item__title {
-      position: absolute;
-      top: 0rem;
-      left: 0rem;
-      padding: 2rem;
-      color: $color--white; 
-}
-
 
 [data-aos='fade-up'] {
   transform: translate(0, 1rem);
 }
 
+.animate-fade-in {
+  @include mui-animation(fade(0,1));
+  animation-duration: 1s;
+}
+
+
+// 5. Loading
+// ------
 
 .loader {
   z-index: 3;
   position: fixed;
-  background: $color--black;
+  background: $secondary-color;
   top: 0;
   left: 0;
   height: 100%;
@@ -215,4 +147,117 @@ i, cite, em, var, address, dfn {
     opacity: 0;
     visibility: hidden;
   }
+}
+
+
+// 6. Navigation
+// ------
+
+.navigation__logo {
+  z-index: 2;
+}
+
+.navigation__logo:after {
+  content: ".";
+}
+
+.navigation__hamburger {
+  z-index: 2;
+}
+
+.navigation--mobile {
+  z-index: 1;
+  position: fixed;
+  background: $secondary-color;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-size: 1.5rem;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  a {
+   padding: 1rem 0rem;
+  }
+}
+
+// 7. Projects
+// ----------
+
+.projects__list a {
+  display: block;
+  width: 100%;
+  position: relative; 
+}
+    
+.projects__list a:hover img {
+  filter: saturate(0%) brightness(50%); 
+}
+    
+.projects__list a img {
+  transition: $primary-transition;
+  display: block;
+}
+
+.projects__list a .item__title {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  padding: 2rem;
+  color: $primary-color; 
+}
+
+
+// 8. Project
+// ---------
+
+
+.project__credits {
+  z-index: 3;
+  position: fixed;
+  background: $secondary-color;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  padding: 2rem;
+  
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+}
+
+.project__pagination a {
+  color: scale-color($primary-color, $lightness: -80%);
+}
+
+.project__pagination a:hover {
+  color: $primary-color;
+}
+
+
+// 9. Contact
+// ---------
+
+.contact a {
+  @include link-underline($primary-color, 1px, $primary-transition, false)
+}
+
+.contact p a:after {
+  content: url(../icons/arrow.svg);
+  margin-left: 0.5rem;
+  height: 14px;
+  width: 14px;
 }

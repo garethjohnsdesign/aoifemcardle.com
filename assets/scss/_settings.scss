@@ -66,7 +66,6 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-width: rem-calc(1200);
 $global-width: rem-calc(1200);
 // $global-lineheight: 1.5;
 $global-lineheight: 1.4;
@@ -133,18 +132,11 @@ $breakpoint-classes: (small medium large);
 
 $grid-row-width: $global-width;
 $grid-column-count: 12;
-/*
 $grid-column-gutter: (
   small: 20px,
   medium: 30px,
 );
-*/
-$grid-column-gutter: (
-  small: 20px,
-  medium: 32px,
-);
-// $grid-column-align-edge: true;
-$grid-column-align-edge: false;
+$grid-column-align-edge: true;
 $grid-column-alias: 'columns';
 $block-grid-max: 8;
 
@@ -188,8 +180,8 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 30),
+    'h1': ('font-size': 36),
+    'h2': ('font-size': 24),
     'h3': ('font-size': 31),
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
@@ -214,7 +206,8 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: -50%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
-$hr-border: 1px solid $medium-gray;
+// $hr-border: 1px solid $medium-gray;
+$hr-border: 1px solid $dark-gray;
 $hr-margin: rem-calc(20) auto;
 $list-lineheight: $paragraph-lineheight;
 $list-margin-bottom: $paragraph-margin-bottom;
@@ -905,10 +898,17 @@ $topbar-unstack-breakpoint: medium;
 $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
+/*
 $grid-margin-gutters: (
   small: 20px,
   medium: 30px
 );
+*/
+
+$grid-margin-gutters: (
+  small: 2rem,
+  medium: 2rem
+);
+
 $grid-padding-gutters: $grid-margin-gutters;
 $block-grid-max: 8;
-

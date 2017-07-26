@@ -18,5 +18,21 @@ Single-colored icons can be modified like so:
 
 .icon-plus {
   font-size: 1.5rem;
-  color: scale-color($primary-color, $lightness: -50%);
+  fill: scale-color($primary-color, $lightness: -50%);
+  transition: $primary-transition;
+}
+
+.icon-plus:hover {
+  fill: scale-color($primary-color, $lightness: -0%);
+}
+
+
+.icon-cross2 {
+  font-size: 1.5rem;
+  fill: scale-color($primary-color, $lightness: -50%);
+  transition: $primary-transition;
+}
+
+.icon-cross2:hover {
+  fill: scale-color($primary-color, $lightness: -0%);
 }

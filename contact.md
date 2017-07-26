@@ -1,49 +1,18 @@
 ---
 title: Contact
-layout: page
+contact-one-text: "## Studio  \nAoife McArdle  \n[info@aoifemcardle.com](mailto:info@aoifemcardle.com)\n\n##
+  Film, Television and Literary Agents Worldwide\nWilliam Morris Endeavor  \nSolco
+  Schuit  \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nJames
+  Farrell  \n[jfarrell@wmeentertainment.com](mailto:jfarrell@wmeentertainment.com)\n\n42
+  \ \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
+contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nTim
+  Nash and Sally Campbell  \n+44 20 3487 1270  \n[tim@somesuch.co](mailto:tim@somesuch.co)
+  \ \n[sally@somesuch.co](mailto:sally@somesuch.co)  \n\nMusic Videos  \nHannah Turnbull-Walter
+  \ \n+44 (0)20 3487 1270  \n[hannahtw@somesuch.co](mailto:hannahtw@somesuch.co)  \n\n\n##
+  Commercials US\nAnonymous Content  \nJohnathan Wright  \n[jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)
+  \ \n(01) 310 558 6013  \n\nEric Stern  \n[eric@anonymouscontent.com](mailto:eric@anonymouscontent.com)
+  \ \n(01) 310 558 6029\n\n## Commercials France\nInsurrection  \nArno Moria  \n[arno@insurrection.paris](mailto:arno@insurrection.paris)
+  \ \n+331 44 61 81 59"
+layout: contact
 ---
 
-#### Studio  
-Aoife McArdle  
-[info@aoifemcardle.com](mailto:info@aoifemcardle.com)
-
-#### Commercials and Music Videos UK/Europe
-
-Commercials  
-Tim Nash and Sally Campbell  
-+44 20 3487 1270  
-[tim@somesuch.co](mailto:tim@somesuch.co)  
-[sally@somesuch.co](mailto:sally@somesuch.co)  
-
-Music Videos  
-Hannah Turnbull-Walter  
-+44 (0)20 3487 1270  
-[hannahtw@somesuch.co](mailto:hannahtw@somesuch.co)  
-
-#### Film, Television and Literary Agents Worldwide
-William Morris Endeavor  
-Solco Schuit  
-[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)
-
-James Farrell  
-[jfarrell@wmeentertainment.com](mailto:jfarrell@wmeentertainment.com)
-
-42  
-Josh Varney  
-[joshvarney@42mp.com](mailto:joshvarney@42mp.com)
-
-#### Commercials US
-Anonymous Content  
-Johnathan Wright  
-[jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)  
-(01) 310 558 6013  
-
-Eric Stern  
-[eric@anonymouscontent.com](mailto:eric@anonymouscontent.com)  
-(01) 310 558 6029
-
-#### Commercials France
-Insurrection  
-Arno Moria  
-[arno@insurrection.paris](mailto:arno@insurrection.paris)  
-+331 44 61 81 59

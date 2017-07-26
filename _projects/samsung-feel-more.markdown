@@ -1,5 +1,5 @@
 ---
-title: Samsung - Feel More
+title: Samsung — Feel More
 date: 2015-07-01 00:00:00 Z
 position: 4
 image: "/uploads/samsung-feel-more.jpg"

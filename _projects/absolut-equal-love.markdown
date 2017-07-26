@@ -1,5 +1,5 @@
 ---
-title: Absolut - Equal Love
+title: Absolut — Equal Love
 date: 2017-07-11 00:00:00 Z
 position: 0
 image: "/uploads/absolut-equal-love.jpg"

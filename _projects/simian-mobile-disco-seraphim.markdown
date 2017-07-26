@@ -1,5 +1,5 @@
 ---
-title: Simian Mobile - Disco Seraphim
+title: Simian Mobile — Disco Seraphim
 date: 2012-04-04 00:00:00 Z
 position: 18
 image: "/uploads/simian-mobile-disco-seraphim.jpg"

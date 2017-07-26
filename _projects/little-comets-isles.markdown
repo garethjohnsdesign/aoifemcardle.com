@@ -1,5 +1,5 @@
 ---
-title: Little Comets - Isles
+title: Little Comets — Isles
 date: 2010-09-25 00:00:00 Z
 position: 17
 image: "/uploads/little-comets-isles.jpg"

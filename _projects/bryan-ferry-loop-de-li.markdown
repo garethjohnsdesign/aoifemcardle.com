@@ -1,5 +1,5 @@
 ---
-title: Bryan Ferry - Loop De Li
+title: Bryan Ferry — Loop De Li
 date: 2014-11-01 00:00:00 Z
 position: 6
 image: "/uploads/bryan-ferry-loop-de-li.jpg"
