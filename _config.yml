@@ -47,8 +47,6 @@ gems:
 - jekyll-feed
 markdown: kramdown
 kramdown:
-  input: GFM
-  hard_wrap: false
   auto_ids: false
 highlighter: rouge
 company: Aoife McArdle
