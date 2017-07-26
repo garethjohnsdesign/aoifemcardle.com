@@ -1,26 +1,24 @@
 $(document).foundation();
 
 
+// 1. Loading
+// --------------------
+
 $(function() {
+if (sessionStorage.getItem('set') === 'set') {
+  $('.loader').hide();
+} else {
+  $('.loader').show();
   setTimeout(function(){
         $('.loader').addClass('loaded');
-    }, 1500); 
-});
-
-/*
-$(function() {
-var banner = document.getElementById('banner');
-if (sessionStorage.getItem('set') === 'set') {
-  banner.style.display = 'none';
-} else {
+    }, 1500);  
   sessionStorage.setItem('set', 'set');
 }
 });
-*/
 
 
 
-// 1. Animate on Scroll
+// 2. Animate on Scroll
 // --------------------
 
 $(function() {

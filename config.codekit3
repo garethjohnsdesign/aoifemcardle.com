@@ -33,12 +33,6 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
-	"\/_data\/footer.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_data\/footer.yml",
-		"oF": 0
-		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -85,6 +79,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/pagination.html",
+		"oF": 0
+		},
+	"\/_includes\/project.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/project.html",
 		"oF": 0
 		},
 	"\/_includes\/scripts.html": {
@@ -1499,19 +1499,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_loading.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_menu.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

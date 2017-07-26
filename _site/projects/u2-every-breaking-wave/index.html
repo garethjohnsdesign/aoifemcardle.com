@@ -31,22 +31,52 @@
   <link rel="alternate" type="application/rss+xml" title="Aoife McArdle." href="http://aoifemcardle.com/feed.xml">
 </head>
 <body>
-<div class="overlay" id="overlay" data-toggler=".open">
-  <nav class="overlay-menu align-middle">
-    <ul class="align-middle">
-        <li class="element">
-          <a href="/projects" data-toggle="overlay-mobile toggle">Projects</a>
-        </li>
-        <li class="element">
-          <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
-        </li>
-        <li class="element">
-          <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
-        </li>
-    </ul>
-  </nav>
+<div class="project__credits" id="project__credits" data-toggler=".open">
+<div class="grid-y align-center" style="height: 100%;">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell text-center">
+        <p>Writer/Director — Aoife McArdle<br />
+Executive Producers — Sally Campbell, Tim Nash, Tash Tan<br />
+Producers — Nick Goldsmith, Chris Martin<br />
+U2 Creative Director — Jefferson Hack<br />
+Production Manager — Darren Chesney<br />
+Lead Cast — Josh Thompson, Emily Lamey, Jay Andrews, Rory McDonald-Watson, Oran French, Corey McKinlay, Aaron Lynch, Alan  Gildea, Seamus O Hara Nicole Kearny<br />
+Casting Director — Leanne Flinn<br />
+DP — Steve Annis<br />
+Steadicam Op — Derek Walker<br />
+Production Designer — Gillian Deveney<br />
+Locations Manager — Richard Glenholmes<br />
+Costume Designer — Maggie Donnelly<br />
+Make-up Artist — Shelley Blair<br />
+1st ADs — Amanda Black, Paul George<br />
+Editor — Dan Sherwen at Final Cut<br />
+Sound Design — Patch Rowland at Final Cut<br />
+Colourist — Simon Bourne at Framestore<br />
+Digital Effects Artist — Darran Nicholson at Framestore<br />
+Production Company — Somesuch<br />
+Creative Agency — MAD London<br />
+Record Label — Island Records</p>
+    		<a data-toggle="project__credits"><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
+    	</div>
+    </div>
+  </div>
 </div>
-<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
+</div>
+<div class="overlay grid-y align-center show-for-small-only" id="overlay" data-toggler=".open">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell" data-aos="fade-up">
+    		<ul class="vertical menu text-center">
+          <li class="active"><a href="/projects" data-toggle="toggle" data-toggler=".is-active">Projects</a></li>
+          <li><a href="/about/" data-toggle="toggle" data-toggler=".is-active">About</a></li>
+          <li><a href="/contact/" data-toggle="toggle" data-toggler=".is-active">Contact</a></li>
+        </ul>
+    	</div>
+    </div>
+  </div>
+</div>
+<div class="grid-y grid-padding-y align-justify wrapper">
 <div class="shrink cell">
 <div class="grid-x grid-padding-x align-justify">
   <div class="shrink cell navigation--mobile slide-in-down">
@@ -68,7 +98,7 @@
 </div>
 <div class="shrink cell project" data-aos="fade-in">
 <div class="grid-x align-center">
-<div class="small-2 cell">
+<div class="small-2 cell show-for-medium pagination">
     <a href="/projects/samsung-feel-more/">
     <div class="grid-y grid-x align-center" style="height: 100%">
       <div class="shrink cell">
@@ -81,60 +111,35 @@
 </div>
 <div class="auto cell">
 <div class="grid-x grid-padding-x align-center">
-  <div class="shrink cell animate-fade-in">
+  <div class="shrink cell">
   	<h4>Every Breaking Wave</h4>
   </div>
 </div>
 <div class="grid-x grid-padding-x align-center">
   <div class="auto cell">
   	<div class="responsive-embed widescreen">
-  	  <div data-type="vimeo" data-video-id="119537453"></div>
+  	   <iframe src="https://player.vimeo.com/video/119537453?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   	</div>
   </div>
 </div>
 <div class="grid-x grid-padding-x align-center">
   <div class="shrink cell">
-  	<a data-toggle="modal"><svg class="icon icon-plus"><use xlink:href="/assets/icons/symbol-defs.svg#icon-plus3"></use></svg></a>
+  	<a data-toggle="project__credits"><svg class="icon icon-plus"><use xlink:href="/assets/icons/symbol-defs.svg#icon-plus3"></use></svg></a>
   </div>
 </div>
-<div class="full reveal" id="modal" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-  <div class="grid-y align-center" style="height: 100%;">
+<div class="grid-x grid-padding-x align-center show-for-small-only">
   <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell text-center">
-    		<p>Writer/Director — Aoife McArdle<br />
-Executive Producers — Sally Campbell, Tim Nash, Tash Tan<br />
-Producers — Nick Goldsmith, Chris Martin<br />
-U2 Creative Director — Jefferson Hack<br />
-Production Manager — Darren Chesney<br />
-Lead Cast — Josh Thompson, Emily Lamey, Jay Andrews, Rory McDonald-Watson, Oran French, Corey McKinlay, Aaron Lynch, Alan  Gildea, Seamus O Hara Nicole Kearny<br />
-Casting Director — Leanne Flinn<br />
-DP — Steve Annis<br />
-Steadicam Op — Derek Walker<br />
-Production Designer — Gillian Deveney<br />
-Locations Manager — Richard Glenholmes<br />
-Costume Designer — Maggie Donnelly<br />
-Make-up Artist — Shelley Blair<br />
-1st ADs — Amanda Black, Paul George<br />
-Editor — Dan Sherwen at Final Cut<br />
-Sound Design — Patch Rowland at Final Cut<br />
-Colourist — Simon Bourne at Framestore<br />
-Digital Effects Artist — Darran Nicholson at Framestore<br />
-Production Company — Somesuch<br />
-Creative Agency — MAD London<br />
-Record Label — Island Records</p>
-    		<a class="" data-close aria-label="Close reveal" ><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
-    	</div>
-    </div>
-  </div>
+    <a href="/projects/bryan-ferry-loop-de-li/">
+    Next
+    </a>
   </div>
 </div>
 </div>
-<div class="small-2 cell">
+<div class="small-2 cell show-for-medium pagination">
     <a href="/projects/bryan-ferry-loop-de-li/">
     <div class="grid-y grid-x align-center" style="height: 100%">
       <div class="shrink cell">
-        <div class="callout secondary text-center">
+        <div class="text-center">
           Next
         </div>
       </div>
@@ -144,15 +149,15 @@ Record Label — Island Records</p>
 </div>
 </div>
 <div class="shrink cell">
-<footer>
-<div class="grid-x grid-padding-x grid-padding-y align-justify">
-  <div class="shrink cell">
-  <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
+<footer> 
+  <div class="grid-x grid-padding-x grid-padding-y align-justify">
+    <div class="shrink cell">
+    <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
+    </div>
+    <div class="shrink cell">
+    <a href="http://garethjohnsdesign.com">Colophon</a>
+    </div>
   </div>
-  <div class="shrink cell">
-  <a href="http://garethjohnsdesign.com">Colophon</a>
-  </div>
-</div>
 </footer>
 </div>
 <script src="/assets/js/min/app-min.js"></script>

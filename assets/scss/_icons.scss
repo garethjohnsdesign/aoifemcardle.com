@@ -17,22 +17,22 @@ Single-colored icons can be modified like so:
 
 
 .icon-plus {
-  font-size: 1.5rem;
-  color: scale-color($primary-color, $lightness: -50%);
+  font-size: 2rem;
+  fill: scale-color($primary-color, $lightness: -50%);
+  transition: $primary-transition;
 }
 
 .icon-plus:hover {
-  @include mui-animation(spin($direction: ccw,$amount: 90deg));
-  animation-duration: 1s;
+  fill: scale-color($primary-color, $lightness: -0%);
 }
 
 
 .icon-cross2 {
-  font-size: 1.5rem;
-  color: scale-color($primary-color, $lightness: -50%);
+  font-size: 2rem;
+  fill: scale-color($primary-color, $lightness: -50%);
+  transition: $primary-transition;
 }
 
 .icon-cross2:hover {
-  @include mui-animation(spin($direction: ccw,$amount: 90deg));
-  animation-duration: 1s;
+  fill: scale-color($primary-color, $lightness: -0%);
 }

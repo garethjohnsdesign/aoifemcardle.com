@@ -1,92 +1,74 @@
 ---
-layout: default
+layout: compress
 ---
 
-<div class="grid-x align-center">
-  
-<!-- Left -->
-<div class="small-2 cell">
-  {% if page.next.url %}
-    <a href="{{page.next.url}}">
-    <div class="grid-y grid-x align-center" style="height: 100%">
-      
-      <div class="shrink cell">
-        <div class="callout secondary text-center">
-          Previous
-        </div>
-      </div>
-    </div>
-    </a>
-  {% endif %}
-</div>
-<!-- End Left -->
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
 
-<!-- Center -->
-<div class="auto cell">
-  
-<!-- Project Title -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="shrink cell animate-fade-in">
-  	<h4>{{ page.title }}</h4>
-  </div>
-</div>
-<!-- End Project Title -->
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
 
-<!-- Video -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="auto cell">
-  	<div class="responsive-embed widescreen">
-  	  <div data-type="vimeo" data-video-id="{{ page.video }}"></div>
-  	</div>
-  </div>
-</div>
-<!-- End Video -->
-
-<!-- Toggle -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="shrink cell">
-  	<a data-toggle="modal"><svg class="icon icon-plus"><use xlink:href="/assets/icons/symbol-defs.svg#icon-plus3"></use></svg></a>
-  </div>
-</div>
-<!-- End Toggle -->
+<body>
 
 
-<!-- Reveal -->
-<div class="full reveal" id="modal" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-  <div class="grid-y align-center" style="height: 100%;">
+<!-- Credits -->
+<div class="project__credits" id="project__credits" data-toggler=".open">
+<div class="grid-y align-center" style="height: 100%;">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
     	<div class="shrink cell text-center">
-    		{{content}}
-    		<a class="" data-close aria-label="Close reveal" ><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
+        {{content}}    		
+    		<a data-toggle="project__credits"><svg class="icon icon-cross2"><use xlink:href="/assets/icons/symbol-defs.svg#icon-cross2"></use></svg></a>
     	</div>
     </div>
   </div>
-  </div>
 </div>
-<!-- End Reveal -->
+</div>
+<!-- End Credits -->
+
+
+<!-- Overlay Menu -->  
+{% include overlay-menu.html %}
+<!-- End Overlay Menu --> 
+
+  
+<!-- Wrapper -->
+<div class="grid-y grid-padding-y align-justify wrapper">
+  
+<!-- Navigation -->
+<div class="shrink cell">
+{% include navigation.html %}
+</div>
+<!-- End Navigation -->
+
+<!-- Content -->
+<div class="shrink cell {{page.layout | slugify}}" data-aos="fade-in">
+{% include project.html %}
+</div>
+<!-- End Content -->
+
+
+<!-- Footer -->
+<div class="shrink cell">
+{% include footer.html %}
+</div>
+<!-- End Footer-->
 
 </div>
-<!-- End Center -->
-  
-<!-- Right -->
-<div class="small-2 cell">
-  {% if page.previous.url %}
-    <a href="{{page.previous.url}}">
-    <div class="grid-y grid-x align-center" style="height: 100%">
-      
-      <div class="shrink cell">
-        <div class="callout secondary text-center">
-          Next
-        </div>
-      </div>
-    </div>
-    </a>
-  {% endif %}
-</div>
-<!-- End Right -->
-  
-  
-</div>
-  
-  
+<!-- End Wrapper -->
+
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>

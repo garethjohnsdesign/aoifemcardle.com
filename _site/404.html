@@ -28,22 +28,20 @@
   <link rel="alternate" type="application/rss+xml" title="Aoife McArdle." href="http://aoifemcardle.com/feed.xml">
 </head>
 <body>
-<div class="overlay" id="overlay" data-toggler=".open">
-  <nav class="overlay-menu align-middle">
-    <ul class="align-middle">
-        <li class="element">
-          <a href="/projects" data-toggle="overlay-mobile toggle">Projects</a>
-        </li>
-        <li class="element">
-          <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
-        </li>
-        <li class="element">
-          <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
-        </li>
-    </ul>
-  </nav>
+<div class="overlay grid-y align-center show-for-small-only" id="overlay" data-toggler=".open">
+  <div class="shrink cell">
+    <div class="grid-x grid-padding-x align-center">
+    	<div class="shrink cell" data-aos="fade-up">
+    		<ul class="vertical menu text-center">
+          <li><a href="/projects" data-toggle="toggle" data-toggler=".is-active">Projects</a></li>
+          <li><a href="/about/" data-toggle="toggle" data-toggler=".is-active">About</a></li>
+          <li><a href="/contact/" data-toggle="toggle" data-toggler=".is-active">Contact</a></li>
+        </ul>
+    	</div>
+    </div>
+  </div>
 </div>
-<div class="grid-y grid-padding-y align-justify" style="min-height: 100vh; padding: 2rem;">
+<div class="grid-y grid-padding-y align-justify wrapper">
 <div class="shrink cell">
 <div class="grid-x grid-padding-x align-justify">
   <div class="shrink cell navigation--mobile slide-in-down">
@@ -74,15 +72,15 @@
 </section>
 </div>
 <div class="shrink cell">
-<footer>
-<div class="grid-x grid-padding-x grid-padding-y align-justify">
-  <div class="shrink cell">
-  <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
+<footer> 
+  <div class="grid-x grid-padding-x grid-padding-y align-justify">
+    <div class="shrink cell">
+    <a href="/contact" class="underline-from-left">© Aoife Mcardle</a>
+    </div>
+    <div class="shrink cell">
+    <a href="http://garethjohnsdesign.com">Colophon</a>
+    </div>
   </div>
-  <div class="shrink cell">
-  <a href="http://garethjohnsdesign.com">Colophon</a>
-  </div>
-</div>
 </footer>
 </div>
 <script src="/assets/js/min/app-min.js"></script>

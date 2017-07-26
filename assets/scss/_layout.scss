@@ -100,7 +100,12 @@ img {
 }
 
 .wrapper {
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 1rem;
+  min-height: 100vh;
+//   transition: $primary-transition;
+  @include breakpoint(medium) {
+  padding: 2rem;
+  }
 }
 
 .page {
@@ -217,9 +222,83 @@ i, cite, em, var, address, dfn {
   }
 }
 
+/*
+.testing {
+  z-index: 1;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+*/
+
 
 
 .animate-fade-in {
   @include mui-animation(fade(0,1));
   animation-duration: 1s;
+}
+
+
+.project__credits {
+  z-index: 5;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  padding: 2rem;
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+}
+
+
+
+
+.overlay {
+  z-index: 1;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-size: 1.5rem;
+  
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  a {
+   padding: 1rem 0rem;
+  }
+}
+
+.pagination a {
+  color: scale-color($primary-color, $lightness: -80%);
+}
+
+.pagination a:hover {
+  color: $color--white;
 }

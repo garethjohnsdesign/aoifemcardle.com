@@ -6515,99 +6515,20 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 .icon-plus {
-  font-size: 1.5rem;
-  color: #807f7f; }
+  font-size: 2rem;
+  fill: #807f7f;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-plus:hover {
-  -webkit-animation-name: spin-ccw-90deg;
-          animation-name: spin-ccw-90deg;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s; }
-
-@-webkit-keyframes spin-ccw-90deg {
-  0% {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
-  100% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0); } }
-
-@keyframes spin-ccw-90deg {
-  0% {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
-  100% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0); } }
+  fill: white; }
 
 .icon-cross2 {
-  font-size: 1.5rem;
-  color: #807f7f; }
+  font-size: 2rem;
+  fill: #807f7f;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-cross2:hover {
-  -webkit-animation-name: spin-ccw-90deg;
-          animation-name: spin-ccw-90deg;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s; }
-
-@keyframes spin-ccw-90deg {
-  0% {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
-  100% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0); } }
-
-.overlay {
-  z-index: 1;
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  background: #000000;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  opacity: 0;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-  visibility: hidden;
-  overflow: hidden; }
-  .overlay.open {
-    opacity: 1;
-    visibility: visible; }
-  .overlay nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; }
-  .overlay ul {
-    list-style: none;
-    margin-top: -2rem;
-    margin-bottom: 0rem; }
-    .overlay ul li {
-      font-family: "GT America Light", sans-serif;
-      font-size: 1.5rem;
-      padding: 1rem;
-      min-height: 2rem;
-      text-align: center; }
-      .overlay ul li a {
-        padding: 1rem; }
+  fill: white; }
 
 body {
   cursor: default; }
@@ -6635,7 +6556,11 @@ img {
   width: 100%; }
 
 .wrapper {
-  padding: 2rem 2rem 0rem 2rem; }
+  padding: 1rem;
+  min-height: 100vh; }
+  @media print, screen and (min-width: 40em) {
+    .wrapper {
+      padding: 2rem; } }
 
 .page {
   padding-top: 2rem;
@@ -6718,6 +6643,25 @@ i, cite, em, var, address, dfn {
     opacity: 0;
     visibility: hidden; }
 
+/*
+.testing {
+  z-index: 1;
+  position: fixed;
+  background: $color--black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+*/
 .animate-fade-in {
   -webkit-animation-name: fade-0-to-100;
           animation-name: fade-0-to-100;
@@ -6735,3 +6679,43 @@ i, cite, em, var, address, dfn {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.project__credits {
+  z-index: 5;
+  position: fixed;
+  background: #000000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  visibility: hidden;
+  padding: 2rem; }
+  .project__credits.open {
+    opacity: 1;
+    visibility: visible; }
+
+.overlay {
+  z-index: 1;
+  position: fixed;
+  background: #000000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  visibility: hidden;
+  font-size: 1.5rem; }
+  .overlay.open {
+    opacity: 1;
+    visibility: visible; }
+  .overlay a {
+    padding: 1rem 0rem; }
+
+.pagination a {
+  color: #333333; }
+
+.pagination a:hover {
+  color: #FFFFFF; }
