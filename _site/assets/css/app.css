@@ -5125,6 +5125,9 @@ i, cite, em, var, address, dfn {
     opacity: 1;
     visibility: visible; }
 
+.project__pagination {
+  min-height: 100%; }
+
 .project__pagination a {
   color: #333333; }
 
