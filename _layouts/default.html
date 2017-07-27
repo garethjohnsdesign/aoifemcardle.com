@@ -11,23 +11,9 @@ layout: compress
 
 <body>
 
-{% if page.layout == "home" %}
-<div class="loader grid-y align-center">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell" data-aos="fade-up">
-    		<h1>{{site.title}}</h1>
-    	</div>
-    </div>
-  </div>
-</div>
-{% endif %}
-
-
 <!-- Mobile Navigation -->  
 {% include navigation--mobile.html %}
 <!-- End Mobile Navigation --> 
-
   
 <!-- Wrapper -->
 <div class="grid-y grid-padding-y align-justify wrapper">
@@ -39,10 +25,11 @@ layout: compress
 <!-- End Navigation -->
 
 <!-- Content -->
-<div class="shrink cell {{page.layout | slugify}}" data-aos="fade-in">
-{{ content }}
+<div class="shrink cell {{page.layout | slugify}}">
+  {{content}}
 </div>
 <!-- End Content -->
+
 
 <!-- Footer -->
 <div class="shrink cell">

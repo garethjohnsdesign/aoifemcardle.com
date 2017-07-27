@@ -89,13 +89,13 @@ img {
 }
 
 .wrapper {
-  padding: 1rem;
   min-height: 100vh;
+  padding: 1rem;
   @include breakpoint(medium) {
     padding: 1.75rem;
   }
   @include breakpoint(large) {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 
@@ -244,7 +244,7 @@ i, cite, em, var, address, dfn {
 }
 
 .project__pagination a {
-  color: scale-color($primary-color, $lightness: -80%);
+  color: scale-color($primary-color, $lightness: -60%);
 }
 
 .project__pagination a:hover {
