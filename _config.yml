@@ -1,6 +1,47 @@
----
-title: Aoife McArdle
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+
+# 2. Installed Gems
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+
+# 4. Jekyll settings
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  auto_ids: false
+highlighter: rouge
 timezone: UTC
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+
+# 5. Collections
 collections:
   posts:
     title: Posts
@@ -11,6 +52,8 @@ collections:
   uploads:
     title: Uploads
     output: false
+    
+# 6. Jekyll collections settings
 defaults:
 - scope:
     path: ''
@@ -25,30 +68,12 @@ defaults:
     awards: 
     video: 
     layout: project
+    
+# 7. Site settings
+encoding: utf-8
+title: Aoife McArdle
 url: http://aoifemcardle.com
-description: Aoife McArdle is a writer/director/photographer from Northern Ireland,
-  based in London
-permalink: pretty
-exclude:
-- Gemfile
-- Gemfile.lock
-- bower.json
-- package.json
-- config.codekit3
-- README*
-- LICENSE*
-- CHANGELOG*
-- node_modules
-- ".gitignore"
-- bower_components
-gems:
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-markdown: kramdown
-kramdown:
-  auto_ids: false
-highlighter: rouge
+description: Aoife McArdle is a writer / director / photographer from Northern Ireland, based in London
 company: Aoife McArdle
 email: info@aoifemcardle.com
 google_site_verification: KYwg7alS3S50Xbz3I9zBg0prUJKMQ9iZA7o94_SW65k
@@ -57,9 +82,3 @@ logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
-compress_html:
-  comments:
-  - "<!-- "
-  - " -->"
-  blanklines: true
-  profile: false
