@@ -261,166 +261,244 @@
 		"oAP": "\/_projects\/wilkinson-half-light.markdown",
 		"oF": 0
 		},
-	"\/_site\/404.html": {
+	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 321,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 1084,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 304,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/404.html",
+		"oAP": "\/_site\/assets\/favicons\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/_site\/about\/index.html": {
+	"\/_site\/assets\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
+		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/_site\/contact\/index.html": {
+	"\/_site\/assets\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/assets\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 598,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/fonts\/gt-america-light.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
+		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff",
 		"oF": 0
 		},
-	"\/_site\/feed.xml": {
+	"\/_site\/assets\/fonts\/gt-america-light.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/feed.xml",
+		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff2",
 		"oF": 0
 		},
-	"\/_site\/index.html": {
+	"\/_site\/assets\/icons\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/og-image.png": {
+		"ft": 32768,
+		"iS": 10850,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/svgxuse-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/svgxuse-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/svgxuse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/scss\/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_site\/assets\/scss\/hamburgers\/hamburgers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/scss\/css\/hamburgers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_site\/assets\/scss\/scroll\/aos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/scss\/css\/aos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/index.html",
+		"oAP": "\/_site\/humans.txt",
 		"oF": 0
 		},
-	"\/_site\/projects\/55DSL-italy-texas\/index.html": {
+	"\/_site\/robots.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/projects\/55DSL-italy-texas\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/absolut-equal-love\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/absolut-equal-love\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/audi-daughter\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/audi-daughter\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/bryan-ferry-loop-de-li\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/bryan-ferry-loop-de-li\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/honda-ignition\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/honda-ignition\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/james-vincent-mcmorrow-cavalier\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-cavalier\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/james-vincent-mcmorrow-glacier\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-glacier\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/james-vincent-mcmorrow-red-dust\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-red-dust\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/jon-hopkins-open-eye-signal\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/jon-hopkins-open-eye-signal\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/little-comets-isles\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/little-comets-isles\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/major-moments\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/major-moments\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/samsung-feel-more\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/samsung-feel-more\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/secret-raise\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/secret-raise\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/simian-mobile-disco-seraphim\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/simian-mobile-disco-seraphim\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/street-rider\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/street-rider\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/the-question\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/the-question\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/u2-every-breaking-wave\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/u2-every-breaking-wave\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/under-armour-numbers\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/under-armour-numbers\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/under-armour-prince-with-1000-enemies\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/under-armour-prince-with-1000-enemies\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/wheels-on-the-car\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/wheels-on-the-car\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/wilkinson-half-light\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/wilkinson-half-light\/index.html",
+		"oAP": "\/_site\/robots.txt",
 		"oF": 0
 		},
 	"\/_site\/sitemap.xml": {
@@ -428,6 +506,227 @@
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
+		},
+	"\/_site\/uploads\/55DSL-italy-texas.jpg": {
+		"ft": 16384,
+		"iS": 77007,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/55DSL-italy-texas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/absolut-equal-love.jpg": {
+		"ft": 16384,
+		"iS": 159666,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/absolut-equal-love.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/audi-daughter.jpg": {
+		"ft": 16384,
+		"iS": 133122,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/audi-daughter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/bryan-ferry-loop-de-li.jpg": {
+		"ft": 16384,
+		"iS": 185057,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/bryan-ferry-loop-de-li.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/honda-ignition.jpg": {
+		"ft": 16384,
+		"iS": 90230,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/honda-ignition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-cavalier.jpg": {
+		"ft": 16384,
+		"iS": 124052,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-cavalier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-glacier.jpg": {
+		"ft": 16384,
+		"iS": 210084,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-glacier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-red-dust.jpg": {
+		"ft": 16384,
+		"iS": 110197,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-red-dust.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/jon-hopkins-open-eye-signal.jpg": {
+		"ft": 16384,
+		"iS": 110357,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/jon-hopkins-open-eye-signal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/little-comets-isles.jpg": {
+		"ft": 16384,
+		"iS": 152608,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/little-comets-isles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/major-moments.jpg": {
+		"ft": 16384,
+		"iS": 52712,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/major-moments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/placeholder.png": {
+		"ft": 32768,
+		"iS": 2335,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/placeholder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/uploads\/samsung-feel-more.jpg": {
+		"ft": 16384,
+		"iS": 101948,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/samsung-feel-more.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/secret-raise.jpg": {
+		"ft": 16384,
+		"iS": 126058,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/secret-raise.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/simian-mobile-disco-seraphim.jpg": {
+		"ft": 16384,
+		"iS": 99399,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/simian-mobile-disco-seraphim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/street-rider.jpg": {
+		"ft": 16384,
+		"iS": 231810,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/street-rider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/the-question.jpg": {
+		"ft": 16384,
+		"iS": 209699,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/the-question.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/u2-every-breaking-wave.jpg": {
+		"ft": 16384,
+		"iS": 126669,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/u2-every-breaking-wave.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/under-armour-numbers.jpg": {
+		"ft": 16384,
+		"iS": 104312,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/under-armour-numbers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/under-armour-prince-with-1000-enemies.jpg": {
+		"ft": 16384,
+		"iS": 32593,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/under-armour-prince-with-1000-enemies.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/wheels-on-the-car.jpg": {
+		"ft": 16384,
+		"iS": 176006,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/wheels-on-the-car.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/wilkinson-half-light.jpg": {
+		"ft": 16384,
+		"iS": 106161,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/wilkinson-half-light.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/55DSL-italy-texas.jpg": {
 		"ft": 16384,
