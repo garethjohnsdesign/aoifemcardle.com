@@ -26,8 +26,6 @@ defaults:
     video: 
     layout: project
 exclude:
-- Gemfile
-- Gemfile.lock
 - bower.json
 - package.json
 - config.codekit3
@@ -37,10 +35,11 @@ exclude:
 - node_modules
 - ".gitignore"
 - bower_components
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-mentions
 permalink: pretty
 markdown: kramdown
 kramdown:
@@ -53,7 +52,7 @@ compress_html:
   blanklines: true
   profile: false
 encoding: utf-8
-url: http://aoifemcardle.com
+url: https://www.aoifemcardle.com
 description: Aoife McArdle is a writer / director / photographer from Northern Ireland,
   based in London
 company: Aoife McArdle

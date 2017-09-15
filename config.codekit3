@@ -273,6 +273,518 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 321,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 1084,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 304,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/_site\/assets\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/_site\/assets\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/assets\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 598,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/fonts\/gt-america-light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/gt-america-light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/icons\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/og-image.png": {
+		"ft": 32768,
+		"iS": 10850,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.eslintrc",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/.gitattributes": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.gitattributes",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/.npmignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.npmignore",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.travis.yml",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/anchor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/min\/anchor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/anchor.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/min\/anchor.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/banner.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/min\/banner-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/anchor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/min\/anchor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/favicon.ico",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/fonts.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/fonts-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/grunticon.loader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/min\/grunticon.loader-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.png.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.png-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.svg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.data.svg-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.fallback.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/icons.fallback-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/png\/grunticon-link.png": {
+		"ft": 32768,
+		"iS": 499,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/grunticon\/png\/grunticon-link.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchoring-links.png": {
+		"ft": 32768,
+		"iS": 33647,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchoring-links.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchorjs_logo.png": {
+		"ft": 32768,
+		"iS": 7581,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchorjs_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchorlinks2.png": {
+		"ft": 32768,
+		"iS": 62031,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/anchorlinks2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/gh-link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/gh-link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/gh_link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/gh_link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/hyperlink.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/hyperlink.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/link.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/mini-logo.png": {
+		"ft": 32768,
+		"iS": 2259,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/mini-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/img\/primer-md.png": {
+		"ft": 32768,
+		"iS": 16739,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/img\/primer-md.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/min\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/javascript\/anchor-js\/docs\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/svgxuse-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/svgxuse-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/svgxuse.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/scss\/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_site\/assets\/scss\/hamburgers\/hamburgers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/scss\/css\/hamburgers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_site\/assets\/scss\/scroll\/aos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/scss\/css\/aos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -283,6 +795,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
+	"\/_site\/Gemfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/_site\/humans.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/humans.txt",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -423,11 +953,238 @@
 		"oAP": "\/_site\/projects\/wilkinson-half-light\/index.html",
 		"oF": 0
 		},
+	"\/_site\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/robots.txt",
+		"oF": 0
+		},
 	"\/_site\/sitemap.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
+		},
+	"\/_site\/uploads\/55DSL-italy-texas.jpg": {
+		"ft": 16384,
+		"iS": 77007,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/55DSL-italy-texas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/absolut-equal-love.jpg": {
+		"ft": 16384,
+		"iS": 159666,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/absolut-equal-love.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/audi-daughter.jpg": {
+		"ft": 16384,
+		"iS": 133122,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/audi-daughter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/bryan-ferry-loop-de-li.jpg": {
+		"ft": 16384,
+		"iS": 185057,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/bryan-ferry-loop-de-li.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/honda-ignition.jpg": {
+		"ft": 16384,
+		"iS": 90230,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/honda-ignition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-cavalier.jpg": {
+		"ft": 16384,
+		"iS": 124052,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-cavalier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-glacier.jpg": {
+		"ft": 16384,
+		"iS": 210084,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-glacier.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/james-vincent-mcmorrow-red-dust.jpg": {
+		"ft": 16384,
+		"iS": 110197,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/james-vincent-mcmorrow-red-dust.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/jon-hopkins-open-eye-signal.jpg": {
+		"ft": 16384,
+		"iS": 110357,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/jon-hopkins-open-eye-signal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/little-comets-isles.jpg": {
+		"ft": 16384,
+		"iS": 152608,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/little-comets-isles.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/major-moments.jpg": {
+		"ft": 16384,
+		"iS": 52712,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/major-moments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/placeholder.png": {
+		"ft": 32768,
+		"iS": 2335,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/placeholder.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/uploads\/samsung-feel-more.jpg": {
+		"ft": 16384,
+		"iS": 101948,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/samsung-feel-more.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/secret-raise.jpg": {
+		"ft": 16384,
+		"iS": 126058,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/secret-raise.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/simian-mobile-disco-seraphim.jpg": {
+		"ft": 16384,
+		"iS": 99399,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/simian-mobile-disco-seraphim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/street-rider.jpg": {
+		"ft": 16384,
+		"iS": 231810,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/street-rider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/the-question.jpg": {
+		"ft": 16384,
+		"iS": 209699,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/the-question.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/u2-every-breaking-wave.jpg": {
+		"ft": 16384,
+		"iS": 126669,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/u2-every-breaking-wave.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/under-armour-numbers.jpg": {
+		"ft": 16384,
+		"iS": 104312,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/under-armour-numbers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/under-armour-prince-with-1000-enemies.jpg": {
+		"ft": 16384,
+		"iS": 32593,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/under-armour-prince-with-1000-enemies.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/wheels-on-the-car.jpg": {
+		"ft": 16384,
+		"iS": 176006,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/wheels-on-the-car.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/wilkinson-half-light.jpg": {
+		"ft": 16384,
+		"iS": 106161,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/wilkinson-half-light.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/55DSL-italy-texas.jpg": {
 		"ft": 16384,
