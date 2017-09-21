@@ -189,6 +189,12 @@
 		"oAP": "\/_projects\/jon-hopkins-open-eye-signal.markdown",
 		"oF": 0
 		},
+	"\/_projects\/kissing-candice.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/kissing-candice.markdown",
+		"oF": 0
+		},
 	"\/_projects\/little-comets-isles.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -272,6 +278,16 @@
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
+		},
+	"\/_site\/assets\/css\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/assets\/css\/style.css": {
 		"aP": 1,
@@ -881,6 +897,12 @@
 		"oAP": "\/_site\/projects\/jon-hopkins-open-eye-signal\/index.html",
 		"oF": 0
 		},
+	"\/_site\/projects\/kissing-candice\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/projects\/kissing-candice\/index.html",
+		"oF": 0
+		},
 	"\/_site\/projects\/little-comets-isles\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1050,6 +1072,16 @@
 		"iS": 110357,
 		"oA": 0,
 		"oAP": "\/_site\/uploads\/jon-hopkins-open-eye-signal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/kissing-candice.jpg": {
+		"ft": 16384,
+		"iS": 97944,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/kissing-candice.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1271,6 +1303,16 @@
 		"iS": 110357,
 		"oA": 0,
 		"oAP": "\/_uploads\/jon-hopkins-open-eye-signal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/kissing-candice.jpg": {
+		"ft": 16384,
+		"iS": 97944,
+		"oA": 0,
+		"oAP": "\/_uploads\/kissing-candice.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
