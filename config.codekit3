@@ -7,13 +7,13 @@
 		"uuidString": "BD87BF20-AE43-4190-B94C-7F6034A68D55"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26261",
 "files": {
 	"\/404.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -28,252 +28,308 @@
 		"uCM": 0
 		},
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_data\/navigation.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_data\/navigation.yml",
 		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/_includes\/head.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/_includes\/item.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/item.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation--mobile.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation--mobile.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/navigation.html",
 		"oF": 0
 		},
 	"\/_includes\/project.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/project.html",
 		"oF": 0
 		},
 	"\/_includes\/scripts.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
 	"\/_layouts\/compress.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
 		"oF": 0
 		},
 	"\/_layouts\/contact.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/_layouts\/home.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
 	"\/_layouts\/missing.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/missing.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/_layouts\/project.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/project.html",
 		"oF": 0
 		},
 	"\/_layouts\/projects.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/projects.html",
 		"oF": 0
 		},
 	"\/_projects\/55DSL-italy-texas.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/55DSL-italy-texas.markdown",
 		"oF": 0
 		},
 	"\/_projects\/absolut-equal-love.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/absolut-equal-love.markdown",
 		"oF": 0
 		},
 	"\/_projects\/audi-daughter.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/audi-daughter.markdown",
 		"oF": 0
 		},
 	"\/_projects\/bryan-ferry-loop-de-li.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/bryan-ferry-loop-de-li.markdown",
 		"oF": 0
 		},
 	"\/_projects\/honda-ignition.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/honda-ignition.markdown",
 		"oF": 0
 		},
 	"\/_projects\/james-vincent-mcmorrow-cavalier.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/james-vincent-mcmorrow-cavalier.markdown",
 		"oF": 0
 		},
 	"\/_projects\/james-vincent-mcmorrow-glacier.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/james-vincent-mcmorrow-glacier.markdown",
 		"oF": 0
 		},
 	"\/_projects\/james-vincent-mcmorrow-red-dust.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/james-vincent-mcmorrow-red-dust.markdown",
 		"oF": 0
 		},
 	"\/_projects\/jon-hopkins-open-eye-signal.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/jon-hopkins-open-eye-signal.markdown",
 		"oF": 0
 		},
 	"\/_projects\/kissing-candice.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/kissing-candice.markdown",
 		"oF": 0
 		},
 	"\/_projects\/little-comets-isles.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/little-comets-isles.markdown",
 		"oF": 0
 		},
 	"\/_projects\/major-moments.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/major-moments.markdown",
 		"oF": 0
 		},
 	"\/_projects\/samsung-feel-more.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/samsung-feel-more.markdown",
 		"oF": 0
 		},
 	"\/_projects\/secret-raise.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/secret-raise.markdown",
 		"oF": 0
 		},
 	"\/_projects\/simian-mobile-disco-seraphim.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/simian-mobile-disco-seraphim.markdown",
 		"oF": 0
 		},
 	"\/_projects\/street-rider.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/street-rider.markdown",
 		"oF": 0
 		},
 	"\/_projects\/the-question.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/the-question.markdown",
 		"oF": 0
 		},
+	"\/_projects\/toyota-good-odds.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/toyota-good-odds.markdown",
+		"oF": 0
+		},
+	"\/_projects\/toyota-runner.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/toyota-runner.markdown",
+		"oF": 0
+		},
 	"\/_projects\/u2-every-breaking-wave.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/u2-every-breaking-wave.markdown",
 		"oF": 0
 		},
 	"\/_projects\/under-armour-numbers.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/under-armour-numbers.markdown",
 		"oF": 0
 		},
 	"\/_projects\/under-armour-prince-with-1000-enemies.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/under-armour-prince-with-1000-enemies.markdown",
 		"oF": 0
 		},
 	"\/_projects\/wheels-on-the-car.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/wheels-on-the-car.markdown",
 		"oF": 0
 		},
 	"\/_projects\/wilkinson-half-light.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/wilkinson-half-light.markdown",
 		"oF": 0
 		},
 	"\/_site\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
@@ -286,6 +342,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/css\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/css\/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/style-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -333,6 +399,7 @@
 		"q": 100
 		},
 	"\/_site\/assets\/favicons\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/favicons\/browserconfig.xml",
@@ -361,6 +428,7 @@
 		"q": 100
 		},
 	"\/_site\/assets\/favicons\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
@@ -396,12 +464,14 @@
 		"prP": 0
 		},
 	"\/_site\/assets\/fonts\/gt-america-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff",
 		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/gt-america-light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff2",
@@ -449,24 +519,28 @@
 		"q": 100
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.eslintrc",
 		"oF": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.gitattributes",
 		"oF": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/.npmignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.npmignore",
 		"oF": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/.travis.yml",
@@ -513,12 +587,14 @@
 		"tS": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/docs\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/favicon.ico",
 		"oF": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.eot",
@@ -535,12 +611,14 @@
 		"prP": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.ttf",
 		"oF": 0
 		},
 	"\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/javascript\/anchor-js\/docs\/fonts\/anchorjs-extras.woff",
@@ -802,186 +880,231 @@
 		"uL": 1
 		},
 	"\/_site\/contact\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
 	"\/_site\/feed.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
 		},
 	"\/_site\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/Gemfile",
 		"oF": 0
 		},
 	"\/_site\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/_site\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/humans.txt",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/55DSL-italy-texas\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/55DSL-italy-texas\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/absolut-equal-love\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/absolut-equal-love\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/audi-daughter\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/audi-daughter\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/bryan-ferry-loop-de-li\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/bryan-ferry-loop-de-li\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/honda-ignition\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/honda-ignition\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/james-vincent-mcmorrow-cavalier\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-cavalier\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/james-vincent-mcmorrow-glacier\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-glacier\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/james-vincent-mcmorrow-red-dust\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/james-vincent-mcmorrow-red-dust\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/jon-hopkins-open-eye-signal\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/jon-hopkins-open-eye-signal\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/kissing-candice\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/kissing-candice\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/little-comets-isles\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/little-comets-isles\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/major-moments\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/major-moments\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/samsung-feel-more\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/samsung-feel-more\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/secret-raise\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/secret-raise\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/simian-mobile-disco-seraphim\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/simian-mobile-disco-seraphim\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/street-rider\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/street-rider\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/the-question\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/the-question\/index.html",
 		"oF": 0
 		},
+	"\/_site\/projects\/toyota-good-odds\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/projects\/toyota-good-odds\/index.html",
+		"oF": 0
+		},
+	"\/_site\/projects\/toyota-runner\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/projects\/toyota-runner\/index.html",
+		"oF": 0
+		},
 	"\/_site\/projects\/u2-every-breaking-wave\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/u2-every-breaking-wave\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/under-armour-numbers\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/under-armour-numbers\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/under-armour-prince-with-1000-enemies\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/under-armour-prince-with-1000-enemies\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/wheels-on-the-car\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/wheels-on-the-car\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/wilkinson-half-light\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/wilkinson-half-light\/index.html",
 		"oF": 0
 		},
 	"\/_site\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/robots.txt",
 		"oF": 0
 		},
 	"\/_site\/sitemap.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
@@ -1163,6 +1286,26 @@
 		"iS": 209699,
 		"oA": 0,
 		"oAP": "\/_site\/uploads\/the-question.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/toyota-good-odds.jpg": {
+		"ft": 16384,
+		"iS": 151934,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/toyota-good-odds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/toyota-runner.jpg": {
+		"ft": 16384,
+		"iS": 93811,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/toyota-runner.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1399,6 +1542,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/toyota-good-odds.jpg": {
+		"ft": 16384,
+		"iS": 151934,
+		"oA": 0,
+		"oAP": "\/_uploads\/toyota-good-odds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/toyota-runner.jpg": {
+		"ft": 16384,
+		"iS": 93811,
+		"oA": 0,
+		"oAP": "\/_uploads\/toyota-runner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/u2-every-breaking-wave.jpg": {
 		"ft": 16384,
 		"iS": 126669,
@@ -1450,10 +1613,10 @@
 		"q": 100
 		},
 	"\/about.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1511,6 +1674,7 @@
 		"q": 100
 		},
 	"\/assets\/favicons\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/favicons\/browserconfig.xml",
@@ -1539,6 +1703,7 @@
 		"q": 100
 		},
 	"\/assets\/favicons\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/favicons\/favicon.ico",
@@ -1574,12 +1739,14 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/gt-america-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/gt-america-light.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/gt-america-light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/gt-america-light.woff2",
@@ -2237,10 +2404,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/aos\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2255,10 +2422,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/aos\/CONTRIBUTING.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2273,6 +2440,7 @@
 		"uCM": 0
 		},
 	"\/bower_components\/aos\/demo\/async.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/demo\/async.html",
@@ -2289,6 +2457,7 @@
 		"oS": 3
 		},
 	"\/bower_components\/aos\/demo\/simple.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/demo\/simple.html",
@@ -2325,6 +2494,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/aos\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/aos\/LICENSE",
@@ -2349,10 +2519,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/aos\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2964,10 +3134,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/css-hamburgers\/CHANGELOG.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -2990,6 +3160,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/css-hamburgers\/dist\/example.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/css-hamburgers\/dist\/example.html",
@@ -3046,6 +3217,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/css-hamburgers\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/css-hamburgers\/LICENSE",
@@ -3068,10 +3240,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/css-hamburgers\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3094,22 +3266,24 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/.bowerrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.bowerrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3124,10 +3298,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3142,12 +3316,14 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.sass-lint.yml",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.travis.yml",
@@ -3365,10 +3541,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/code-of-conduct.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -3391,6 +3567,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/config.yml",
@@ -3405,6 +3582,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/index.html",
@@ -4198,6 +4376,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/foundation-sites\/docslink.sh": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/docslink.sh",
@@ -4874,6 +5053,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/foundation-sites\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/LICENSE",
@@ -4888,10 +5068,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6302,6 +6482,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
@@ -6346,6 +6527,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
@@ -6372,6 +6554,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
@@ -6398,28 +6581,31 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7526,10 +7712,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/animations.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7544,10 +7730,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/classes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7562,10 +7748,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/configuration.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7580,10 +7766,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/installation.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7598,10 +7784,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/javascript.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7616,10 +7802,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7634,10 +7820,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/transitions.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7652,10 +7838,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/wow.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7690,16 +7876,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/LICENSE",
 		"oF": 0
 		},
 	"\/bower_components\/motion-ui\/meteor-README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7755,10 +7942,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/motion-ui\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8075,6 +8262,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/svgxuse\/license": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/svgxuse\/license",
@@ -8089,10 +8277,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/svgxuse\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8173,6 +8361,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/docs\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/docs\/index.html",
@@ -8209,6 +8398,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/LICENSE",
@@ -8223,10 +8413,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/what-input\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8271,16 +8461,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/yarn.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
 	"\/contact.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8295,28 +8486,31 @@
 		"uCM": 0
 		},
 	"\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile",
 		"oF": 0
 		},
 	"\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
 	"\/index.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8331,10 +8525,10 @@
 		"uCM": 0
 		},
 	"\/LICENSE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8357,10 +8551,10 @@
 		"oS": 1
 		},
 	"\/projects.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8375,10 +8569,10 @@
 		"uCM": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -8393,6 +8587,7 @@
 		"uCM": 0
 		},
 	"\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
@@ -8407,7 +8602,7 @@
 	"creationDate": 525364546,
 	"displayValue": "Aoife McArdle",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-jake"
+	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -8943,6 +9138,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -8974,6 +9173,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -9007,9 +9210,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -9039,6 +9242,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -9048,14 +9255,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -10159,7 +10358,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -10192,6 +10392,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -10233,7 +10434,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -10265,13 +10467,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -10280,7 +10482,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -10300,7 +10503,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -10328,7 +10532,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
