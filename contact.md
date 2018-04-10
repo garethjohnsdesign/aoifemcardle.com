@@ -2,7 +2,8 @@
 title: Contact
 contact-one-text: "## Studio  \nAoife McArdle  \n[info@aoifemcardle.com](mailto:info@aoifemcardle.com)\n\n##
   Film, Television and Literary Agents Worldwide\nWilliam Morris Endeavor  \nSolco
-  Schuit  \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon Faber \n[jfarrell@wmeentertainment.com](mailto:jfarrell@wmeentertainment.com)\n\n42
+  Schuit  \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon
+  Faber \n[jfarrell@wmeentertainment.com](mailto:jfarrell@wmeentertainment.com)\n\n42
   \ \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
 contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nTim
   Nash and Sally Campbell  \n+44 20 3487 1270  \n[tim@somesuch.co](mailto:tim@somesuch.co)
