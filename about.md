@@ -4,7 +4,7 @@ layout: page
 ---
 
 # Writer / director / photographer from Northern Ireland
-# Based in London
+# Based in Belfast
 
 ## — 2017
 Absolut – Equal Love — BBH
