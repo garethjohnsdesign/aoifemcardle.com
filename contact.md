@@ -1,23 +1,13 @@
 ---
 title: Contact
-contact-one-text: "## Studio  
-Aoife McArdle  
-[info@aoifemcardle.com](mailto:info@aoifemcardle.com)  
-
-## Film, Television and Literary Agents Worldwide  
-
-William Morris Endeavor
- 
-Solco Schuit  
-[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)
-
-Simon Faber  
-[sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)
-
-42 
- 
-Josh Varney  
-[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
+contact-one-text: |-
+  ## Studio Aoife McArdle [info@aoifemcardle.com](mailto:info@aoifemcardle.com)
+  ## Film, Television and Literary Agents Worldwide
+  William Morris Endeavor
+  Solco Schuit [sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)
+  Simon Faber [sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)
+  42
+  Josh Varney [joshvarney@42mp.com](mailto:joshvarney@42mp.com)
 contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nTim
   Nash and Sally Campbell  \n+44 20 3487 1270  \n[tim@somesuch.co](mailto:tim@somesuch.co)
   \ \n[sally@somesuch.co](mailto:sally@somesuch.co)  \n\nMusic Videos  \nHannah Turnbull-Walter
