@@ -1,10 +1,10 @@
 ---
 title: Contact
-contact-one-text: "## Studio  \nAoife McArdle  \n[info@aoifemcardle.com](mailto:info@aoifemcardle.com)\n\n##
-  Film, Television and Literary Agents Worldwide\nWilliam Morris Endeavor  \nSolco
-  Schuit  \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon
-  Faber \n[sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)\n\n42
-  \ \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
+contact-one-text: "## Studio\n\nAoife McArdle  \n[info@aoifemcardle.com](mailto:info@aoifemcardle.com)\n\n##
+  Film, Television and Literary Agents Worldwide\n\nWilliam Morris Endeavor\n \nSolco
+  Schuit   \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon
+  Faber  \n[sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)\n\n42
+  \n \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
 contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nTim
   Nash and Sally Campbell  \n+44 20 3487 1270  \n[tim@somesuch.co](mailto:tim@somesuch.co)
   \ \n[sally@somesuch.co](mailto:sally@somesuch.co)  \n\nMusic Videos  \nHannah Turnbull-Walter
