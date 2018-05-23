@@ -3,6 +3,7 @@
         <img data-interchange=
         "
         [{{ project.image | imgix_url: w: 800, h: 450, auto: "format", q: 40, fit: "crop", dpr: 1}}, small]
+        [{{ project.image | imgix_url: w: 800, h: 450, auto: "format", q: 40, fit: "crop", dpr: 1}}, medium]
         [{{ project.image | imgix_url: w: 1600, h: 900, auto: "format", q: 40, fit: "crop", dpr: 1}}, large]
         "
 		data-aos="fade-in"
