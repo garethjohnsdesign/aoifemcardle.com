@@ -36,6 +36,7 @@
     "aos": "^2.2.0",
     "css-hamburgers": "^0.9.1",
     "foundation-sites": "^6.4.1",
-    "svgxuse": "^1.2.4"
+    "svgxuse": "^1.2.4",
+    "turbolinks5": "^5.1.1"
   }
 }
