@@ -5627,7 +5627,7 @@ i, cite, em, var, address, dfn {
     visibility: hidden; }
 
 .navigation__logo {
-  z-index: 2; }
+  z-index: 3; }
 
 .navigation__hamburger {
   z-index: 2; }
