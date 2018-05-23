@@ -4983,6 +4983,10 @@ Single-colored icons can be modified like so:
 .icon-cross2:hover {
   fill: white; }
 
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: #fefefe; }
+
 body {
   cursor: default; }
 
