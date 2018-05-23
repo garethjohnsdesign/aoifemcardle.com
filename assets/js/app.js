@@ -1,7 +1,8 @@
+$(document).foundation();
+
 // 1. Loader
 // --------------------
 
-/*
 $(function() {
 if (sessionStorage.getItem('set') === 'set') {
   $('.loader').hide();
@@ -13,4 +14,18 @@ if (sessionStorage.getItem('set') === 'set') {
   sessionStorage.setItem('set', 'set');
 }
 });
-*/
+
+// 2. Animate on Scroll
+// --------------------
+
+$(function() {
+  AOS.init({ 
+   offset: 64,
+   easing: 'ease-in-out-quart', 
+   duration: 600
+   });   
+});
+
+$(function() {
+window.addEventListener('load', AOS.refresh);
+});
