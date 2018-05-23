@@ -52,6 +52,12 @@
 // 2. Global
 // ---------
 
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $white;
+}
+
+
 body {
   cursor: default;
 }
