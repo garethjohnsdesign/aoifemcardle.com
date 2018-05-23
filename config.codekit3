@@ -498,16 +498,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/assets\/js\/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/_site\/assets\/js\/min\/svgxuse-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -8951,13 +8941,13 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/js\/foundation.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/js\/foundation.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
 			"position": 2,
 			"type": 0
 			},

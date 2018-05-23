@@ -1,3 +1,5 @@
+$(document).foundation();
+
 // 1. Loader
 // --------------------
 
