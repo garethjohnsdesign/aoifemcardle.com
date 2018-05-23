@@ -39,6 +39,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 permalink: pretty
 markdown: kramdown
 kramdown:
