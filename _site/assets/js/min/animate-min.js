@@ -1,0 +1,1 @@
+$(function(){"set"===sessionStorage.getItem("set")?$(".loader").hide():($(".loader").show(),setTimeout(function(){$(".loader").addClass("loaded")},1500),sessionStorage.setItem("set","set"))}),$(function(){AOS.init({offset:64,easing:"ease-in-out-quart",duration:600})}),$(function(){window.addEventListener("load",AOS.refresh)});
