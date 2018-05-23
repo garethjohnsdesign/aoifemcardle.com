@@ -5088,8 +5088,11 @@ i, cite, em, var, address, dfn {
   position: absolute;
   top: 0rem;
   left: 0rem;
-  padding: 2rem;
+  padding: 1rem;
   color: #FFFFFF; }
+  @media print, screen and (min-width: 64em) {
+    .projects__list a .item__title {
+      padding: 2rem; } }
 
 .project__credits {
   z-index: 3;

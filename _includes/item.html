@@ -1,6 +1,14 @@
 <div class="item">
 	<a href="{{ project.url }}">
-		<img src="{{ project.image }}" alt="{{project.title}}">
+        <img data-interchange=
+        "
+        [{{ project.image | imgix_url: w: 800, h: 450, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 1}}, small]
+        [{{ project.image | imgix_url: w: 1600, h: 900, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 1}}, medium]
+        "
+		data-aos="fade-in"
+		data-sizes="auto"
+		class="lazyload"
+        >
 		<div class="item__title" data-aos="fade-up">{{ project.title }}</div>
 	</a>
 </div>
