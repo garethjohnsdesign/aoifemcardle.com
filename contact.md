@@ -5,14 +5,37 @@ contact-one-text: "## Studio\n\nAoife McArdle  \n[info@aoifemcardle.com](mailto:
   Schuit   \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon
   Faber  \n[sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)\n\n42
   \n \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
-contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nTim
-  Nash and Sally Campbell  \n+44 20 3487 1270  \n[tim@somesuch.co](mailto:tim@somesuch.co)
-  \ \n[sally@somesuch.co](mailto:sally@somesuch.co)  \n\nMusic Videos  \nHannah Turnbull-Walter
-  \ \n+44 (0)20 3487 1270  \n[hannahtw@somesuch.co](mailto:hannahtw@somesuch.co)  \n\n\n##
-  Commercials US\nAnonymous Content  \nJohnathan Wright  \n[jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)
-  \ \n(01) 310 558 6013  \n\nEric Stern  \n[eric@anonymouscontent.com](mailto:eric@anonymouscontent.com)
-  \ \n(01) 310 558 6029\n\n## Commercials France\nInsurrection  \nArno Moria  \n[arno@insurrection.paris](mailto:arno@insurrection.paris)
-  \ \n+331 44 61 81 59"
+contact-two-text: |-
+  ## Commercials and Music Videos UK/Europe
+
+  Commercials\
+  Seth Wilson\
+  [seth@somesuch.co](mailto:seth@somesuch.co)\
+  \+44 (0)20 3487 1270
+
+  Music Videos\
+  Saskia Whinney\
+  [saskia@somesuch.co](mailto:saskia@somesuch.co)\
+  \+44 (0)20 3487 1270
+
+  ## Commercials US
+
+  Tim Nash and Sally Campbell\
+  [tim@somesuch.co](mailto:tim@somesuch.co)\
+  [sally@somesuch.co](mailto:sally@somesuch.co)
+
+  Anonymous Content\
+  Johnathan Wright\
+  [jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)\
+  \(01) 310 558 6013
+
+  ## Commercials France
+
+  Standard Films\
+  Julie Mathieu Moreau and Jules Dieng\
+  [julie@standardfilms.tv](mailto:julie@standardfilms.tv)\
+  [jules@standardfilms.tv](mailto:jules@standardfilms.tv)\
+  \+33 (0) 1 80 50 55 84
 layout: contact
 ---
 
