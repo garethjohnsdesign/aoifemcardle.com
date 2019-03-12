@@ -956,6 +956,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_site/uploads/alzheimers-first-breath.jpg": {
+		"ft": 16384,
+		"iS": 206736,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/alzheimers-first-breath.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_site/uploads/audi-daughter.jpg": {
 		"ft": 16384,
 		"iS": 133122,
@@ -1517,14 +1528,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/about.html",
-		"oF": 0
-		},
 	"/about.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1534,9 +1537,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "/about.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
