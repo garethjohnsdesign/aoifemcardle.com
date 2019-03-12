@@ -6,15 +6,53 @@ layout: page
 # Writer / director / photographer from Northern Ireland
 # Based in Belfast
 
-## — 2017
-Absolut – Equal Love — BBH
+## — 2018
+Kissing Candice  
+Nominated for Berlin International Film Festival Crystal Bear  
+Nominated for Discovery award at Toronto International Film Festival  
 
-Audi – Daughter — Venables Bell & Partners
+Confused.com — From Confusion to Clarity  
+Nominated for British Arrow for cinematography, production design, colouring  
+Nominated for best cinematography at Ciclope  
+
+Alzheimers — First Breath  
+Nominated for British Arrow for cinematography, sound design  
+
+## — 2017
+Absolut — Equal Love — BBH  
+Winner of D&AD Yellow pencil for cinematography for Film advertising  
+Winner of D&AD Wood pencil for editing for Film advertising  
+Winner of British Arrow for cinematography  
+Winner of British Arrow for use of existing music  
+Winner for best cinematography at Ciclope  
+
+Audi — Daughter — Venables Bell & Partners  
+Nominated for Glass Lion  
+Nominated for Best International at British Arrows
+
+Toyota — Good Odds — Saatchi & Saatchi  
+Winner of Silver Clio for Direction  
+Nominated for best editing at AICP  
+Nominated for advertising excellence at AICP  
+Nominated for Cause at AICP  
+
+Toyota – Start Your Impossible — Saatchi & Saatchi  
+Nominated for advertising excellence at AICP 
+
+State Farm — Start Your Impossible — DDB Chicago  
+Winner of Silver Clio for Direction  
+Nominated for Cause at AICP
 
 ## — 2016
 
+Under Armour – It Comes from Below – Droga 5, NYC  
+Winner of D&AD Wood pencil for sound design for Film advertising  
+Winner of best editing at AICP  
+Nominated for best director and best cinematography at Ciclope
+
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC  
-Nominated for Best Direction and Best Cinematography at Ciclope Awards, Best Cinematography and Sound at the British Arrows
+Winner of D&AD wood pencil for sound design for Film advertising  
+Nominated for best director and best cinematography at Ciclope  
 
 Under Armour – Numbers – Droga 5, NYC  
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
