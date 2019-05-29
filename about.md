@@ -22,13 +22,12 @@ Nominated for British Arrow for cinematography, production design, colouring\
 Nominated for best cinematography at Ciclope
 
 Alzheimers — First Breath\
-Nominated for British Arrow for cinematography, sound design
+Nominated for British Arrows in cinematography and sound design
 
 ## — 2017
 
 Absolut — Equal Love — BBH\
-Winner of D&AD Yellow pencil for cinematography in Film advertising
-
+Winner of D&AD Yellow pencil for cinematography in Film advertising\
 Winner of D&AD Graphite pencil for direction in Film advertising\
 Winner of D&AD Wood pencil for editing in Film advertising\
 Winner of British Arrow for cinematography\
