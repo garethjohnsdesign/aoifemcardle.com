@@ -35,9 +35,10 @@ contact-two-text: |-
 
   ## Commercials US
 
-  Sally Campbell and Tim Nash\
+  Sally Campbell, Tim Nash, Nicky Barnes\
   [tim@somesuch.co](mailto:tim@somesuch.co)\
   [sally@somesuch.co](mailto:sally@somesuch.co)
+  [nicky@somesuch.co](mailto:nicky@somesuch.co)
 
   Anonymous Content\
   Johnathan Wright\

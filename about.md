@@ -18,17 +18,16 @@ Nominated for Berlin International Film Festival Crystal Bear\
 Nominated for Discovery award at Toronto International Film Festival
 
 Confused.com — From Confusion to Clarity\
-Nominated for British Arrow for cinematography, production design, colouring\
+Nominated for British Arrows in cinematography, production design, colouring\
 Nominated for best cinematography at Ciclope
 
 Alzheimers — First Breath\
-Nominated for British Arrow for cinematography, sound design
+Nominated for British Arrows in cinematography and sound design
 
 ## — 2017
 
 Absolut — Equal Love — BBH\
-Winner of D&AD Yellow pencil for cinematography in Film advertising
-
+Winner of D&AD Yellow pencil for cinematography in Film advertising\
 Winner of D&AD Graphite pencil for direction in Film advertising\
 Winner of D&AD Wood pencil for editing in Film advertising\
 Winner of British Arrow for cinematography\
@@ -37,7 +36,7 @@ Winner for best cinematography at Ciclope
 
 Audi — Daughter — Venables Bell & Partners\
 Nominated for Glass Lion\
-Nominated for Best International at British Arrows
+Nominated for Best International commercial at British Arrows
 
 Toyota — Good Odds — Saatchi & Saatchi\
 Winner of Silver Clio for Direction\
@@ -48,7 +47,7 @@ Nominated for Cause at AICP
 Toyota – Start Your Impossible — Saatchi & Saatchi\
 Nominated for advertising excellence at AICP
 
-State Farm — Start Your Impossible — DDB Chicago\
+State Farm — Don't you — DDB Chicago\
 Winner of Silver Clio for Direction\
 Nominated for Cause at AICP
 
@@ -56,7 +55,7 @@ Nominated for Cause at AICP
 
 Under Armour – It Comes from Below – Droga 5, NYC\
 Winner of D&AD Wood pencil for sound design for Film advertising\
-Winner of best editing at AICP\
+Winner of best editing at AICE\
 Nominated for best director and best cinematography at Ciclope
 
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
@@ -67,6 +66,8 @@ Under Armour – Numbers – Droga 5, NYC\
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
 
 Secret – The Question – Wieden & Kennedy, Portland
+
+Won D&AD wood pencil for Film advertising
 
 Secret – Raise – Wieden & Kennedy, Portland
 
