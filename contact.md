@@ -1,10 +1,25 @@
 ---
 title: Contact
-contact-one-text: "## Studio\n\nAoife McArdle  \n[info@aoifemcardle.com](mailto:info@aoifemcardle.com)\n\n##
-  Film, Television and Literary Agents Worldwide\n\nWilliam Morris Endeavor\n \nSolco
-  Schuit   \n[sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)\n\nSimon
-  Faber  \n[sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)\n\n42
-  \n \nJosh Varney  \n[joshvarney@42mp.com](mailto:joshvarney@42mp.com)"
+contact-one-text: |-
+  ## Studio
+
+  Aoife McArdle Test\
+  [info@aoifemcardle.com](mailto:info@aoifemcardle.com)
+
+  ## Film, Television and Literary Agents Worldwide
+
+  William Morris Endeavor
+
+  Solco Schuit\
+  [sschuit@wmeentertainment.com](mailto:sschuit@wmeentertainment.com)
+
+  Simon Faber\
+  [sfaber@wmeentertainment.com](mailto:sfaber@wmeentertainment.com)
+
+  42
+
+  Josh Varney\
+  [joshvarney@42mp.com](mailto:joshvarney@42mp.com)
 contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nSeth
   Wilson  \n[seth@somesuch.co](mailto:seth@somesuch.co)  \n+44 (0)20 3487 1270\n\nMusic
   Videos  \nSaskia Whinney  \n[saskia@somesuch.co](mailto:saskia@somesuch.co)  \n+44
