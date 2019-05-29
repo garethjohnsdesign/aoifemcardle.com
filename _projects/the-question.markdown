@@ -1,9 +1,9 @@
 ---
 title: The Question
 date: 2016-05-01 00:00:00 Z
+published: false
 position: 3
 image: "/uploads/the-question.jpg"
-awards: 
 video: 169073307
 layout: project
 ---
