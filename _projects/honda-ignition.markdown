@@ -3,7 +3,6 @@ title: Honda — Ignition
 date: 2015-08-01 00:00:00 Z
 position: 5
 image: "/uploads/honda-ignition.jpg"
-awards: 
 video: 137363678
 layout: project
 ---
