@@ -48,7 +48,7 @@ Nominated for Cause at AICP
 Toyota – Start Your Impossible — Saatchi & Saatchi\
 Nominated for advertising excellence at AICP
 
-State Farm — Start Your Impossible — DDB Chicago\
+State Farm — Don't you — DDB Chicago\
 Winner of Silver Clio for Direction\
 Nominated for Cause at AICP
 
@@ -56,7 +56,7 @@ Nominated for Cause at AICP
 
 Under Armour – It Comes from Below – Droga 5, NYC\
 Winner of D&AD Wood pencil for sound design for Film advertising\
-Winner of best editing at AICP\
+Winner of best editing at AICE\
 Nominated for best director and best cinematography at Ciclope
 
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
@@ -67,6 +67,8 @@ Under Armour – Numbers – Droga 5, NYC\
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
 
 Secret – The Question – Wieden & Kennedy, Portland
+
+Won D&AD wood pencil for Film advertising
 
 Secret – Raise – Wieden & Kennedy, Portland
 
