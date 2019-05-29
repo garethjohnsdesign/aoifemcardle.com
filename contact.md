@@ -38,6 +38,7 @@ contact-two-text: |-
   Sally Campbell and Tim Nash\
   [tim@somesuch.co](mailto:tim@somesuch.co)\
   [sally@somesuch.co](mailto:sally@somesuch.co)
+  [nicky@somesuch.co](mailto:nicky@somesuch.co)
 
   Anonymous Content\
   Johnathan Wright\
