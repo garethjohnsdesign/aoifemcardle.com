@@ -2,6 +2,7 @@
 title: Alzheimers — First Breath
 date: 2018-09-21 00:00:00 Z
 position: 0
+image: "/uploads/Webp.net-resizeimage-090014.png"
 video: 291200054
 layout: project
 ---
