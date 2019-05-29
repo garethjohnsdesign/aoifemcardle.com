@@ -3,7 +3,7 @@ title: Contact
 contact-one-text: |-
   ## Studio
 
-  Aoife McArdle Test\
+  Aoife McArdle\
   [info@aoifemcardle.com](mailto:info@aoifemcardle.com)
 
   ## Film, Television and Literary Agents Worldwide
@@ -20,15 +20,37 @@ contact-one-text: |-
 
   Josh Varney\
   [joshvarney@42mp.com](mailto:joshvarney@42mp.com)
-contact-two-text: "## Commercials and Music Videos UK/Europe\n\nCommercials  \nSeth
-  Wilson  \n[seth@somesuch.co](mailto:seth@somesuch.co)  \n+44 (0)20 3487 1270\n\nMusic
-  Videos  \nSaskia Whinney  \n[saskia@somesuch.co](mailto:saskia@somesuch.co)  \n+44
-  (0)20 3487 1270\n\n## Commercials US\n\nTim Nash and Sally Campbell  \n[tim@somesuch.co](mailto:tim@somesuch.co)
-  \ \n[sally@somesuch.co](mailto:sally@somesuch.co)\n\nAnonymous Content  \nJohnathan
-  Wright  \n[jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)  \n(01)
-  310 558 6013\n\n## Commercials France\n\nStandard Films  \nJulie Mathieu Moreau
-  and Jules Dieng  \n[julie@standardfilms.tv](mailto:julie@standardfilms.tv)  \n[jules@standardfilms.tv](mailto:jules@standardfilms.tv)
-  \ \n+33 (0) 1 80 50 55 84"
+contact-two-text: |-
+  ## Commercials and Music Videos UK/Europe
+
+  Commercials\
+  Seth Wilson\
+  [seth@somesuch.co](mailto:seth@somesuch.co)\
+  \+44 (0)20 3487 1270
+
+  Music Videos\
+  Saskia Whinney\
+  [saskia@somesuch.co](mailto:saskia@somesuch.co)\
+  \+44 (0)20 3487 1270
+
+  ## Commercials US
+
+  Sally Campbell and Tim Nash\
+  [tim@somesuch.co](mailto:tim@somesuch.co)\
+  [sally@somesuch.co](mailto:sally@somesuch.co)
+
+  Anonymous Content\
+  Johnathan Wright\
+  [jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)\
+  \(01) 310 558 6013
+
+  ## Commercials France
+
+  Standard Films\
+  Julie Mathieu Moreau and Jules Dieng\
+  [julie@standardfilms.tv](mailto:julie@standardfilms.tv)\
+  [jules@standardfilms.tv](mailto:jules@standardfilms.tv)\
+  \+33 (0) 1 80 50 55 84
 layout: contact
 ---
 
