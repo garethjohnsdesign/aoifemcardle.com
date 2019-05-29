@@ -18,7 +18,7 @@ Nominated for Berlin International Film Festival Crystal Bear\
 Nominated for Discovery award at Toronto International Film Festival
 
 Confused.com — From Confusion to Clarity\
-Nominated for British Arrow for cinematography, production design, colouring\
+Nominated for British Arrows in cinematography, production design, colouring\
 Nominated for best cinematography at Ciclope
 
 Alzheimers — First Breath\
@@ -36,7 +36,7 @@ Winner for best cinematography at Ciclope
 
 Audi — Daughter — Venables Bell & Partners\
 Nominated for Glass Lion\
-Nominated for Best International at British Arrows
+Nominated for Best International commercial at British Arrows
 
 Toyota — Good Odds — Saatchi & Saatchi\
 Winner of Silver Clio for Direction\
