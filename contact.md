@@ -45,7 +45,7 @@ contact-two-text: |-
   [jwright@anonymouscontent.com](mailto:jwright@anonymouscontent.com)\
   \(01) 310 558 6013
 
-  ##Commercials Germany
+  ## Commercials Germany
 
   Anorak Film
   Christiane Dressler
