@@ -36,8 +36,8 @@ contact-two-text: |-
   ## Commercials US
 
   Sally Campbell, Tim Nash, Molly Griffin, Nicky Barnes\
-  [tim@somesuch.co](mailto:tim@somesuch.co)\
   [sally@somesuch.co](mailto:sally@somesuch.co)
+  [tim@somesuch.co](mailto:tim@somesuch.co)
   [molly@somesuch.co](mailto:molly@somesuch.co)
   [nicky@somesuch.co](mailto:nicky@somesuch.co)
 
