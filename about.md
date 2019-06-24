@@ -1,6 +1,5 @@
 ---
 title: About
-published: false
 layout: page
 ---
 
@@ -41,7 +40,7 @@ Silver Clio for Direction\
 Bronze Lion for Data Storytelling
 
 
-Toyota – Start Your Impossible — Saatchi & Saatchi\
+Toyota – Runner — Saatchi & Saatchi\
 
 
 State Farm — Don't you — DDB Chicago\
@@ -64,6 +63,7 @@ Secret – The Question – Wieden & Kennedy, Portland/
 D&AD wood pencil for Film advertising
 
 Secret – Raise – Wieden & Kennedy, Portland
+D&AD wood pencil for Film advertising
 
 ## — 2015
 
