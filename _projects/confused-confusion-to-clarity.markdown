@@ -1,6 +1,7 @@
 ---
 title: Confused.com — Confusion to Clarity
 date: 2018-08-22 00:00:00 Z
+published: false
 position: 0
 image: "/uploads/confused-from-confusion-to-clarity.jpg"
 video: 302496448
