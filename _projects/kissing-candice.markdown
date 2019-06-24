@@ -3,7 +3,6 @@ title: Kissing Candice
 date: 2017-09-08 00:00:00 Z
 published: false
 position: 0
-image: "/uploads/kissing-candice.jpg"
 video: 232076809
 layout: project
 ---
