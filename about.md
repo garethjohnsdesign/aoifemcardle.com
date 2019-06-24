@@ -15,7 +15,7 @@ Nike - Dream with Us - Wieden & Kennedy
 
 Kissing Candice - Irish Film Board/
 Shortlisted for Berlin International Film Festival Crystal Bear\
-Shortlisted for Discovery award at Toronto International Film Festival
+Discovery award at Toronto International Film Festival
 
 Confused.com — From Confusion to Clarity\
 
@@ -122,7 +122,7 @@ Joanna — Little Comets
 
 La Poursuite — Inpes — McCann
 
-Isles — Little Comets
+Isles — Little Comets\
 Best Music Video at Rushes Soho Shorts\
 
 
