@@ -1,8 +1,8 @@
 ---
 title: Toyota — Good Odds
 date: 2018-02-13 00:00:00 Z
+published: false
 position: 0
-image: "/uploads/toyota-good-odds.jpg"
 video: 255035988
 layout: project
 ---
