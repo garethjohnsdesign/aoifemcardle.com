@@ -17,11 +17,9 @@ Kissing Candice - Irish Film Board/
 Shortlisted for Berlin International Film Festival Crystal Bear\
 Discovery award at Toronto International Film Festival
 
-Confused.com — From Confusion to Clarity\
+Confused.com — From Confusion to Clarity\\
 
-
-Alzheimers — First Breath\
-
+Alzheimers — First Breath\\
 
 ## — 2017
 
@@ -33,33 +31,28 @@ British Arrow for cinematography\
 British Arrow for use of existing music\
 Gold for cinematography at Ciclope
 
-Audi — Daughter — Venables Bell & Partners\
+Audi — Daughter — Venables Bell & Partners\\
 
 Toyota — Good Odds — Saatchi & Saatchi\
 Silver Clio for Direction\
 Bronze Lion for Data Storytelling
 
-
-Toyota – Runner — Saatchi & Saatchi\
-
+Toyota – Runner — Saatchi & Saatchi\\
 
 State Farm — Don't you — DDB Chicago\
-Silver Clio for Direction\
-
+Silver Clio for Direction\\
 
 ## — 2016
 
-
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
-D&AD wood pencil for sound design for Film advertising\
-
+D&AD wood pencil for sound design for Film advertising\\
 
 Under Armour – Numbers – Droga 5, NYC\
 D&AD Wood pencil for sound design for Film advertising\
 Best editing at AICE\
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
 
-Secret – The Question – Wieden & Kennedy, Portland/ 
+Secret – The Question – Wieden & Kennedy, Portland/
 D&AD wood pencil for Film advertising
 
 Secret – Raise – Wieden & Kennedy, Portland
@@ -76,10 +69,11 @@ See More, Feel More – Samsung – CHI & Partners
 
 Not A Moment Too Soon – Bulmers – Publicis
 
-Every Breaking Wave – U2 – Island Records\
-
+Every Breaking Wave – U2 – Island Records\\ Nominated for UKMVA Best Indie video, Best Production Design, Best Cinematography and Best Editing
 
 ## — 2014
+
+Nominated for Best Music video Director at UKMVAs
 
 Loop De Li – Bryan Ferry – BMG records
 
@@ -105,14 +99,13 @@ Wheels on the Car — Road Safety – Scottish Government
 Open Eye Signal — Jon Hopkins — Domino Records\
 Best Cinematography at UK Music Video Awards
 
-Italy, Texas: Wild Souls in the Hot, Blind Earth — 55DSL — VICE UK/55DSL\
+Italy, Texas: Wild Souls in the Hot, Blind Earth — 55DSL — VICE UK/55DSL\\
 
 ## — 2012
 
 Seraphim — Simian Mobile Disco — Wichita Recordings
 
-Lesson No. 7 — Clock Opera — Moshi Moshi Records\
-
+Lesson No. 7 — Clock Opera — Moshi Moshi Records\\
 
 ## — 2011
 
@@ -123,8 +116,7 @@ Joanna — Little Comets
 La Poursuite — Inpes — McCann
 
 Isles — Little Comets\
-Best Music Video at Rushes Soho Shorts\
-
+Best Music Video at Rushes Soho Shorts\\ Nominated for Best Indie Music video at UKMVAs and Best Editing
 
 ## — 2010
 
