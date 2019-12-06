@@ -9,13 +9,11 @@ layout: page
 
 # **— 2019**
 
+PlayStation - Live the Game - Adam & Eve/DDB
+
 Nike - Dream with Us - Wieden & Kennedy
 
 ## — 2018
-
-Kissing Candice - Irish Film Board/
-Shortlisted for Berlin International Film Festival Crystal Bear\
-Discovery award at Toronto International Film Festival
 
 Confused.com — From Confusion to Clarity\\
 
@@ -30,6 +28,10 @@ D&AD Wood pencil for editing in Film advertising\
 British Arrow for cinematography\
 British Arrow for use of existing music\
 Gold for cinematography at Ciclope
+
+Kissing Candice - Irish Film Board/
+Shortlisted for Berlin International Film Festival Crystal Bear\
+Discovery award at Toronto International Film Festival
 
 Audi — Daughter — Venables Bell & Partners\\
 
