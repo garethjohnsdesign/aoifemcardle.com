@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-# Writer / director /cinematographer from Northern Ireland
+# Writer / director /cinematographer from Northern Ireland 
 
 # **— 2019**
 
