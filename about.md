@@ -5,8 +5,6 @@ layout: page
 
 # Writer / director /cinematographer from Northern Ireland
 
-# Based in Belfast
-
 # **— 2019**
 
 Brave New World    (TV series adaptation of Aldous Huxley Novel)          Director - Ep 5 "Firefall" 
