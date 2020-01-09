@@ -9,15 +9,18 @@ layout: page
 
 # **— 2019**
 
+Brave New World - Director - Ep 5 "Firefall" 
+                             Ep 6 "In the Dirt"
+
 PlayStation - Live the Game - Adam & Eve/DDB
 
 Nike - Dream with Us - Wieden & Kennedy 
 
 ## — 2018
 
-Confused.com — From Confusion to Clarity\\ D&AD Wood Pencil for colour grading in Film advertising
+Confused.com — From Confusion to Clarity\\ D&AD Wood Pencil for colour grading in Film advertising. Shortlisted for best production design at D&AD
 
-Alzheimers — First Breath\\
+Alzheimers — First Breath\ Won Gold for Sound at Shots Awards/Nominated for Best Cinematography and sound at British Arrows
 
 ## — 2017
 
@@ -36,8 +39,8 @@ Discovery award at Toronto International Film Festival
 Audi — Daughter — Venables Bell & Partners\\ Nominated for Glass Lion 
 
 Toyota — Good Odds — Saatchi & Saatchi\
-Silver Clio for Direction\
-Bronze Lion for Data Storytelling
+Won Silver Clio for Direction\
+Won Bronze Lion for Data Storytelling
 
 Toyota – Runner — Saatchi & Saatchi
 
@@ -47,11 +50,11 @@ Silver Clio for Direction\\
 ## — 2016
 
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
-D&AD wood pencil for sound design for Film advertising
+D&AD wood pencil for sound design for Film advertising. Nominated for Best Direction and cinematography at Ciclope 
 
 Under Armour – Numbers – Droga 5, NYC\
 D&AD Wood pencil for sound design for Film advertising\
-Best editing at AICE\
+Won Best editing at AICE\Nominated for Best Direction at Ciclope 
 Nominated for Best Direction at Ciclope Awards and Best Editing at the British Arrows
 
 Secret – The Question – Wieden & Kennedy, Portland/
@@ -82,7 +85,7 @@ Loop De Li – Bryan Ferry – BMG records
 Street Rider – Halfords – Mother
 
 Major Moments – Electric Ireland (GAA Minors) – Cawley Nea/TBWA\
-Won Four ICADs
+Won Four ICADs including Best long-form commercial, Best 60 second commercial. 
 
 Half-Light – Wilkinson – RAM / Virgin EMI Records
 
