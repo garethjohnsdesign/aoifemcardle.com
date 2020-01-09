@@ -30,7 +30,7 @@ British Arrow for cinematography\
 British Arrow for use of existing music\
 Gold for cinematography at Ciclope
 
-Kissing Candice - Irish Film Board/
+Kissing Candice (feature film) - Irish Film Board/
 Shortlisted for Berlin International Film Festival Crystal Bear\
 Discovery award at Toronto International Film Festival
 
