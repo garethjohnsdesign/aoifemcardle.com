@@ -8,7 +8,7 @@ layout: page
 # **— 2019**
 
 Brave New World    (TV series adaptation of Aldous Huxley Novel)          Director - Ep 5 "Firefall" 
-                       Director - Ep 6 "In the Dirt" - Amblin & NBC Universal
+                       & Ep 6 "In the Dirt" - Amblin & NBC Universal
 
 PlayStation - Live the Game - Adam & Eve/DDB
 
