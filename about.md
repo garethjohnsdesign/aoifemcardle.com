@@ -11,11 +11,11 @@ layout: page
 
 PlayStation - Live the Game - Adam & Eve/DDB
 
-Nike - Dream with Us - Wieden & Kennedy
+Nike - Dream with Us - Wieden & Kennedy 
 
 ## — 2018
 
-Confused.com — From Confusion to Clarity\\
+Confused.com — From Confusion to Clarity\\ D&AD Wood Pencil for colour grading in Film advertising
 
 Alzheimers — First Breath\\
 
@@ -23,7 +23,7 @@ Alzheimers — First Breath\\
 
 Absolut — Equal Love — BBH\
 D&AD Yellow pencil for cinematography in Film advertising\
-D&AD Graphite pencil for direction in Film advertising\
+D&AD Graphite pencil for direction in Film advertising
 D&AD Wood pencil for editing in Film advertising\
 British Arrow for cinematography\
 British Arrow for use of existing music\
@@ -33,13 +33,13 @@ Kissing Candice - Irish Film Board/
 Shortlisted for Berlin International Film Festival Crystal Bear\
 Discovery award at Toronto International Film Festival
 
-Audi — Daughter — Venables Bell & Partners\\
+Audi — Daughter — Venables Bell & Partners\\ Nominated for Glass Lion 
 
 Toyota — Good Odds — Saatchi & Saatchi\
 Silver Clio for Direction\
 Bronze Lion for Data Storytelling
 
-Toyota – Runner — Saatchi & Saatchi\\
+Toyota – Runner — Saatchi & Saatchi
 
 State Farm — Don't you — DDB Chicago\
 Silver Clio for Direction\\
@@ -47,7 +47,7 @@ Silver Clio for Direction\\
 ## — 2016
 
 Under Armour – Prince with 1000 Enemies – Droga 5, NYC\
-D&AD wood pencil for sound design for Film advertising\\
+D&AD wood pencil for sound design for Film advertising
 
 Under Armour – Numbers – Droga 5, NYC\
 D&AD Wood pencil for sound design for Film advertising\
@@ -71,7 +71,7 @@ See More, Feel More – Samsung – CHI & Partners
 
 Not A Moment Too Soon – Bulmers – Publicis
 
-Every Breaking Wave – U2 – Island Records\\ Nominated for UKMVA Best Indie video, Best Production Design, Best Cinematography and Best Editing
+Every Breaking Wave – U2 – Island Records\\ Nominated for Best Indie video, Best Production Design, Best Cinematography and Best Editing at UKMVAs
 
 ## — 2014
 
@@ -82,7 +82,7 @@ Loop De Li – Bryan Ferry – BMG records
 Street Rider – Halfords – Mother
 
 Major Moments – Electric Ireland (GAA Minors) – Cawley Nea/TBWA\
-Four ICADs
+Won Four ICADs
 
 Half-Light – Wilkinson – RAM / Virgin EMI Records
 
@@ -92,6 +92,8 @@ Glacier — James Vincent McMorrow – Vagrant Records
 
 Red Dust — James Vincent McMorrow — Vagrant Records
 
+Nominated for Best music video & Cinematography at Cameraimage
+
 Cavalier — James Vincent McMorrow — Vagrant Records
 
 Beyond the Fervent Heat — Design Forum – Tom Lipop for River Island Menswear
@@ -99,15 +101,15 @@ Beyond the Fervent Heat — Design Forum – Tom Lipop for River Island Menswear
 Wheels on the Car — Road Safety – Scottish Government
 
 Open Eye Signal — Jon Hopkins — Domino Records\
-Best Cinematography at UK Music Video Awards
+Won Best Cinematography at UK Music Video Awards
 
-Italy, Texas: Wild Souls in the Hot, Blind Earth — 55DSL — VICE UK/55DSL\\
+Italy, Texas: Wild Souls in the Hot, Blind Earth — 55DSL — VICE UK/55DSL\\ Nominated for Best Short film at Raindance
 
 ## — 2012
 
 Seraphim — Simian Mobile Disco — Wichita Recordings
 
-Lesson No. 7 — Clock Opera — Moshi Moshi Records\\
+Lesson No. 7 — Clock Opera — Moshi Moshi Records\\Nominated for Best Indie music video at UKMVAs
 
 ## — 2011
 
