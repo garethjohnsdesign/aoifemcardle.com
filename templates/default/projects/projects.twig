@@ -1,0 +1,53 @@
+{% set bodyClass = 'projects' %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% set projects = craft.entries
+.section('primaryProjects')
+.all() %}
+
+{% extends "_layouts/site" %}
+
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+
+<div class="wrapper">
+
+  <!-- Projects -->
+  {% set projectCount = projects|length %}
+  <div class="grid-x grid-padding-x align-left">
+    {% for project in projects %}
+      <div class="small-12 large-6 xxlarge-4 cell padding-bottom-1">
+        <a href="{{ project.url }}">
+        {% include "_includes/blocks/excerpt" %}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  <!-- End Projects -->
+  
+  <!-- Extra Projects Text -->
+  <div class="grid-x grid-padding-x">
+      <div class="small-12 large-12 cell">
+       {{entry.copy}}
+      </div>
+  </div>
+  <!-- End Extra Projects Text -->
+
+</div>
+
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

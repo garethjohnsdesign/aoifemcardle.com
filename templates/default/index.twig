@@ -1,0 +1,34 @@
+{% set bodyClass = 'home' %}
+{% set projects = entry.projects.all() %}
+
+{% extends "default/_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+{% block main %}
+
+<!-- Projects -->
+{% set projectCount = projects|length %}
+<div class="grid-x grid-padding-x grid-padding-y {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
+  {% for project in projects %}
+    <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-6{% endif %} cell text-center">
+      <a href="{{ project.url }}">
+        {% set image = project.image.one() %}
+        <div class="black-background-color">
+        <div class="margin-bottom-1 image--24-1" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="fade-in" data-aos-delay="100"></div>
+        </div>
+        <div class="sans-regular text-center">{{ project.title }}</div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+<!-- End Projects -->
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}
+

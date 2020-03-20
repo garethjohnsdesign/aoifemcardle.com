@@ -1,0 +1,100 @@
+{% set bodyClass = 'profile' %}
+{% set title = entry.title %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set description = entry.seoDescription %}
+{% else %}
+{% set description = entry.description %}
+{% endif %}
+
+{% extends "_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+
+<div class="wrapper">
+  <div class="grid-container">
+  
+    {# Details #}
+    {% for detail in entry.details.all() %}
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 medium-3 cell hide-for-small-only">
+        <div class="h3 margin-bottom-0">{{detail.header}}</div>
+      </div>
+      <div class="small-12 medium-9 cell">
+        <div class="h3 show-for-small-only">{{detail.header}}</div>
+        {{detail.copy}}
+      </div>
+    </div>
+    {% endfor %}
+    {# End Details #}
+  
+    {# Services #}
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 medium-3 cell hide-for-small-only">
+        <div class="h3">Services</div>
+      </div>
+      
+      <div class="small-12 medium-9 cell">
+        <div class="grid-x grid-padding-x medium-up-3">
+  
+          <div class="small-12 medium-3 cell show-for-small-only">
+            <div class="h3">Services</div>
+          </div>
+  
+          {% set services = craft.categories.group('services').orderBy('title asc') %}
+          {% for service in services.all() %}
+          <div class="cell margin-bottom-1">
+          {{service.title}}
+          </div>
+          {% endfor %}
+  
+  
+        </div>
+      </div>
+    </div>
+    {# End Services #}
+  
+    {# Clients #}
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 medium-3 cell hide-for-small-only">
+        <div class="h3">Clients</div>
+      </div>
+      
+      <div class="small-12 medium-9 cell">
+        <div class="grid-x grid-padding-x medium-up-3">
+  
+          <div class="small-12 medium-3 cell show-for-small-only">
+            <div class="h3">Clients</div>
+          </div>
+  
+          {% for client in entry.clients.all() %}
+          <div class="cell margin-bottom-1">
+          {{client.header}}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {# End Clients #}
+  
+  
+  </div>
+</div>
+
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

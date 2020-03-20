@@ -1,0 +1,116 @@
+{% set bodyClass = 'project' %}
+
+{# Set parameters for prev/next elements list #}
+{% set params = craft.entries
+.section('primaryProjects')
+.orderBy('postDate desc') %}
+
+{# Get the prev/next elements #}
+{% set prevEntry = entry.getPrev(params) %}
+{% set nextEntry = entry.getNext(params) %}
+
+{% extends "_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+
+{# Hero Image #}
+<div class="grid-x">
+  <div class="small-12 cell">
+    {% set image = entry.image.one() %}
+    <div class="light-gray-background-color">
+      <div class="image--hero" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}>
+  
+        <div class="content">
+          <div class="grid-x grid-padding-x grid-padding-y align-bottom padding-vertical-3" style="height: 100%">
+            <div class="small-12 cell">
+
+              <div class="grid-container">
+                <h1 class="white margin-bottom-0">{{entry.title}}</h1>
+              </div>
+
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>  
+  </div>
+</div>
+{# End Hero Image #}
+
+<div class="wrapper">
+  <div class="grid-container">
+
+    {# Description #}
+    <div class="grid-x grid-padding-x grid-padding-y">
+      {% set tags = entry.tags.all() %}
+      {% if tags|length %}
+      <div class="small-12 large-6 cell">
+        {% for tag in tags %}
+        <p class="lead margin-bottom-0">{{tag.title}}</p>
+        {% endfor %}
+      </div>
+              {% endif %}
+      <div class="small-12 large-6 cell">
+        <h3>{{entry.description|striptags|raw}}</h3>
+      </div>
+    </div>
+    {# End Description #}
+    
+    {# Details #}
+    <div class="grid-x grid-padding-x grid-padding-y medium-u">
+      <div class="small-12 medium-auto cell">
+        <h3>Brief</h3>
+        {{entry.brief}}
+      </div>
+      <div class="small-12 medium-auto cell">
+        <h3>Approach</h3>
+        {{entry.approach}}
+      </div>
+      <div class="small-12 medium-auto cell">
+        <h3>Outcome</h3>
+        {{entry.outcome}}
+      </div>
+    </div>
+    {# End Details #}
+
+    {# Testimonial #}
+    {% if entry.testimonial | length %}
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 large-8 cell">
+        <blockquote>
+          {{entry.testimonial}}
+          {% if entry.cite | length %}
+          <cite>{{entry.cite}}</cite>
+          {% endif %}
+        </blockquote>
+      </div>
+    </div>
+    {% endif %}
+    {# End Testimonial #}
+
+    {# Pagination #}
+    {% if nextEntry %}
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="small-12 cell text-center">
+        <h6>Next</h6>
+        <a href="{{ nextEntry.url }}" class="link">{{ nextEntry.title }}</a>
+      </div>
+    </div>
+    {% endif %}
+    {# End Pagination #}
+
+  </div>
+</div>
+
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}
