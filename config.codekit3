@@ -7,7 +7,7 @@
 		"uuidString": "BD87BF20-AE43-4190-B94C-7F6034A68D55"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31934",
 "files": {
 	"/404.md": {
 		"cB": 0,
@@ -284,6 +284,22 @@
 		"oAP": "/_projects/major-moments.markdown",
 		"oF": 0
 		},
+	"/_projects/nike-dream-with-us.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_projects/nike-dream-with-us.markdown",
+		"oF": 0
+		},
+	"/_projects/playstation-live-the-game.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_projects/playstation-live-the-game.markdown",
+		"oF": 0
+		},
 	"/_projects/samsung-feel-more.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -340,6 +356,14 @@
 		"oAP": "/_projects/toyota-runner.markdown",
 		"oF": 0
 		},
+	"/_projects/trouble-in-town.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_projects/trouble-in-town.markdown",
+		"oF": 0
+		},
 	"/_projects/u2-every-breaking-wave.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -386,14 +410,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_site/404.html",
-		"oF": 0
-		},
-	"/_site/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/about.html",
 		"oF": 0
 		},
 	"/_site/about/index.html": {
@@ -702,6 +718,14 @@
 		"oAP": "/_site/index.html",
 		"oF": 0
 		},
+	"/_site/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/_site/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/_site/projects/55DSL-italy-texas/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -724,22 +748,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_site/projects/alzheimers-first-breath/index.html",
-		"oF": 0
-		},
-	"/_site/projects/audi-daughter/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/audi-daughter/index.html",
-		"oF": 0
-		},
-	"/_site/projects/bryan-ferry-loop-de-li/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/bryan-ferry-loop-de-li/index.html",
 		"oF": 0
 		},
 	"/_site/projects/confused-confusion-to-clarity/index.html": {
@@ -774,22 +782,6 @@
 		"oAP": "/_site/projects/james-vincent-mcmorrow-cavalier/index.html",
 		"oF": 0
 		},
-	"/_site/projects/james-vincent-mcmorrow-glacier/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/james-vincent-mcmorrow-glacier/index.html",
-		"oF": 0
-		},
-	"/_site/projects/james-vincent-mcmorrow-red-dust/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/james-vincent-mcmorrow-red-dust/index.html",
-		"oF": 0
-		},
 	"/_site/projects/jon-hopkins-open-eye-signal/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -822,6 +814,22 @@
 		"oAP": "/_site/projects/major-moments/index.html",
 		"oF": 0
 		},
+	"/_site/projects/nike-dream-with-us/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/projects/nike-dream-with-us/index.html",
+		"oF": 0
+		},
+	"/_site/projects/playstation-live-the-game/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/projects/playstation-live-the-game/index.html",
+		"oF": 0
+		},
 	"/_site/projects/samsung-feel-more/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -838,44 +846,20 @@
 		"oAP": "/_site/projects/secret-raise/index.html",
 		"oF": 0
 		},
-	"/_site/projects/simian-mobile-disco-seraphim/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/simian-mobile-disco-seraphim/index.html",
-		"oF": 0
-		},
-	"/_site/projects/street-rider/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/street-rider/index.html",
-		"oF": 0
-		},
-	"/_site/projects/the-question/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/the-question/index.html",
-		"oF": 0
-		},
-	"/_site/projects/toyota-good-odds/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/toyota-good-odds/index.html",
-		"oF": 0
-		},
 	"/_site/projects/toyota-runner/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_site/projects/toyota-runner/index.html",
+		"oF": 0
+		},
+	"/_site/projects/trouble-in-town/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_site/projects/trouble-in-town/index.html",
 		"oF": 0
 		},
 	"/_site/projects/u2-every-breaking-wave/index.html": {
@@ -894,28 +878,12 @@
 		"oAP": "/_site/projects/under-armour-numbers/index.html",
 		"oF": 0
 		},
-	"/_site/projects/under-armour-prince-with-1000-enemies/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/under-armour-prince-with-1000-enemies/index.html",
-		"oF": 0
-		},
 	"/_site/projects/wheels-on-the-car/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_site/projects/wheels-on-the-car/index.html",
-		"oF": 0
-		},
-	"/_site/projects/wilkinson-half-light/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_site/projects/wilkinson-half-light/index.html",
 		"oF": 0
 		},
 	"/_site/robots.txt": {
@@ -951,17 +919,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_site/uploads/absolut-equal-love.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_site/uploads/alzheimers-first-breath.jpg": {
-		"ft": 16384,
-		"iS": 206736,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_site/uploads/alzheimers-first-breath.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1110,6 +1067,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_site/uploads/Screen Shot 2019-05-29 at 18.27.14.png": {
+		"ft": 32768,
+		"iS": 7107412,
+		"oA": 0,
+		"oAP": "/_site/uploads/Screen Shot 2019-05-29 at 18.27.14.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/uploads/Screen Shot 2019-05-29 at 19.17.08.png": {
+		"ft": 32768,
+		"iS": 1818718,
+		"oA": 0,
+		"oAP": "/_site/uploads/Screen Shot 2019-05-29 at 19.17.08.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_site/uploads/secret-raise.jpg": {
 		"ft": 16384,
 		"iS": 126058,
@@ -1209,6 +1188,171 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_site/uploads/Webp.net-resizeimage (1).png": {
+		"ft": 32768,
+		"iS": 2851255,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (1).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (2).jpg": {
+		"ft": 16384,
+		"iS": 391556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (2).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (3).jpg": {
+		"ft": 16384,
+		"iS": 2597186,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (3).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (4).jpg": {
+		"ft": 16384,
+		"iS": 2580031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (4).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (5).jpg": {
+		"ft": 16384,
+		"iS": 470052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (5).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (6)-461b96.jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (6)-461b96.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (6)-6b1893.jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (6)-6b1893.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (6).jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (6).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (7).jpg": {
+		"ft": 16384,
+		"iS": 1540906,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (7).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage (9).jpg": {
+		"ft": 16384,
+		"iS": 3812793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage (9).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage-090014.png": {
+		"ft": 32768,
+		"iS": 834164,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage-090014.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage-7e73fd.png": {
+		"ft": 32768,
+		"iS": 2161385,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage-7e73fd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage-951044.jpg": {
+		"ft": 16384,
+		"iS": 2532941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage-951044.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage.jpg": {
+		"ft": 16384,
+		"iS": 411442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_site/uploads/Webp.net-resizeimage.png": {
+		"ft": 32768,
+		"iS": 834164,
+		"oA": 0,
+		"oAP": "/_site/uploads/Webp.net-resizeimage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_site/uploads/wheels-on-the-car.jpg": {
 		"ft": 16384,
 		"iS": 176006,
@@ -1248,17 +1392,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/absolut-equal-love.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/alzheimers-first-breath.jpg": {
-		"ft": 16384,
-		"iS": 206736,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/alzheimers-first-breath.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1407,6 +1540,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/Screen Shot 2019-05-29 at 18.27.14.png": {
+		"ft": 32768,
+		"iS": 7107412,
+		"oA": 0,
+		"oAP": "/_uploads/Screen Shot 2019-05-29 at 18.27.14.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/Screen Shot 2019-05-29 at 19.17.08.png": {
+		"ft": 32768,
+		"iS": 1818718,
+		"oA": 0,
+		"oAP": "/_uploads/Screen Shot 2019-05-29 at 19.17.08.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/_uploads/secret-raise.jpg": {
 		"ft": 16384,
 		"iS": 126058,
@@ -1504,6 +1659,171 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (1).png": {
+		"ft": 32768,
+		"iS": 2851255,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (1).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (2).jpg": {
+		"ft": 16384,
+		"iS": 391556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (2).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (3).jpg": {
+		"ft": 16384,
+		"iS": 2597186,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (3).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (4).jpg": {
+		"ft": 16384,
+		"iS": 2580031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (4).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (5).jpg": {
+		"ft": 16384,
+		"iS": 470052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (5).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (6)-461b96.jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (6)-461b96.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (6)-6b1893.jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (6)-6b1893.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (6).jpg": {
+		"ft": 16384,
+		"iS": 1314013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (6).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (7).jpg": {
+		"ft": 16384,
+		"iS": 1540906,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (7).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage (9).jpg": {
+		"ft": 16384,
+		"iS": 3812793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage (9).jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage-090014.png": {
+		"ft": 32768,
+		"iS": 834164,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage-090014.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage-7e73fd.png": {
+		"ft": 32768,
+		"iS": 2161385,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage-7e73fd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage-951044.jpg": {
+		"ft": 16384,
+		"iS": 2532941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage-951044.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage.jpg": {
+		"ft": 16384,
+		"iS": 411442,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Webp.net-resizeimage.png": {
+		"ft": 32768,
+		"iS": 834164,
+		"oA": 0,
+		"oAP": "/_uploads/Webp.net-resizeimage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/_uploads/wheels-on-the-car.jpg": {
@@ -9419,6 +9739,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -9525,6 +9853,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -9536,6 +9865,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -9675,6 +10005,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -9706,6 +10039,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -9800,11 +10136,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -9949,6 +10284,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -10050,6 +10386,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -10399,6 +10739,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -10809,6 +11153,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -10820,6 +11168,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -11429,7 +11781,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -11562,8 +11913,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules\t",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
