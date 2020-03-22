@@ -487,11 +487,9 @@ p:last-child {
  margin-bottom: 0;
 }
 
-/*
 .testing {
- filter: blur(15px);
+ transform: scale(1.04);
 }
-*/
 
 .testing__parent {
   overflow: hidden;
@@ -499,12 +497,12 @@ p:last-child {
 
 
 [data-aos="new-animation"] {
- filter: blur(15px);
- opacity: 0;
+ filter: blur(20px);
+//  opacity: 0;
 //   transition-property: transform, opacity;
   &.aos-animate {
     filter: blur(0px);
-    opacity: 1
+//     opacity: 1
   }
 }
 
@@ -514,4 +512,26 @@ p:last-child {
 
 .border-bottom {
   border-bottom: 1px solid $dark-gray
+}
+
+.plyr--full-ui input[type=range] {
+  color: $black;
+}
+
+.plyr__control--overlaid {
+  background: rgba($black, .8);
+}
+
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded=true] {
+  background: $black;
+}
+
+.plyr__control.plyr__tab-focus {
+  box-shadow: 0 0 0 5px rgba($black, .5);
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+  background: $black;
 }

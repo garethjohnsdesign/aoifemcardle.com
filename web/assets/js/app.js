@@ -96,40 +96,6 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
-// 5. Carousel
-// -----------
-
-$(document).ready(function () {
-
-//initialize swiper when document ready
-var mySwiper = new Swiper ('.swiper-container', {
-
-  direction: 'horizontal',
-  slidesPerView: 'auto',
-  centeredSlides: true,
-  loop: true,
-  preventClicks: true,
-  slideToClickedSlide: false,
-  autoplay: {
-    delay: 5000,
-  },
-
-keyboard: {
-enabled: true,
-onlyInViewport: false,
-},
-
-navigation: {
-  nextEl: '.swiper-button-next-test',
-  prevEl: '.swiper-button-prev-test',
-}
-
-
-})
-});
-
-
-
 
 }
 

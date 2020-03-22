@@ -1220,6 +1220,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/web/assets/scss/_plyr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/web/assets/css/_plyr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/web/assets/scss/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
