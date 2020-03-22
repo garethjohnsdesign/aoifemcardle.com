@@ -1,4 +1,15 @@
 {% set bodyClass = 'about' %}
+
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set seoDescription = entry.seoDescription %}
+{% endif %}
+
 {% set allProjects = craft.entries
 .section('projects')
 .orderBy('postDate desc')
@@ -23,7 +34,7 @@
 
       {% for date, projects in allProjects | group("postDate|date('Y')") %}
           <div class="grid-x grid-padding-x grid-padding-y">
-            <div class="small-12 medium-12 cell padding-bottom-0">
+            <div class="small-12 medium-12 cell padding-bottom-0 text-center">
               <h5 class="sans-bold margin-bottom-0">{{ date }}</h4>
             </div>
           </div>

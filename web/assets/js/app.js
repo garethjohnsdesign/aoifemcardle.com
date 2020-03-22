@@ -3,6 +3,7 @@
 
 import $ from "jquery";
 import Plyr from 'plyr';
+import tippy, {followCursor} from 'tippy.js';
 import Foundation from 'foundation-sites';
 import AOS from 'aos';
 import Swup from 'swup';
@@ -46,6 +47,14 @@ $(document).ready(function() {
   }
 });
 */
+
+tippy('[data-tippy-content]', {
+  placement: 'bottom',
+  followCursor: true,
+  theme: 'custom',
+  flip: false,
+  plugins: [followCursor]
+})
 
 // 3. Plyr
 // ----------

@@ -535,3 +535,17 @@ p:last-child {
 .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
   background: $black;
 }
+
+
+.tippy-tooltip.custom-theme {
+  background-color: transparent;
+  color: $white;
+}
+
+.tippy-tooltip.custom-theme[data-animatefill] {
+  background-color: transparent;
+}
+
+.tippy-tooltip.custom-theme .tippy-backdrop {
+  background-color: transparent;
+}

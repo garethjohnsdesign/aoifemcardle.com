@@ -1,5 +1,22 @@
 {% set bodyClass = 'project' %}
 
+{% if entry.seoTitle|length %}
+{% set seoTitle = entry.seoTitle %}
+{% elseif entry.title|length %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription|length %}
+{% set seoDescription = entry.seoDescription|striptags|raw %}
+{% else %}
+{% set seoDescription = entry.title ~ ' for ' ~ entry.agency %}
+{% endif %}
+
+{% if entry.image|length  %}
+{% set asset = entry.image.one() %}
+{% set seoImage = craft.imager.transformImage(asset, { width: 1200, height: 630, dpr: 1, position: asset.getFocalPoint() }) %}
+{% endif %}
+
 {# Set parameters for prev/next elements list #}
 {% set params = craft.entries
 .section('projects')
@@ -28,7 +45,7 @@
 <div class="medium-2 large-1 cell show-for-large project__pagination">
   {% if prevEntry %}
   <a href="{{ prevEntry.url }}">
-    <div class="grid-y align-center" style="height: 100%;">
+    <div class="grid-y align-center" style="height: 100%;" data-tippy-content="Tooltip">
       <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg></div>
     </div>
   </a>

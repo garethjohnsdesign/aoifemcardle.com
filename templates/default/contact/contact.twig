@@ -1,5 +1,15 @@
 {% set bodyClass = 'contact' %}
 
+{% if entry.seoTitle | length %}
+{% set seoTitle = entry.seoTitle %}
+{% else %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription | length %}
+{% set seoDescription = entry.seoDescription %}
+{% endif %}
+
 {% extends "_layouts/site" %}
 
 {% block navigation %}

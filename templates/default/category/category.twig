@@ -4,6 +4,12 @@
 .orderBy('postDate desc')
 .all() %}
 
+{% set seoTitle = category.title %}
+
+{% if category.seoDescription | length %}
+{% set seoDescription = category.seoDescription %}
+{% endif %}
+
 {% extends "_layouts/site" %}
 
 {% block navigation %}
