@@ -16,6 +16,7 @@
     "foundation-sites": "^6.6.1",
     "jquery": "^3.4.1",
     "motion-ui": "^2.0.3",
+    "plyr": "^3.5.10",
     "swup": "^2.0.8",
     "what-input": "^5.2.6"
   }

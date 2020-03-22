@@ -12,24 +12,35 @@
 <div class="grid-container">
 
     {% for region in entry.regions.all()  %}
-    <div class="grid-x grid-padding-x grid-padding-y align-center">
-      <div class="small-12 medium-3 cell show-for-medium">
-        <div class="h5">{{region.header}}</div>
+    <div class="grid-x grid-padding-x grid-padding-y align-center border-bottom">
+
+      <div class="small-12 medium-3 cell">
+        <div class="sans-bold text-uppercase">{{region.header}}</div>
+        {% if region.company|length %}
+          {% for company in region.company %}
+            <div class="margin-top-1"><a href="{{ company.link }}">{{ company.company }}</a></div>
+          {% endfor %}
+        {% endif %}
       </div>
       <div class="small-12 medium-9 cell">
-  
-       <div class="grid-x show-for-small-only">
-          <div class="small-12 cell">
-            <div class="h5">{{region.header}}</div>
+
+        <div class="grid-x grid-padding-x grid-padding-y">
+        {% if region.contact|length %}
+          {% for contact in region.contact %}
+          <div class="cell medium-6 large-4">
+            <div>{{ contact.name }}</div>
+            <div>{{ contact.email }}</div>
           </div>
+          {% endfor %}
+        {% endif %}
         </div>
-{#           {{detail.copy}} #}
+
       </div>
     </div>
     {% endfor %}
     
     <!-- Terms and Privacy -->
-    <div class="grid-x grid-padding-x align-center">
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
       <div class="small-12 cell text-center">
         <ul class="menu align-center">
           <li><a href="/terms">Terms</a></li>

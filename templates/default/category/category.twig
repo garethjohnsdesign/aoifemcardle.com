@@ -1,7 +1,7 @@
 {% set bodyClass = 'category' %}
 {% set projects = craft.entries
 .relatedTo(category)
-.order('postDate desc')
+.orderBy('postDate desc')
 .all() %}
 
 {% extends "_layouts/site" %}

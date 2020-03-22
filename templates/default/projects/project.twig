@@ -4,7 +4,7 @@
 {% set params = craft.entries
 .section('projects')
 .relatedTo(entry.typeOfProject)
-.order('postDate desc') %}
+.orderBy('postDate desc') %}
 
 {# Get the prev/next elements #}
 {% set prevEntry = entry.getPrev(params) %}

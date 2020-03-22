@@ -2,11 +2,10 @@
 // ----------
 
 import $ from "jquery";
+import Plyr from 'plyr';
 import Foundation from 'foundation-sites';
-import Cookies from 'js-cookie'
 import AOS from 'aos';
 import Swup from 'swup';
-import Swiper from 'swiper';
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScrollPlugin from '@swup/scroll-plugin';
 import SwupGaPlugin from '@swup/ga-plugin';
@@ -31,6 +30,7 @@ $(document).foundation();
 // 3. Loading
 // ----------
 
+/*
 $(document).ready(function() {
   if (!Cookies.get('loading')) {
 
@@ -44,6 +44,14 @@ $(document).ready(function() {
   });
 
   }
+});
+*/
+
+// 3. Plyr
+// ----------
+
+const player = new Plyr('#player', {
+    /* options */
 });
 
 // 3. Hamburger
