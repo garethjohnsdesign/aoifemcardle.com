@@ -1,11 +1,14 @@
-<nav class="show-for-small-only full reveal tertiary-background-color" id="overlayNavigation" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+<nav class="full reveal tertiary-background-color" id="overlayNavigation" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
-      <ul class="vertical menu align-center h3">
-        <li><a href="/profile" data-close>Profile</a></li>
-        <li><a href="/projects" data-close>Projects</a></li>
-        <li><a href="/services" data-close>Services</a></li>
+      <ul class="vertical menu text-uppercase sans-bold">
+        {% nav category in craft.categories.group('typeOfProject') %}
+          <li>
+           <a href="{{ category.url }}" class="" data-close>{{ category.title }}</a>
+          </li>
+        {% endnav %}
+        <li><a href="/about" data-close>About</a></li>
         <li><a href="/contact" data-close>Contact</a></li>
       </ul>
   

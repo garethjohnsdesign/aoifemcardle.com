@@ -1,6 +1,4 @@
 {% set bodyClass = 'contact' %}
-{% set seoTitle = "Contact" %}
-{% set title = "Contact" %}
 
 {% extends "_layouts/site" %}
 
@@ -11,74 +9,37 @@
 
 {% block main %}
 
-<div class="wrapper">
-  <div class="grid-container">
-  
-    <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 cell">
-        {% set image = entry.image.one() %}
-        <div class="tertiary-background-color">
-          <div class="image--24-1" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-        </div>  
-      </div>
-    </div>
-  
-    {# Contact #}
-    <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 medium-3 cell show-for-medium">
-          <div class="h3">Contact</div>
-        </div>
-  
-        <div class="small-12 medium-9 cell">
-  
-        <div class="grid-x show-for-small-only">
-          <div class="small-12 cell">
-            <div class="h3">Contact</div>
-          </div>
-        </div>
-  
-        <div class="grid-x grid-padding-x medium-up-3">
-  
-          {% for contact in entry.contacts.all() %}
-          <div class="cell margin-bottom-1">
-          <h4 class="margin-bottom-0">{{contact.header}}</h4>
-          <a href="mailto:{{contact.email}}" class="link">{{contact.email}}</a>  
-          </div>
-          {% endfor %}
-        </div>
-        </div>
-    </div>
-    {# End Contact #}
-  
-    {% for detail in entry.details.all()  %}
+<div class="grid-container">
+
+    {% for region in entry.regions.all()  %}
     <div class="grid-x grid-padding-x grid-padding-y align-center">
       <div class="small-12 medium-3 cell show-for-medium">
-        <div class="h3">{{detail.header}}</div>
+        <div class="h5">{{region.header}}</div>
       </div>
       <div class="small-12 medium-9 cell">
   
        <div class="grid-x show-for-small-only">
           <div class="small-12 cell">
-            <div class="h3">{{detail.header}}</div>
+            <div class="h5">{{region.header}}</div>
           </div>
         </div>
-          {{detail.copy}}
+{#           {{detail.copy}} #}
       </div>
     </div>
     {% endfor %}
-
-    <div class="grid-x grid-padding-x grid-padding-y show-for-small-only">
-      <div class="small-12 cell">
-        <ul class="menu align-left">
-          <li><a href="/privacy-policy" class="medium-gray">Privacy Policy</a></li>
-          <li><a href="/terms" class="medium-gray">Terms and Conditions</a></li>
+    
+    <!-- Terms and Privacy -->
+    <div class="grid-x grid-padding-x align-center">
+      <div class="small-12 cell text-center">
+        <ul class="menu align-center">
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/privacy-policy">Privacy</a></li>
         </ul>
       </div>
     </div>
-  
-  </div>
-</div>
+    <!-- End Terms and Privacy -->
 
+</div>
 {% endblock %}
 
 

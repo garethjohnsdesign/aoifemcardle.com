@@ -2,14 +2,17 @@
 
 {# Set parameters for prev/next elements list #}
 {% set params = craft.entries
-.section('primaryProjects')
-.orderBy('postDate desc') %}
+.section('projects')
+.relatedTo(entry.typeOfProject)
+.order('postDate desc') %}
 
 {# Get the prev/next elements #}
 {% set prevEntry = entry.getPrev(params) %}
 {% set nextEntry = entry.getNext(params) %}
 
+
 {% extends "_layouts/site" %}
+
 
 {% block navigation %}
 {% include "_includes/global/navigation" %}
@@ -18,95 +21,86 @@
 
 {% block main %}
 
-{# Hero Image #}
-<div class="grid-x">
+<!-- Content -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+
+<!-- Previous -->
+<div class="medium-2 large-1 cell show-for-large project__pagination">
+  {% if prevEntry %}
+  <a href="{{ prevEntry.url }}">
+    <div class="grid-y align-center" style="height: 100%;">
+      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg></div>
+    </div>
+  </a>
+  {% endif %}
+</div>
+<!-- End Previous -->
+
+<!-- Center -->
+<div class="small-12 medium-10 large-10 cell">
+
+      <div class="margin-bottom-2 sans-bold text-uppercase text-center">{{ entry.title }}</div>
+
+{% if entry.video %}
+<div class="grid-x grid-padding-x align-center">
   <div class="small-12 cell">
-    {% set image = entry.image.one() %}
-    <div class="light-gray-background-color">
-      <div class="image--hero" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}>
-  
-        <div class="content">
-          <div class="grid-x grid-padding-x grid-padding-y align-bottom padding-vertical-3" style="height: 100%">
-            <div class="small-12 cell">
-
-              <div class="grid-container">
-                <h1 class="white margin-bottom-0">{{entry.title}}</h1>
-              </div>
-
-            </div>
-          </div>
-        </div>
-  
-      </div>
-    </div>  
+  	<div class="responsive-embed widescreen">
+  	   <iframe src="https://player.vimeo.com/video/{{ entry.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	</div>
   </div>
 </div>
-{# End Hero Image #}
+{% endif %}
 
-<div class="wrapper">
-  <div class="grid-container">
 
-    {# Description #}
-    <div class="grid-x grid-padding-x grid-padding-y">
-      {% set tags = entry.tags.all() %}
-      {% if tags|length %}
-      <div class="small-12 large-6 cell">
-        {% for tag in tags %}
-        <p class="lead margin-bottom-0">{{tag.title}}</p>
-        {% endfor %}
-      </div>
-              {% endif %}
-      <div class="small-12 large-6 cell">
-        <h3>{{entry.description|striptags|raw}}</h3>
-      </div>
-    </div>
-    {# End Description #}
-    
-    {# Details #}
-    <div class="grid-x grid-padding-x grid-padding-y medium-u">
-      <div class="small-12 medium-auto cell">
-        <h3>Brief</h3>
-        {{entry.brief}}
-      </div>
-      <div class="small-12 medium-auto cell">
-        <h3>Approach</h3>
-        {{entry.approach}}
-      </div>
-      <div class="small-12 medium-auto cell">
-        <h3>Outcome</h3>
-        {{entry.outcome}}
-      </div>
-    </div>
-    {# End Details #}
-
-    {# Testimonial #}
-    {% if entry.testimonial | length %}
-    <div class="grid-x grid-padding-x grid-padding-y align-center">
-      <div class="small-12 large-8 cell">
-        <blockquote>
-          {{entry.testimonial}}
-          {% if entry.cite | length %}
-          <cite>{{entry.cite}}</cite>
-          {% endif %}
-        </blockquote>
-      </div>
-    </div>
-    {% endif %}
-    {# End Testimonial #}
-
-    {# Pagination #}
-    {% if nextEntry %}
-    <div class="grid-x grid-padding-x grid-padding-y">
-      <div class="small-12 cell text-center">
-        <h6>Next</h6>
-        <a href="{{ nextEntry.url }}" class="link">{{ nextEntry.title }}</a>
-      </div>
-    </div>
-    {% endif %}
-    {# End Pagination #}
-
+<!-- Credits -->
+<div class="grid-x grid-padding-x align-center">
+  <div class="small-12 cell text-center">
+  
+  
   </div>
 </div>
+<!-- End Credit -->
+
+<!-- Content -->
+<div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
+  <div class="small-12 cell text-center">
+  {{ entry.copy }}
+  </div>
+</div>
+<!-- End Content -->
+
+<!-- Mobile Pagination -->
+{% if nextEntry %}
+<div class="grid-x grid-padding-x align-center hide-for-large">
+  <div class="shrink cell text-center">
+    <a href="{{ nextEntry.url }}"><svg class="icon icon-arrows icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></a>
+  </div>
+</div>
+{% endif %}
+<!-- End Mobile Pagination -->
+      
+      
+      
+
+</div>
+<!-- End Center -->
+
+<!-- Next -->
+<div class="medium-2 large-1 cell show-for-large project__pagination">
+  {% if nextEntry %}
+  <a href="{{ nextEntry.url }}">
+    <div class="grid-y align-center" style="height: 100%;">
+      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></div>
+    </div>
+  </a>
+  {% endif %}
+</div>
+<!-- End Next -->
+
+</div>   
+<!-- End Content -->
+
+
 
 {% endblock %}
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "840556395809a93bdf05405cc6a8d934",
+    "content-hash": "fb4e38e92e2d73accf18c56b78654556",
     "packages": [
         {
             "name": "aelvan/imager",
@@ -5226,6 +5226,53 @@
                 "templating"
             ],
             "time": "2020-02-11T15:31:23+00:00"
+        },
+        {
+            "name": "venveo/craft-bulkedit",
+            "version": "2.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/venveo/craft-bulkedit/zipball/5b053657d869b0f123261a26f8b503b515fa12e6",
+                "reference": "5b053657d869b0f123261a26f8b503b515fa12e6",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.2.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Bulk Edit",
+                "handle": "venveo-bulk-edit",
+                "changelogUrl": "https://raw.githubusercontent.com/venveo/craft-bulkedit/master/CHANGELOG.md",
+                "class": "venveo\\bulkedit\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "venveo\\bulkedit\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Venveo",
+                    "homepage": "https://venveo.com"
+                }
+            ],
+            "description": "Bulk edit Craft CMS element fields",
+            "keywords": [
+                "bulk edit",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/venveo/craft-bulkedit/blob/master/README.md",
+                "issues": "https://github.com/venveo/craft-bulkedit/issues"
+            },
+            "time": "2020-02-25T22:09:37+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

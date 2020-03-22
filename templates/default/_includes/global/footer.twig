@@ -1,5 +1,5 @@
 {# Footer #}
-<footer class="grid-x grid-padding-x grid-padding-y align-justify sans-display">
+<footer class="grid-x grid-padding-x grid-padding-y align-justify align-middle">
 
   <div class="shrink cell">
     <ul class="menu align-left align-middle">
@@ -10,8 +10,8 @@
 
   <div class="shrink cell">
     <ul class="menu align-left align-middle">
-      <li><a href="/privacy-policy" class="medium-gray show-for-medium">Privacy Policy</a></li>
-      <li><a href="/terms" class="medium-gray show-for-medium">Terms and Conditions</a></li>
+      <li><a href="/privacy-policy" class="dark-gray show-for-medium">Privacy Policy</a></li>
+      <li><a href="/terms" class="dark-gray show-for-medium">Terms and Conditions</a></li>
       {% for block in socials.socials.all() %}
       {% switch block.type %}
         {% case "facebook" %}

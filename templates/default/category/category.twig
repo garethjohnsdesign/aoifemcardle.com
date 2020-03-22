@@ -1,7 +1,10 @@
-{% set bodyClass = 'home' %}
-{% set projects = entry.projects.all() %}
+{% set bodyClass = 'category' %}
+{% set projects = craft.entries
+.relatedTo(category)
+.order('postDate desc')
+.all() %}
 
-{% extends "default/_layouts/site" %}
+{% extends "_layouts/site" %}
 
 {% block navigation %}
 {% include "_includes/global/navigation" %}
@@ -17,7 +20,7 @@
       <a href="{{ project.url }}">
         {% set image = project.image.one() %}
         <div class="black-background-color testing__parent">
-        <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation" data-aos-delay="300"></div>
+        <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation"></div>
         </div>
         <div class="text-center margin-top-1">{{ project.title }}</div>
       </a>
@@ -31,4 +34,3 @@
 {% block footer %}
 {% include "_includes/global/footer" %}
 {% endblock %}
-

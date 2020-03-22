@@ -26,7 +26,8 @@
     "nystudio107/craft-minify": "1.2.9",
     "aelvan/imager": "v2.4.0",
     "craftcms/feed-me": "4.2.1.1",
-    "ether/seo": "3.6.3"
+    "ether/seo": "3.6.3",
+    "venveo/craft-bulkedit": "2.0.4"
   },
   "autoload": {
     "psr-4": {
