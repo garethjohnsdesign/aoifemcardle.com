@@ -5,25 +5,21 @@
       <ul class="vertical menu text-uppercase sans-bold h4">
         {% nav category in craft.categories.group('typeOfProject').all() %}
           <li>
-           <a href="{{ category.url }}" class="" data-close>{{ category.title }}</a>
+           <a href="{{ category.url }}" class="" data-toggle="overlayNavigation hamburger">{{ category.title }}</a>
           </li>
         {% endnav %}
-        <li><a href="/about" data-close>About</a></li>
-        <li><a href="/contact" data-close>Contact</a></li>
+        <li><a href="/about" data-toggle="overlayNavigation hamburger">About</a></li>
+        <li><a href="/contact" data-toggle="overlayNavigation hamburger">Contact</a></li>
       </ul>
   
       <div class="shrink cell text-center">
        <ul class="menu align-center">
           {% for block in socials.socials.all() %}
           {% switch block.type %}
-            {% case "facebook" %}
-              <li><a href="{{block.socialLink}}" target="_blank" rel="noreferrer" aria-label="Facebook"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
             {% case "instagram" %}
-              <li><a href="{{block.socialLink}}" target="_blank" rel="noreferrer" aria-label="Instagram"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-            {% case "twitter" %}
-                <li><a href="{{block.socialLink}}" target="_blank" rel="noreferrer" aria-label="Twitter"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
-            {% case "linkedin" %}
-                <li><a href="{{block.socialLink}}" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg class="icon icon-linkedin"><use xlink:href="/assets/icons/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+            {% case "vimeo" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-vimeo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-vimeo"></use></svg></a></li>
           {% endswitch %}
           {% endfor %}
         </ul>
