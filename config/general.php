@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://www.aoifemcardle.com',
+            'default' => 'https://aoifemcardle.frb.io',
         ],
 
         'devMode' => false,
