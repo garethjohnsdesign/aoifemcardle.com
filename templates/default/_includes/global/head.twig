@@ -6,7 +6,7 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="generator" content="Craft CMS, http://craftcms.com" />
 
-<title>{% if url == "/" %}{{ globalSeoTitle }}{% else %}{% if seoTitle is defined %}{{ seoTitle }} — {{ globalSeoTitle }}{% else %}{{ globalSeoTitle }}{% endif %}{% endif %}</title>
+<title>{% if bodyClass == "home" %}{{ globalSeoTitle }}{% else %}{% if seoTitle is defined %}{{ seoTitle }} — {{ globalSeoTitle }}{% else %}{{ globalSeoTitle }}{% endif %}{% endif %}</title>
 
 <meta name="description" content="{% if seoDescription is defined %}{{ seoDescription|raw }}{% else %}{{ globalSeoDescription|raw }}{% endif %}">
 
