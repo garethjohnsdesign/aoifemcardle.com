@@ -25,20 +25,7 @@
 <div class="grid-x grid-padding-y {% if projectCount > 2 %}align-left{% else %}align-center{% endif %}">
   {% for project in projects %}
     <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-6{% endif %} cell text-center">
-      <a href="{{ project.url }}">
-        {% set image = project.image.one() %}
-        <div class="black-background-color excerpt">
-        <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation"></div>
-        
-        {% if project.previewVideo %}
-          <video playsinline autoplay muted loop class="video" poster="" data-aos="new-animation">
-            <source src="{{ project.previewVideo }}" type="video/mp4">
-          </video>
-        {% endif %}
-
-        </div>
-        <div class="text-center margin-top-1">{{ project.title }}</div>
-      </a>
+    {% include "_includes/blocks/excerpt" %}
     </div>
   {% endfor %}
 </div>

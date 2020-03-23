@@ -1,13 +1,14 @@
-{% set image = project.image.one() %}
-<div class="tertiary-background-color excerpt">
-  <div class="image--16-9" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}>
-
-    <div class="grid-y content">
-      <div class="shrink cell padding-1 white h4 margin-top-0">
-      {{project.description|striptags|raw }}
-      </div>
-    </div>
+<a href="{{ project.url }}">
+  {% set image = project.image.one() %}
+  <div class="black-background-color excerpt">
+  <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation"></div>
+  
+  {% if project.previewVideo %}
+    <video autoplay muted loop class="video" poster="" data-aos="new-animation">
+      <source data-src="{{ project.previewVideo }}" type="video/mp4">
+    </video>
+  {% endif %}
 
   </div>
-</div>
-<div class="sans-display h4">{{ project.title }}</div>
+  <div class="text-center margin-top-1 lazy">{{ project.title }}</div>
+</a>
