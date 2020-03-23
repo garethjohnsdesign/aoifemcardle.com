@@ -31,7 +31,7 @@
         <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation"></div>
         
         {% if project.previewVideo %}
-          <video playsinline autoplay muted loop class="video hide-for-small-only" poster="" data-aos="new-animation">
+          <video playsinline autoplay muted loop class="video" poster="" data-aos="new-animation">
             <source src="{{ project.previewVideo }}" type="video/mp4">
           </video>
         {% endif %}
