@@ -38,8 +38,9 @@
         {% if region.contact|length %}
           {% for contact in region.contact %}
           <div class="cell medium-6 large-4">
+            {% if contact.department|length %}<div>{{ contact.department }}</div>{% endif %}
             <div>{{ contact.name }}</div>
-            <div>{{ contact.email }}</div>
+            <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
           </div>
           {% endfor %}
         {% endif %}
@@ -52,8 +53,18 @@
     <!-- Terms and Privacy -->
     <div class="grid-x grid-padding-x grid-padding-y align-justify">
       <div class="shrink cell">
-         <a href="/terms">Terms</a>
-         <a href="/privacy-policy">Privacy</a>
+        <ul class="menu simple">
+         {% for block in socials.socials.all() %}
+          {% switch block.type %}
+            {% case "instagram" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
+            {% case "vimeo" %}
+              <li><a href="{{block.socialLink}}" target="_blank"><svg class="icon icon-vimeo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-vimeo"></use></svg></a></li>
+          {% endswitch %}
+          {% endfor %}
+         <li><a href="/terms">Terms</a></li>
+         <li><a href="/privacy-policy">Privacy</a></li>
+        </ul>
       </div>
       <div class="shrink cell">
         <a href="https://www.garethjohnsdesign.com">Site by Reformation</a>
