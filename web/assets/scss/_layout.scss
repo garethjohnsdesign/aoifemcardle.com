@@ -456,19 +456,6 @@ url('/assets/img/arrow-left@3x.png') 3x
   padding-right: 0;
 }
 
-.logos {
-  transition: $primary-transition;
-  &:hover {
-    @include opacity(0.7);
-  }
-  @include breakpoint(small only) {
-    width: 75%;
-  }
-  @include breakpoint(medium up) {
-    width: 50%;
-  }
-}
-
 .active {
   color: $primary-color !important;
 }
@@ -491,7 +478,7 @@ p:last-child {
  transform: scale(1.04);
 }
 
-.testing__parent {
+.excerpt__wrapper {
   overflow: hidden;
 }
 
@@ -519,7 +506,7 @@ p:last-child {
 }
 
 .plyr__control--overlaid {
-  background: rgba($black, .8);
+  background: rgba($black, .0);
 }
 
 .plyr--video .plyr__control.plyr__tab-focus,
@@ -536,10 +523,10 @@ p:last-child {
   background: $black;
 }
 
-
-.tippy-tooltip.custom-theme {
+.tippy-box[data-theme~='custom'] {
   background-color: transparent;
   color: $white;
+  font-size: 1rem;
 }
 
 .tippy-tooltip.custom-theme[data-animatefill] {
@@ -548,4 +535,31 @@ p:last-child {
 
 .tippy-tooltip.custom-theme .tippy-backdrop {
   background-color: transparent;
+}
+
+.excerpt {
+position: relative;
+overflow: hidden;
+}
+
+.video {
+  min-width: 100%; 
+  min-height: 100%;
+//   max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.excerpt {
+  .video {
+    @include opacity(0);
+  }
+  &:hover .video {
+    @include opacity(1);
+  }
 }
