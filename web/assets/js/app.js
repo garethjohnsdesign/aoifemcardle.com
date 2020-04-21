@@ -49,15 +49,15 @@ tippy('[data-tippy-content]', {
   plugins: [followCursor]
 })
 
-// 3. Plyr
+// 4. Plyr
 // ----------
 
 const player = new Plyr('#player', {
     /* options */
 });
 
-// 3. Hamburger
-// ----------
+// 5. Hamburger
+// ------------
 
 var $hamburger = $(".hamburger");
   $hamburger.on("click", function(e) {
@@ -66,7 +66,7 @@ var $hamburger = $(".hamburger");
   });
 
 
-// 4. Viewport Height Fix
+// 6. Viewport Height Fix
 // ----------------------
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
@@ -83,7 +83,7 @@ window.addEventListener('resize', () => {
 });
 
 
-// 5. Animate on Scroll
+// 7. Animate on Scroll
 // --------------------
 
 $(function() {
@@ -101,7 +101,7 @@ window.addEventListener('load', AOS.refresh);
 
 }
 
-// 2. Page Transitions
+// 8. Page Transitions
 // -------------------
 const options = {
   animationSelector: '[class*="swup-transition-"]',
@@ -121,7 +121,7 @@ const options = {
 
 const swup = new Swup( options );
 
-// 2. Run Once
+// 9. Run Once
 // -----------
 init();
 
