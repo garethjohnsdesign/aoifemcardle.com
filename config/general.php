@@ -44,7 +44,7 @@ return [
         'enableTemplateCaching' => false,
 
         // Set the environmental variables
-        'staticAssetsVersion' => 2,
+        'staticAssetsVersion' => 3,
         
     ],
 
@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://aoifemcardle.frb.io',
+            'default' => 'https://aoifemcardle.com',
         ],
 
         'devMode' => false,
