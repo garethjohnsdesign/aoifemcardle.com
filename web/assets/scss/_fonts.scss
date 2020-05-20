@@ -17,3 +17,33 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Monument Grotesk Regular';
+  src: 
+  url('../fonts/monument-grotesk-regular.woff2') format('woff2'), 
+  url('../fonts/monument-grotesk-regular.woff') format('woff'),
+  url('../fonts/monument-grotesk-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk Medium';
+  src: 
+  url('../fonts/monument-grotesk-medium.woff2') format('woff2'), 
+  url('../fonts/monument-grotesk-medium.woff') format('woff'),
+  url('../fonts/monument-grotesk-medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk Bold';
+  src: 
+  url('../fonts/monument-grotesk-bold.woff2') format('woff2'), 
+  url('../fonts/monument-grotesk-bold.woff') format('woff'),
+  url('../fonts/monument-grotesk-bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}

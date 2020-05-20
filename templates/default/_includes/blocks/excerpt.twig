@@ -1,7 +1,7 @@
 <a href="{{ project.url }}">
   {% set image = project.image.one() %}
   <div class="black-background-color excerpt">
-  <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}{% endif %}" data-aos="new-animation"></div>
+  <div class="image--24-1 testing" data-interchange="{% if image | length %}{% include "_includes/images/full/24-1/interchange-img-small-12-medium-6" %}{% endif %}" data-aos="new-animation"></div>
   
   {% if project.previewVideo %}
     <video autoplay muted loop class="video" poster="" data-aos="new-animation">
@@ -10,5 +10,5 @@
   {% endif %}
 
   </div>
-  <div class="text-center margin-top-1 lazy">{{ project.title }}</div>
+  <div class="text-center margin-top-1 lazy sans-bold text-uppercase">{{ project.title }}</div>
 </a>
