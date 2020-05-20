@@ -1,4 +1,5 @@
 <!-- Mobile Navigation -->
+{#
 <div class="grid-x grid-padding-y align-justify align-middle navigation hide-for-large" id="swup-header" style="z-index: 14">
   <div class="auto cell">
     <a href="/" class="sans-bold text-uppercase h6">{{ siteName }}</a>
@@ -11,6 +12,7 @@
     </button>
   </div>
 </div>
+#}
 <!-- End Mobile Navigation -->
 
 <!-- Desktop Navigation -->
@@ -34,14 +36,14 @@
 <!-- End Desktop Navigation -->
 
 <!-- Desktop Navigation -->
-<div class="grid-x show-for-large align-justify align-middle navigation" id="swup-header" style="z-index: 14">
+<div class="grid-x align-justify align-middle navigation" id="swup-header" style="z-index: 14">
 
   <div class="auto cell">
     <button class="sans-bold text-uppercase h6" aria-label="Navigation" data-toggle="overlayNavigation">{{ siteName }}</button>
   </div>
 
   <div class="shrink cell">
-    <button class="sans-bold text-uppercase h6" aria-label="Navigation" data-toggle="overlayNavigation"><svg class="icon icon-arrows icon-add"><use xlink:href="/assets/icons/symbol-defs.svg#icon-add"></use></svg></button>
+    <button class="sans-bold text-uppercase h4" aria-label="Navigation" data-toggle="overlayNavigation">+</button>
   </div>
 
 </div>
