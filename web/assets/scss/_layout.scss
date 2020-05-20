@@ -335,6 +335,14 @@ p a {
   background-position: 50%;
 }
 
+.image--hero {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  background-size: cover; 
+  background-position: 50%;
+}
 
 // 6. Navigation
 // -------------
@@ -513,6 +521,11 @@ position: relative;
 overflow: hidden;
 }
 
+.hero {
+position: relative;
+overflow: hidden;
+}
+
 .video {
   min-width: 100%; 
   min-height: 100%;
@@ -533,4 +546,23 @@ overflow: hidden;
   &:hover .video {
     @include opacity(1);
   }
+}
+
+.home .excerpt {
+  .video {
+    @include opacity(1);
+  }
+  &:hover .video {
+    @include opacity(1);
+  }
+}
+
+.home .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 210;
+  background-color: transparent;
+  @include links ($white, $white);
 }

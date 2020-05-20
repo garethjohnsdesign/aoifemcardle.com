@@ -25,11 +25,13 @@
 
 {% block main %}
 <div class="grid-container">
+{#
       <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
         <div class="small-12 cell">
           {{entry.copy}}
         </div>
       </div>
+#}
 
 
       {% for date, projects in allProjects | group("postDate|date('Y')") %}
