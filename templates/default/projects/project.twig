@@ -90,7 +90,8 @@
   <div class="small-12 medium-6 cell text-center">
     {% if entry.quote|length %}
       {% for quote in entry.quote %}
-        <div>{{ quote.quote }}<span class="dark-gray"> — {{ quote.cite }}</span></div>
+        <div>"{{ quote.quote }}"</div>
+        <div>— {{ quote.cite }}</div>
       {% endfor %}
     {% endif %}
   </div>
