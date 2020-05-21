@@ -29,8 +29,8 @@
 
 <div class="image--hero" data-aos="new-animation"></div>
 {% if entry.previewVideo %}
-  <video autoplay muted loop class="video" poster="" data-aos="new-animation">
-    <source data-src="{{ entry.previewVideo }}" type="video/mp4">
+  <video playsinline autoplay muted loop class="video" poster="" data-aos="new-animation">
+    <source src="{{ entry.previewVideo }}" type="video/mp4">
   </video>
 {% endif %}
 </div>
