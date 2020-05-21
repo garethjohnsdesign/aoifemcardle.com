@@ -56,10 +56,10 @@
 <!-- Center -->
 <div class="small-12 medium-10 large-10 cell">
 
-      <div class="margin-bottom-2 sans-bold text-uppercase text-center h6">{{ entry.title }}</div>
+      <div class="margin-bottom-2 sans-bold text-uppercase text-center h6 show-for-small-only">{{ entry.title }}</div>
 
 {% if entry.video %}
-<div class="grid-x grid-padding-x align-center">
+<div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 cell">
 {#   	<div class="responsive-embed widescreen"> #}
 
@@ -85,22 +85,39 @@
 {% endif %}
 
 
-<!-- Credits -->
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 cell text-center">
-  
-  
+<!-- Quotes -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center">
+    {% if entry.quote|length %}
+      {% for quote in entry.quote %}
+        <div>{{ quote.quote }}<span class="dark-gray"> — {{ quote.cite }}</span></div>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
-<!-- End Credit -->
+<!-- End Quotes -->
 
 <!-- Content -->
-<div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
-  <div class="small-12 cell text-center">
-  {{ entry.copy }}
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center">
+{#     <a class="" data-open="reveal{{entry.id}}"><svg class="icon icon-arrows icon-add"><use xlink:href="/assets/icons/symbol-defs.svg#icon-add"></use></svg></a> #}
+    <a class="text-uppercase dark-gray sans-bold" data-open="reveal{{entry.id}}">Credits</a>
   </div>
 </div>
 <!-- End Content -->
+
+<!-- Awards -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-6 cell text-center">
+    {% if entry.awards|length %}
+      {% for award in entry.awards %}
+        <div>{{ award.award }}</div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<!-- End Awards -->
+
 
 <!-- Mobile Pagination -->
 {% if nextEntry %}
@@ -133,6 +150,26 @@
 </div>   
 <!-- End Content -->
 
+<!-- Credits -->
+<div class="full reveal" id="reveal{{entry.id}}" data-reveal>
+
+  <div class="grid-x align-center-middle" style="min-height: 100%">
+    <div class="small-12 cell padding-vertical-3">
+
+      <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
+        <div class="small-8 cell text-center">
+        {{ entry.copy }}
+
+        <a class="dark-gray sans-bold text-uppercase" data-close aria-label="Close modal" type="button">Close</a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- End Credits -->
 
 
 {% endblock %}

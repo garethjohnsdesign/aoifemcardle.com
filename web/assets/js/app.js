@@ -53,7 +53,8 @@ tippy('[data-tippy-content]', {
 // ----------
 
 const player = new Plyr('#player', {
-    /* options */
+  ratio: '16:9',
+  controls: ['play', 'progress', 'mute', 'volume', 'pip', 'airplay', 'fullscreen']
 });
 
 // 5. Hamburger

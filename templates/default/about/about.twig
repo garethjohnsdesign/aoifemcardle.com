@@ -24,7 +24,7 @@
 
 
 {% block main %}
-<div class="grid-container">
+<div class="grid-container padding-bottom-2">
       <div class="grid-x grid-padding-x grid-padding-y align-middle">
         <div class="small-12 medium-8 large-6 cell">
           {{entry.copy}}
@@ -35,17 +35,21 @@
       {% for date, projects in allProjects | group("postDate|date('Y')") %}
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="small-12 medium-12 cell padding-bottom-0">
-              <h5 class="sans-bold margin-bottom-0">{{ date }}</h4>
+              <h6 class="sans-bold margin-bottom-0">{{ date }}</h6>
             </div>
           </div>
           {% for project in projects %}
           <div class="grid-x grid-padding-x grid-padding-y border-bottom">
-          <div class="small-12 medium-4 cell">
-            {{ project.title }}
+          <div class="small-6 medium-4 cell text-uppercase">
+            <a href="{{ project.url }}" class="sans-bold">{{ project.title }}</a>
           </div>
-          <div class="small-12 medium-3 cell">
+          <div class="small-6 medium-3 cell">
             {{ project.agency }}
           </div>
+          <div class="small-12 medium-5 cell text-left medium-text-right hide-for-small-only">
+            {{ project.productionCompany }}
+          </div>
+{#
           <div class="small-12 medium-5 cell">
           {% if project.awards|length %}
             {% for award in project.awards %}
@@ -53,6 +57,7 @@
             {% endfor %}
           {% endif %}
           </div>
+#}
           </div>
           {% endfor %}
       {% endfor %}
