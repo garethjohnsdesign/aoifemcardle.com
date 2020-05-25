@@ -57,3 +57,23 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Grotesque Regular';
+  src: 
+  url('../fonts/grotesque-regular.woff2') format('woff2'), 
+  url('../fonts/grotesque-regular.woff') format('woff'),
+  url('../fonts/grotesque-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grotesque Bold';
+  src: 
+  url('../fonts/grotesque-bold.woff2') format('woff2'), 
+  url('../fonts/grotesque-bold.woff') format('woff'),
+  url('../fonts/grotesque-bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
