@@ -2,7 +2,7 @@
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
-      <ul class="vertical menu text-uppercase sans-bold h6">
+      <ul class="vertical menu text-uppercase letter-spacing--loose">
         {% nav category in craft.categories.group('typeOfProject').all() %}
           <li>
            <a href="{{ category.url }}" class="" data-toggle="overlayNavigation hamburger">{{ category.title }}</a>

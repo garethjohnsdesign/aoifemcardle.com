@@ -35,13 +35,13 @@
       {% for date, projects in allProjects | group("postDate|date('Y')") %}
           <div class="grid-x grid-padding-x grid-padding-y">
             <div class="small-12 medium-12 cell padding-bottom-0">
-              <h6 class="sans-bold margin-bottom-0">{{ date }}</h6>
+              <div class="margin-bottom-0 letter-spacing--loose">{{ date }}</div>
             </div>
           </div>
           {% for project in projects %}
           <div class="grid-x grid-padding-x grid-padding-y border-bottom">
           <div class="small-6 medium-4 cell text-uppercase">
-            <a href="{{ project.url }}" class="sans-bold">{{ project.title }}</a>
+            <a href="{{ project.url }}" class="letter-spacing--loose">{{ project.title }}</a>
           </div>
           <div class="small-6 medium-3 cell">
             {{ project.agency }}
