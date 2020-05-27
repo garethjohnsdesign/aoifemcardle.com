@@ -9,7 +9,7 @@
 {% if entry.seoDescription|length %}
 {% set seoDescription = entry.seoDescription|striptags|raw %}
 {% else %}
-{% set seoDescription = entry.title ~ ' for ' ~ entry.agency %}
+{% set seoDescription = entry.title ~ ' ' ~ entry.brandArtist ~ ' for ' ~ entry.agency %}
 {% endif %}
 
 {% if entry.image|length  %}
@@ -56,7 +56,7 @@
 <!-- Center -->
 <div class="small-12 medium-10 large-10 cell">
 
-      <div class="margin-bottom-2 sans-bold text-uppercase text-center h6 show-for-small-only">{{ entry.title }}</div>
+      <div class="margin-bottom-2 text-uppercase text-center show-for-small-only letter-spacing--loose">{{ entry.title }} {% if entry.brandArtist|length %}<span class="dark-gray padding-left-1">{{ entry.brandArtist }}</span>{% endif %}</div>
 
 {% if entry.video %}
 <div class="grid-x grid-padding-x grid-padding-y align-center">

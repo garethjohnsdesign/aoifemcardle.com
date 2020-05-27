@@ -39,7 +39,7 @@
 <div class="grid-x align-justify align-middle navigation" id="swup-header" style="z-index: 14">
 
   <div class="auto cell">
-    <button class="sans-bold text-uppercase letter-spacing--loose white" aria-label="Navigation" data-toggle="overlayNavigation">{{ siteName }} {% if bodyClass == "project" %}<span class="padding-left-1 dark-gray show-for-medium">{{ entry.title }}</span>{% endif %}</button>
+    <button class="sans-bold text-uppercase letter-spacing--loose white" aria-label="Navigation" data-toggle="overlayNavigation">{{ siteName }} {% if bodyClass == "project" %}<span class="padding-left-1 dark-gray show-for-medium">{{ entry.title }}</span>{% if entry.brandArtist|length %}<span class="padding-left-1 show-for-medium dark-gray">{{ entry.brandArtist }}</span>{% endif %}{% endif %}</button>
   </div>
 
   <div class="shrink cell">
