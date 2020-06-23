@@ -110,6 +110,11 @@
 <!-- Awards -->
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="small-12 medium-6 cell text-center">
+
+    {% if entry.staffPick %}
+      <div class="margin-bottom-1"><svg class="icon icon-staff-pick"><use xlink:href="/assets/icons/symbol-defs.svg#icon-staff-pick"></use></svg></div>
+    {% endif %}
+
     {% if entry.awards|length %}
       {% for award in entry.awards %}
         <div>{{ award.award }}</div>
